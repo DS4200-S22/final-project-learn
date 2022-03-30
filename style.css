@@ -32,3 +32,16 @@ h3 {
 .town {
   fill: #ccc;
 }
+
+p {
+  color: #000000;
+}
+tr {
+  background-color: #b4b4b4;
+}
+td {
+  background-color: #e7e7e7;
+}
+table {
+  color: #000000;
+}
