@@ -42,6 +42,12 @@ const mouseleave1 = function(event, d) {
     tooltip1.style("opacity", 0); 
 }
 
+// Handmade legend
+svg.append("circle").attr("cx",10).attr("cy",330).attr("r", 6).style("fill", "deepskyblue")
+svg.append("circle").attr("cx",10).attr("cy",360).attr("r", 6).style("fill", "salmon")
+svg.append("text").attr("x", 20).attr("y", 331.5).text("Teaches CS").style("font-size", "15px").attr("alignment-baseline","middle")
+svg.append("text").attr("x", 20).attr("y", 361.5).text("Does Not Teach CS").style("font-size", "15px").attr("alignment-baseline","middle")
+
 // load and display the Massachusetts map
 d3.json("../data/ma-towns.topojson").then(function (topology) {
   g.selectAll("path")

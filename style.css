@@ -33,15 +33,29 @@ h3 {
   fill: #ccc;
 }
 
-p {
-  color: #000000;
-}
-tr {
-  background-color: #b4b4b4;
-}
-td {
-  background-color: #e7e7e7;
-}
 table {
-  color: #000000;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #eceeef;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #eceeef;
+}
+
+thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #eceeef;
+}
+
+tbody + tbody {
+  border-top: 2px solid #eceeef;
+}
+
+tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
 }
