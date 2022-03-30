@@ -1,0 +1,7549 @@
+{
+  "type": "Topology",
+  "transform": {
+    "scale": [0.060793617549375734, -0.0373037303730373],
+    "translate": [3.5623090618959736, 373]
+  },
+  "objects": {
+    "towns": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Polygon",
+          "arcs": [[-1, -2, -3, -4, -5]],
+          "id": 1,
+          "properties": { "town": "ABINGTON", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-6, -7, -8, -9, -10, -11, -12]],
+          "id": 2,
+          "properties": { "town": "ACTON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-13, -14, -15, -16, -17, -18]],
+          "id": 3,
+          "properties": { "town": "ACUSHNET", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-19, -20, -21, -22, -23, -24]],
+          "id": 4,
+          "properties": { "town": "ADAMS", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-25, -26, -27, -28, -29, -30]],
+          "id": 5,
+          "properties": { "town": "AGAWAM", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-31, -32, -33, -34]],
+          "id": 6,
+          "properties": { "town": "ALFORD", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-35, -36, -37, -38, -39]],
+          "id": 7,
+          "properties": { "town": "AMESBURY", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-40, -41, -42, -43, -44, -45, -46, -47]],
+          "id": 8,
+          "properties": { "town": "AMHERST", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-48, -49, -50, -51, -52, -53, -54]],
+          "id": 9,
+          "properties": { "town": "ANDOVER", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-55, -56, -57, -58, -59, -60]],
+          "id": 10,
+          "properties": { "town": "ARLINGTON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-61, -62, -63, -64, -65, -66]],
+          "id": 11,
+          "properties": { "town": "ASHBURNHAM", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[64, -67, -68, -69, -70]],
+          "id": 12,
+          "properties": { "town": "ASHBY", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-71, -72, -73, -74, -75, -76]],
+          "id": 13,
+          "properties": { "town": "ASHFIELD", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-77, -78, -79, -80, -81]],
+          "id": 14,
+          "properties": { "town": "ASHLAND", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-82, -83, -84, -85, -86]],
+          "id": 15,
+          "properties": { "town": "ATHOL", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-87, -88, -89, -90, -91, -92]],
+          "id": 16,
+          "properties": { "town": "ATTLEBORO", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-93, -94, -95, -96]],
+          "id": 17,
+          "properties": { "town": "AUBURN", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-97, -98, -99, -100]],
+          "id": 18,
+          "properties": { "town": "AVON", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-101, -102, -103, -104]],
+          "id": 19,
+          "properties": { "town": "AYER", "fips": "25017" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-105, -106, -107, -108, -109]]],
+          "id": 20,
+          "properties": { "town": "BARNSTABLE", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-110, -111, -112, -113, -114, -115, -116]],
+          "id": 21,
+          "properties": { "town": "BARRE", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-117, -118, -119, -120, -121, -122, -123]],
+          "id": 22,
+          "properties": { "town": "BECKET", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-124, -125, -126, -127, -128, -129]],
+          "id": 23,
+          "properties": { "town": "BEDFORD", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[42, -130, -131, -132, -133, -134, -135]],
+          "id": 24,
+          "properties": { "town": "BELCHERTOWN", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-136, -137, -138, -139, -140, -141, -142, -143]],
+          "id": 25,
+          "properties": { "town": "BELLINGHAM", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-144, -145, -146, 54, -147]],
+          "id": 26,
+          "properties": { "town": "BELMONT", "fips": "25017" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-148, -149, -150, -151]]],
+          "id": 27,
+          "properties": { "town": "BERKLEY", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-152, -153, -154, -155, -156, -157]],
+          "id": 28,
+          "properties": { "town": "BERLIN", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-158, -159, -160, -161, -162]],
+          "id": 29,
+          "properties": { "town": "BERNARDSTON", "fips": "25011" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-163, -164, -165, -166]]],
+          "id": 30,
+          "properties": { "town": "BEVERLY", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-167, 127, -168, -169, -170, -171, -172]],
+          "id": 31,
+          "properties": { "town": "BILLERICA", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-173, -174, 137, -175]],
+          "id": 32,
+          "properties": { "town": "BLACKSTONE", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-176, -177, -178, -179, -180, -181, 117]],
+          "id": 33,
+          "properties": { "town": "BLANDFORD", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[156, -182, -183, -184, -185, -186]],
+          "id": 34,
+          "properties": { "town": "BOLTON", "fips": "25027" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [
+            [[-187, -188, -189, -190, -191, -192, -193, -194, -195, -196]],
+            [[-197, -198, -199, -200, -201]]
+          ],
+          "id": 35,
+          "properties": { "town": "BOSTON", "fips": "25025" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [
+            [[-202, -203, -204, -205, -206]],
+            [[-207, -208, -209, -210, -211]]
+          ],
+          "id": 36,
+          "properties": { "town": "BOURNE", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-212, -213, 11, -214]],
+          "id": 37,
+          "properties": { "town": "BOXBOROUGH", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-215, -216, -217, -218, -219, -220, -221, -222]],
+          "id": 38,
+          "properties": { "town": "BOXFORD", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-223, -224, -225, 152, -226, -227]],
+          "id": 39,
+          "properties": { "town": "BOYLSTON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-228, -229, -230, -231, -232]],
+          "id": 40,
+          "properties": { "town": "BRAINTREE", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-233, -234, -235, -236]],
+          "id": 41,
+          "properties": { "town": "BREWSTER", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-237, -238, -239, -240, -241]],
+          "id": 42,
+          "properties": { "town": "BRIDGEWATER", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-242, -243, -244, -245, -246, -247, -248]],
+          "id": 43,
+          "properties": { "town": "BRIMFIELD", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-249, -250, -251, -252, 0, -253, 97, -254]],
+          "id": 44,
+          "properties": { "town": "BROCKTON", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-255, 245, -256, -257, -258, -259]],
+          "id": 45,
+          "properties": { "town": "BROOKFIELD", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-260, 193]],
+          "id": 46,
+          "properties": { "town": "BROOKLINE", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-261, 74, -262, -263, -264]],
+          "id": 47,
+          "properties": { "town": "BUCKLAND", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[126, -265, -266, -267, 167]],
+          "id": 48,
+          "properties": { "town": "BURLINGTON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[145, -268, 190, -269, 55]],
+          "id": 49,
+          "properties": { "town": "CAMBRIDGE", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-270, -271, -272, -273, -274, -275, -276]],
+          "id": 50,
+          "properties": { "town": "CANTON", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[8, -277, 128, 166, -278, -279]],
+          "id": 51,
+          "properties": { "town": "CARLISLE", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-280, -281, -282, -283, -284]],
+          "id": 52,
+          "properties": { "town": "CARVER", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-285, -286, -287, 263, -288, -289, -290, -291]],
+          "id": 53,
+          "properties": { "town": "CHARLEMONT", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-292, -293, -294, -295, -296, -297, -298]],
+          "id": 54,
+          "properties": { "town": "CHARLTON", "fips": "25027" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-299]], [[-300, -301]]],
+          "id": 55,
+          "properties": { "town": "CHATHAM", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-302, 277, 171, -303, -304]],
+          "id": 56,
+          "properties": { "town": "CHELMSFORD", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-305, -306, -307]],
+          "id": 57,
+          "properties": { "town": "CHELSEA", "fips": "25025" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-308, -309, -310, -311, 20, -312]],
+          "id": 58,
+          "properties": { "town": "CHESHIRE", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[180, -313, -314, -315, 118]],
+          "id": 59,
+          "properties": { "town": "CHESTER", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-316, -317, -318, -319, -320, -321]],
+          "id": 60,
+          "properties": { "town": "CHESTERFIELD", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-322, -323, -324, -325, -326, -327]],
+          "id": 61,
+          "properties": { "town": "CHICOPEE", "fips": "25013" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-328]], [[-329, -330, -331, -332]]],
+          "id": 62,
+          "properties": { "town": "CHILMARK", "fips": "25007" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-333, -334, -335, -336]],
+          "id": 63,
+          "properties": { "town": "CLARKSBURG", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-337, 225, 151, 185, -338]],
+          "id": 64,
+          "properties": { "town": "CLINTON", "fips": "25027" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-339, -340, -341, -342, -343, -344]]],
+          "id": 65,
+          "properties": { "town": "COHASSET", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-345, 288, -346, -347, -348, -349]],
+          "id": 66,
+          "properties": { "town": "COLRAIN", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[7, -350, -351, 123, 276]],
+          "id": 67,
+          "properties": { "town": "CONCORD", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[73, -352, -353, -354, -355, -356, 261]],
+          "id": 68,
+          "properties": { "town": "CONWAY", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-357, -358, 320, -359, 71, -360, -361]],
+          "id": 69,
+          "properties": { "town": "CUMMINGTON", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-362, -363, -364, -365, 308, -366]],
+          "id": 70,
+          "properties": { "town": "DALTON", "fips": "25003" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [
+            [[-367, -368, -369, -370, 162, -371, -372]],
+            [[-373, -374, -375, -376]]
+          ],
+          "id": 71,
+          "properties": { "town": "DANVERS", "fips": "25009" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-377, -378, -379, -380, -381, -382]]],
+          "id": 72,
+          "properties": { "town": "DARTMOUTH", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-383, -384, 274, 186]],
+          "id": 73,
+          "properties": { "town": "DEDHAM", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-385, 354, -386, -387, -388, -389]],
+          "id": 74,
+          "properties": { "town": "DEERFIELD", "fips": "25011" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-390, -391, -392, -393, -394, -395, 232]]],
+          "id": 75,
+          "properties": { "town": "DENNIS", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-396, -397, -398, -399, -400]],
+          "id": 76,
+          "properties": { "town": "DIGHTON", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-401, -402, -403, -404, -405]],
+          "id": 77,
+          "properties": { "town": "DOUGLAS", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-406, -407, -408, -409, -410, -411, -412]],
+          "id": 78,
+          "properties": { "town": "DOVER", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-413, -414, -415, 53, -416, -417]],
+          "id": 79,
+          "properties": { "town": "DRACUT", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-418, -419, -420, -421, 293]],
+          "id": 80,
+          "properties": { "town": "DUDLEY", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-422, -423, -424, -425]],
+          "id": 81,
+          "properties": { "town": "DUNSTABLE", "fips": "25017" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-426, -427, -428, -429, -430, -431, -432, -433]]],
+          "id": 82,
+          "properties": { "town": "DUXBURY", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-434, 239, -435, -436, -437, 250]],
+          "id": 83,
+          "properties": { "town": "EAST BRIDGEWATER", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[256, -438, 297, -439, -440]],
+          "id": 84,
+          "properties": { "town": "EAST BROOKFIELD", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-441, -442, -443, -444, -445]],
+          "id": 85,
+          "properties": { "town": "EAST LONGMEADOW", "fips": "25013" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-446, -447, -448, -449]]],
+          "id": 86,
+          "properties": { "town": "EASTHAM", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-450, -451, -452, -453, -454]],
+          "id": 87,
+          "properties": { "town": "EASTHAMPTON", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-455, -456, -457, -458, -459, 248, -460, -461]],
+          "id": 88,
+          "properties": { "town": "EASTON", "fips": "25005" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-462, -463, -464, -465, -466]]],
+          "id": 89,
+          "properties": { "town": "EDGARTOWN", "fips": "25007" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-467, -468, -469, -470, 31]],
+          "id": 90,
+          "properties": { "town": "EGREMONT", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-471, -472, -473, -474, -475, -476]],
+          "id": 91,
+          "properties": { "town": "ERVING", "fips": "25011" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-477, -478, -479, -480, -481, -482, -483, -484, -485]]],
+          "id": 92,
+          "properties": { "town": "ESSEX", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-486, 304, -487, -488]],
+          "id": 93,
+          "properties": { "town": "EVERETT", "fips": "25017" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-489, -490, 14]], [[-491]]],
+          "id": 94,
+          "properties": { "town": "FAIRHAVEN", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-492, -493, 381, -494]],
+          "id": 95,
+          "properties": { "town": "FALL RIVER", "fips": "25005" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-495, -496, -497, -498, -499, -500, 209], [500]]],
+          "id": 96,
+          "properties": { "town": "FALMOUTH", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-502, -503, -504, 66, 63]],
+          "id": 97,
+          "properties": { "town": "FITCHBURG", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-505, 22, -506, 284, -507, -508, -509, 334]],
+          "id": 98,
+          "properties": { "town": "FLORIDA", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-510, -511, -512, -513, -514, -515]],
+          "id": 99,
+          "properties": { "town": "FOXBOROUGH", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-516, 79, -517, -518, -519, -520, -521]],
+          "id": 100,
+          "properties": { "town": "FRAMINGHAM", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[140, -522, -523, -524, -525, -526]],
+          "id": 101,
+          "properties": { "town": "FRANKLIN", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[493, 380, -527, 17, -528, -529, 148, -530]],
+          "id": 102,
+          "properties": { "town": "FREETOWN", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-531, -532, -533, 61, -534]],
+          "id": 103,
+          "properties": { "town": "GARDNER", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-535, 328]],
+          "id": 104,
+          "properties": { "town": "AQUINNAH", "fips": "25007" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-536, 219, -537, -538]],
+          "id": 105,
+          "properties": { "town": "GEORGETOWN", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-539, 475, -540, 159, -541]],
+          "id": 106,
+          "properties": { "town": "GILL", "fips": "25011" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[478, -542, -543, -544, 544, -546]], [[-547, -548]]],
+          "id": 107,
+          "properties": { "town": "GLOUCESTER", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[358, 319, -549, 351, 72]],
+          "id": 108,
+          "properties": { "town": "GOSHEN", "fips": "25015" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-550]], [[-551]], [[-552]]],
+          "id": 109,
+          "properties": { "town": "GOSNOLD", "fips": "25007" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-553, -554, -555, -556, -557, -558, -559]],
+          "id": 110,
+          "properties": { "town": "GRAFTON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-560, 324, -561, 129, 41]],
+          "id": 111,
+          "properties": { "town": "GRANBY", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-562, -563, -564, -565, -566, 177]],
+          "id": 112,
+          "properties": { "town": "GRANVILLE", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[469, -567, -568, -569, -570, -571, -572, -573, 32]],
+          "id": 113,
+          "properties": { "town": "GREAT BARRINGTON", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-574, 388, -575, 540, 158, -576, 346]],
+          "id": 114,
+          "properties": { "town": "GREENFIELD", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-577, -578, 102, -579, -580, -581, 422, -582]],
+          "id": 115,
+          "properties": { "town": "GROTON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[220, 535, -583, -584, -585]],
+          "id": 116,
+          "properties": { "town": "GROVELAND", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-586, 452, -587, -588, 39, -589, -590]],
+          "id": 117,
+          "properties": { "town": "HADLEY", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[238, -591, -592, -593, -594, 434]],
+          "id": 118,
+          "properties": { "town": "HALIFAX", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-595, -596, -597, 476, -598]],
+          "id": 119,
+          "properties": { "town": "HAMILTON", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[443, -599, -600, -601]],
+          "id": 120,
+          "properties": { "town": "HAMPDEN", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-602, -603, -604, -605, -606, -607]],
+          "id": 121,
+          "properties": { "town": "HANCOCK", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-608, -609, -610, -611]],
+          "id": 122,
+          "properties": { "town": "HANOVER", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-612, 435, 593, -613, 608, -614]],
+          "id": 123,
+          "properties": { "town": "HANSON", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-615, -616, 109, -617]],
+          "id": 124,
+          "properties": { "town": "HARDWICK", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-618, -619, 183, -620, 211, -621, 100]],
+          "id": 125,
+          "properties": { "town": "HARVARD", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[394, -622, -623, -624, -625, 233]],
+          "id": 126,
+          "properties": { "town": "HARWICH", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-626, -627, 589, -628]],
+          "id": 127,
+          "properties": { "town": "HATFIELD", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-629, -630, 221, 584, -631, -632, -633, -634]],
+          "id": 128,
+          "properties": { "town": "HAVERHILL", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-635, -636, 75, 260, 286]],
+          "id": 129,
+          "properties": { "town": "HAWLEY", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-637, 289, 344, -638]],
+          "id": 130,
+          "properties": { "town": "HEATH", "fips": "25011" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [
+            [
+              [
+                -639, -640, -641, -642, -643, -644, -645, 338, -646, -647, -648,
+                -649
+              ]
+            ]
+          ],
+          "id": 131,
+          "properties": { "town": "HINGHAM", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-650, -651, -652, 363]],
+          "id": 132,
+          "properties": { "town": "HINSDALE", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-653, 98, 252, 4, -654, 228]],
+          "id": 133,
+          "properties": { "town": "HOLBROOK", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-655, -656, -657, -658, -659, -660]],
+          "id": 134,
+          "properties": { "town": "HOLDEN", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-661, -662, -663, 243]],
+          "id": 135,
+          "properties": { "town": "HOLLAND", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-664, -665, -666, -667, -668, 77]],
+          "id": 136,
+          "properties": { "town": "HOLLISTON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-669, -670, -671, 326, -672, 586, 451]],
+          "id": 137,
+          "properties": { "town": "HOLYOKE", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-673, -674, 135, -675]],
+          "id": 138,
+          "properties": { "town": "HOPEDALE", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-676, -677, 663, 76, -678, -679]],
+          "id": 139,
+          "properties": { "town": "HOPKINTON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-680, 113, -681, -682, -683, 531, -684]],
+          "id": 140,
+          "properties": { "town": "HUBBARDSTON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[155, -685, -686, -687, 181]],
+          "id": 141,
+          "properties": { "town": "HUDSON", "fips": "25017" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-688, 343]]],
+          "id": 142,
+          "properties": { "town": "HULL", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[179, -689, -690, -691, -692, 316, -693, 312]],
+          "id": 143,
+          "properties": { "town": "HUNTINGTON", "fips": "25015" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [
+            [[-694, 597, 484, -695, -696, 217]],
+            [[-697, -698, -699, -700]]
+          ],
+          "id": 144,
+          "properties": { "town": "IPSWICH", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-701, -702, 282, -703, -704, 426]],
+          "id": 145,
+          "properties": { "town": "KINGSTON", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[528, -705, -706, -707, 149]],
+          "id": 146,
+          "properties": { "town": "LAKEVILLE", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-708, 337, 184, 618, -709, -710, -711]],
+          "id": 147,
+          "properties": { "town": "LANCASTER", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[604, -712, 365, 307, -713]],
+          "id": 148,
+          "properties": { "town": "LANESBOROUGH", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-714, 51, -715]],
+          "id": 149,
+          "properties": { "town": "LAWRENCE", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-716, 570, -717, 121, -718, -719]],
+          "id": 150,
+          "properties": { "town": "LEE", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-720, 295, -721, 95, -722, -723]],
+          "id": 151,
+          "properties": { "town": "LEICESTER", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-724, -725, 718, -726, -727]],
+          "id": 152,
+          "properties": { "town": "LENOX", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-728, -729, 710, -730, 502, -731]],
+          "id": 153,
+          "properties": { "town": "LEOMINSTER", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-732, 45, -733, -734, -735]],
+          "id": 154,
+          "properties": { "town": "LEVERETT", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[125, -736, -737, 146, 59, -738, -739, 264]],
+          "id": 155,
+          "properties": { "town": "LEXINGTON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[347, 575, 157, -740]],
+          "id": 156,
+          "properties": { "town": "LEYDEN", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-741, -742, -743, 735, 124, 350]],
+          "id": 157,
+          "properties": { "town": "LINCOLN", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[101, 620, 213, 10, -744, 578]],
+          "id": 158,
+          "properties": { "town": "LITTLETON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[25, -745, 441, -746]],
+          "id": 159,
+          "properties": { "town": "LONGMEADOW", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-747, 302, 170, -748, 413]],
+          "id": 160,
+          "properties": { "town": "LOWELL", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[323, -749, -750, -751, 130, 560]],
+          "id": 161,
+          "properties": { "town": "LUDLOW", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[503, 729, 709, -752, -753, 67]],
+          "id": 162,
+          "properties": { "town": "LUNENBURG", "fips": "25027" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-754, -755, -756, -757, -758, -759, -760, -761]]],
+          "id": 163,
+          "properties": { "town": "LYNN", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-762, -763, 760, -764, -765, -766, -767]],
+          "id": 164,
+          "properties": { "town": "LYNNFIELD", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-768, -769, 487, -770, -771, -772]],
+          "id": 165,
+          "properties": { "town": "MALDEN", "fips": "25017" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-773, 164, -774, 541, 477, 596]]],
+          "id": 166,
+          "properties": { "town": "MANCHESTER", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[511, -775, 90, -776, 454, -777]],
+          "id": 167,
+          "properties": { "town": "MANSFIELD", "fips": "25005" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-778, -779, -780]]],
+          "id": 168,
+          "properties": { "town": "MARBLEHEAD", "fips": "25009" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-781, -782, -783, -784]]],
+          "id": 169,
+          "properties": { "town": "MARION", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[154, -785, -786, 520, -787, 684]],
+          "id": 170,
+          "properties": { "town": "MARLBOROUGH", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [
+            [-788, 432, -789, 789, -791, 430, -792, -793, -794, -795, -796]
+          ],
+          "id": 171,
+          "properties": { "town": "MARSHFIELD", "fips": "25023" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[498, -797, 104, -798]]],
+          "id": 172,
+          "properties": { "town": "MASHPEE", "fips": "25001" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[15, 489, -799, 780, -800]]],
+          "id": 173,
+          "properties": { "town": "MATTAPOISETT", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-801, -802, 6]],
+          "id": 174,
+          "properties": { "town": "MAYNARD", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-803, -804, -805, -806, 406]],
+          "id": 175,
+          "properties": { "town": "MEDFIELD", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[57, -807, -808, 767, -809, -810]],
+          "id": 176,
+          "properties": { "town": "MEDFORD", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-811, 141, 525, 524, -812, -813, 665]],
+          "id": 177,
+          "properties": { "town": "MEDWAY", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-814, 770, -815, -816]],
+          "id": 178,
+          "properties": { "town": "MELROSE", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-817, -818, 174, 136, 673, -819, -820]],
+          "id": 179,
+          "properties": { "town": "MENDON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-821, -822, -823, 35]],
+          "id": 180,
+          "properties": { "town": "MERRIMAC", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[415, 52, 713, -824, 628, -825]],
+          "id": 181,
+          "properties": { "town": "METHUEN", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-826, -827, 705, -828, -829, 279, -830, 590, 237]],
+          "id": 182,
+          "properties": { "town": "MIDDLEBOROUGH", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-831, 119, 314, -832, -833]],
+          "id": 183,
+          "properties": { "town": "MIDDLEFIELD", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-834, 764, -835, 366, -836, 215, -837]],
+          "id": 184,
+          "properties": { "town": "MIDDLETON", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-838, 674, 142, 810, 664, 676]],
+          "id": 185,
+          "properties": { "town": "MILFORD", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-839, -840, 552, -841, 93]],
+          "id": 186,
+          "properties": { "town": "MILLBURY", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[666, 812, -842, 803, -843]],
+          "id": 187,
+          "properties": { "town": "MILLIS", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-844, -845, 172, 817]],
+          "id": 188,
+          "properties": { "town": "MILLVILLE", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[187, 273, -846, -847, -848]],
+          "id": 189,
+          "properties": { "town": "MILTON", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[507, -849, -850]],
+          "id": 190,
+          "properties": { "town": "MONROE", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-851, 599, -852, -853, 241, -854]],
+          "id": 191,
+          "properties": { "town": "MONSON", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[574, 387, -855, 734, -856, 470, 538]],
+          "id": 192,
+          "properties": { "town": "MONTAGUE", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[568, -857, -858, -859, -860]],
+          "id": 193,
+          "properties": { "town": "MONTEREY", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-861, -862, -863, 689]],
+          "id": 194,
+          "properties": { "town": "MONTGOMERY", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-864, -865, 467]],
+          "id": 195,
+          "properties": { "town": "MOUNT WASHINGTON", "fips": "25003" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-866, 755]]],
+          "id": 196,
+          "properties": { "town": "NAHANT", "fips": "25009" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-867]], [[-868]]],
+          "id": 197,
+          "properties": { "town": "NANTUCKET", "fips": "25019" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[517, -869, 411, -870, -871, -872]],
+          "id": 198,
+          "properties": { "town": "NATICK", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[409, -873, 382, 195, -874, -875]],
+          "id": 199,
+          "properties": { "town": "NEEDHAM", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[712, 311, 19, -876, 605]],
+          "id": 200,
+          "properties": { "town": "NEW ASHFORD", "fips": "25003" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-877, -878, 12, 526]]],
+          "id": 201,
+          "properties": { "town": "NEW BEDFORD", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-879, -880, -881, -882, 110, 615]],
+          "id": 202,
+          "properties": { "town": "NEW BRAINTREE", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-883, -884, -885, 856, 567]],
+          "id": 203,
+          "properties": { "town": "NEW MARLBOROUGH", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-886, -887, 133, -888, -889, 82, -890, -891]],
+          "id": 204,
+          "properties": { "town": "NEW SALEM", "fips": "25011" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [
+            [[-892, 582, 537, -893, -894, -895, -896, -897]],
+            [[-898, -899, -900, -901, -902, -903, -904]]
+          ],
+          "id": 205,
+          "properties": { "town": "NEWBURY", "fips": "25009" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-905, 896, -906, -907, 37]]],
+          "id": 206,
+          "properties": { "town": "NEWBURYPORT", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-908, -909, 873, 194, 259, 192, -910, -911]],
+          "id": 207,
+          "properties": { "town": "NEWTON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[522, -912, 514, -913, 804, 841, 811, 523]],
+          "id": 208,
+          "properties": { "town": "NORFOLK", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-914, 23, 504, 333]],
+          "id": 209,
+          "properties": { "town": "NORTH ADAMS", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[714, 50, -915, 836, 214, 629, 823]],
+          "id": 210,
+          "properties": { "town": "NORTH ANDOVER", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-916, 91, 774, -917]],
+          "id": 211,
+          "properties": { "town": "NORTH ATTLEBOROUGH", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[880, -918, 257, 439, -919]],
+          "id": 212,
+          "properties": { "town": "NORTH BROOKFIELD", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-920, -921, 765, 833, 914, 49]],
+          "id": 213,
+          "properties": { "town": "NORTH READING", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-922, 453, 585, 626, -923]],
+          "id": 214,
+          "properties": { "town": "NORTHAMPTON", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-924, -925, -926, 784, 153, 224]],
+          "id": 215,
+          "properties": { "town": "NORTHBOROUGH", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-927, -928, 819, -929, 554]],
+          "id": 216,
+          "properties": { "town": "NORTHBRIDGE", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[160, 539, 474, -930, -931]],
+          "id": 217,
+          "properties": { "town": "NORTHFIELD", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[89, -932, -933, 455, 775]],
+          "id": 218,
+          "properties": { "town": "NORTON", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-934, 610, -935, 795, -936, 643]],
+          "id": 219,
+          "properties": { "town": "NORWELL", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-937, -938, -939, 269]],
+          "id": 220,
+          "properties": { "town": "NORWOOD", "fips": "25021" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-940, 465, -941, -942, -943]]],
+          "id": 221,
+          "properties": { "town": "OAK BLUFFS", "fips": "25007" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[881, -944, -945, -946, 111]],
+          "id": 222,
+          "properties": { "town": "OAKHAM", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[472, -947, 889, 81, -948, -949]],
+          "id": 223,
+          "properties": { "town": "ORANGE", "fips": "25011" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-950, 234, 624, -951, 951, -953, 953, -955, 446]]],
+          "id": 224,
+          "properties": { "town": "ORLEANS", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[858, -956, -957, 175, 116, -958]],
+          "id": 225,
+          "properties": { "town": "OTIS", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[294, 420, -959, 404, -960, 838, 92, 720]],
+          "id": 226,
+          "properties": { "town": "OXFORD", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[750, -961, 853, 247, -962, -963, 131]],
+          "id": 227,
+          "properties": { "town": "PALMER", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-964, 944, -965, 722, -966, 655]],
+          "id": 228,
+          "properties": { "town": "PAXTON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[763, 759, -967, 372, -968, 367, 834]],
+          "id": 229,
+          "properties": { "town": "PEABODY", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[43, 134, 886, -969]],
+          "id": 230,
+          "properties": { "town": "PELHAM", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[612, 592, -970, 700, 425, 787, 934, 609]],
+          "id": 231,
+          "properties": { "town": "PEMBROKE", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-971, 581, 421, -972]],
+          "id": 232,
+          "properties": { "town": "PEPPERELL", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-973, 832, -974, 356, -975, 650]],
+          "id": 233,
+          "properties": { "town": "PERU", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[888, -976, 616, 115, -977, 83]],
+          "id": 234,
+          "properties": { "town": "PETERSHAM", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[976, 114, 679, -978, -979, 84]],
+          "id": 235,
+          "properties": { "town": "PHILLIPSTON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-980, 726, -981, 361, 711, 603]],
+          "id": 236,
+          "properties": { "town": "PITTSFIELD", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-982, -983, 359, 70, 635]],
+          "id": 237,
+          "properties": { "town": "PLAINFIELD", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-984, 916, 510, -985]],
+          "id": 238,
+          "properties": { "town": "PLAINVILLE", "fips": "25021" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[281, -986, 205, -987, 702]]],
+          "id": 239,
+          "properties": { "town": "PLYMOUTH", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[829, 283, 701, 969, 591]],
+          "id": 240,
+          "properties": { "town": "PLYMPTON", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[681, -988, 659, -989, 727, -990]],
+          "id": 241,
+          "properties": { "town": "PRINCETON", "fips": "25027" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-991, -992]]],
+          "id": 242,
+          "properties": { "town": "PROVINCETOWN", "fips": "25001" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[846, -993, 231, -994]]],
+          "id": 243,
+          "properties": { "town": "QUINCY", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[272, -995, 99, 652, 227, 992, 845]],
+          "id": 244,
+          "properties": { "town": "RANDOLPH", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-996, 825, 236, -997, 457]],
+          "id": 245,
+          "properties": { "town": "RAYNHAM", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-998, -999, -1000, 766, 920, -1001]],
+          "id": 246,
+          "properties": { "town": "READING", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1002, -1003, 395, -1004, 931, 88]],
+          "id": 247,
+          "properties": { "town": "REHOBOTH", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [
+            [
+              306, -1005, 200, -1006, -1007, -1008, -1009, -1010, -1011, 769,
+              486
+            ],
+            [1011]
+          ],
+          "id": 248,
+          "properties": { "town": "REVERE", "fips": "25025" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1013, -1014, -1015, 723, 979, 602]],
+          "id": 249,
+          "properties": { "town": "RICHMOND", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[527, 16, 799, 783, -1016, 827, 704]],
+          "id": 250,
+          "properties": { "town": "ROCHESTER", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[2, -1017, 613, 607, 933, 642, -1018]],
+          "id": 251,
+          "properties": { "town": "ROCKLAND", "fips": "25023" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[547, -1019, -1020]]],
+          "id": 252,
+          "properties": { "town": "ROCKPORT", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[506, 290, 636, -1021, 848]],
+          "id": 253,
+          "properties": { "town": "ROWE", "fips": "25011" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [
+            [[-1022, 1022, -1024, 696, -1025, 899]],
+            [[536, 218, 695, -1026, -1027, 892]]
+          ],
+          "id": 254,
+          "properties": { "town": "ROWLEY", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1028, 947, 85, 978, -1029, -1030, -1031]],
+          "id": 255,
+          "properties": { "town": "ROYALSTON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[565, -1032, 860, 688, 178]],
+          "id": 256,
+          "properties": { "town": "RUSSELL", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[945, 963, 654, 987, 680, 112]],
+          "id": 257,
+          "properties": { "town": "RUTLAND", "fips": "25027" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[758, -1033, 779, -1034, 373, 966]]],
+          "id": 258,
+          "properties": { "town": "SALEM", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[38, 906, -1035]],
+          "id": 259,
+          "properties": { "town": "SALISBURY", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[857, 884, -1036, -1037, 955]],
+          "id": 260,
+          "properties": { "town": "SANDISFIELD", "fips": "25003" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[797, 108, -1038, 210, 499]], [[203, -1039]]],
+          "id": 261,
+          "properties": { "town": "SANDWICH", "fips": "25001" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-1040, 814, 1010, -1041, 1008, -1042, 753, 762]]],
+          "id": 262,
+          "properties": { "town": "SAUGUS", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[310, -1043, 981, 634, 285, 505, 21]],
+          "id": 263,
+          "properties": { "town": "SAVOY", "fips": "25003" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[935, 794, -1044, 341, -1045, 339, 644]]],
+          "id": 264,
+          "properties": { "town": "SCITUATE", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1046, -1047, 1001, 87]],
+          "id": 265,
+          "properties": { "town": "SEEKONK", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1048, 512, 776, 460, -1049, 270, 938]],
+          "id": 266,
+          "properties": { "town": "SHARON", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[864, -1050, 882, 566, 468]],
+          "id": 267,
+          "properties": { "town": "SHEFFIELD", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[262, 355, 384, 573, 345, 287]],
+          "id": 268,
+          "properties": { "town": "SHELBURNE", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[78, 667, 842, 802, 405, 868, 516]],
+          "id": 269,
+          "properties": { "town": "SHERBORN", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[751, 708, 617, 103, 577, -1051]],
+          "id": 270,
+          "properties": { "town": "SHIRLEY", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1052, 557, -1053, 923, 223, -1054]],
+          "id": 271,
+          "properties": { "town": "SHREWSBURY", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[44, 968, 885, -1055, 732]],
+          "id": 272,
+          "properties": { "town": "SHUTESBURY", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1056, 397, -1057]],
+          "id": 273,
+          "properties": { "town": "SOMERSET", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[268, 189, -1058, 806, 56]],
+          "id": 274,
+          "properties": { "town": "SOMERVILLE", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[671, 325, 559, 40, 587]],
+          "id": 275,
+          "properties": { "town": "SOUTH HADLEY", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[690, 862, -1059, 668, 450, -1060]],
+          "id": 276,
+          "properties": { "town": "SOUTHAMPTON", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[925, -1061, 677, 80, 515, 785]],
+          "id": 277,
+          "properties": { "town": "SOUTHBOROUGH", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1062, 417, 292, -1063]],
+          "id": 278,
+          "properties": { "town": "SOUTHBRIDGE", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[563, -1064, 29, -1065]],
+          "id": 279,
+          "properties": { "town": "SOUTHWICK", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[918, 438, 296, 719, 964, 943]],
+          "id": 280,
+          "properties": { "town": "SPENCER", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1066, 26, 745, 440, -1067, 748, 322]],
+          "id": 281,
+          "properties": { "town": "SPRINGFIELD", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[988, 658, -1068, 226, 336, 707, 728]],
+          "id": 282,
+          "properties": { "town": "STERLING", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1069, 571, 715, 724, 1014]],
+          "id": 283,
+          "properties": { "town": "STOCKBRIDGE", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1070, -1071, 808, 771, 813, -1072, 998]],
+          "id": 284,
+          "properties": { "town": "STONEHAM", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1048, 459, 253, 96, 994, 271]],
+          "id": 285,
+          "properties": { "town": "STOUGHTON", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[182, 686, -1073, 800, 5, 212, 619]],
+          "id": 286,
+          "properties": { "town": "STOW", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[662, -1074, 1062, 291, 437, 255, 244]],
+          "id": 287,
+          "properties": { "town": "STURBRIDGE", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[519, -1075, 349, 801, 1072, 685, 786]],
+          "id": 288,
+          "properties": { "town": "SUDBURY", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[386, -1076, 588, 46, 731, 854]],
+          "id": 289,
+          "properties": { "town": "SUNDERLAND", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[959, 403, -1077, 926, 553, 839]],
+          "id": 290,
+          "properties": { "town": "SUTTON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[757, -1078, 777, 1032]],
+          "id": 291,
+          "properties": { "town": "SWAMPSCOTT", "fips": "25009" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[1046, -1079, 1056, 396, 1002]]],
+          "id": 292,
+          "properties": { "town": "SWANSEA", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1003, 399, -1080, 150, 706, 826, 995, 456, 932]],
+          "id": 293,
+          "properties": { "town": "TAUNTON", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[977, 683, 530, -1081, 1028]],
+          "id": 294,
+          "properties": { "town": "TEMPLETON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[169, -1082, 47, 414, 747]],
+          "id": 295,
+          "properties": { "town": "TEWKSBURY", "fips": "25017" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-1083, 939, -1084]]],
+          "id": 296,
+          "properties": { "town": "TISBURY", "fips": "25007" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1036, -1085, 561, 176, 956]],
+          "id": 297,
+          "properties": { "town": "TOLLAND", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[835, 371, -1086, 594, 693, 216]],
+          "id": 298,
+          "properties": { "town": "TOPSFIELD", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[752, 1050, 576, 970, -1087, 68]],
+          "id": 299,
+          "properties": { "town": "TOWNSEND", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[991, -1088, -1089, -1090]],
+          "id": 300,
+          "properties": { "town": "TRURO", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[580, -1091, 303, 746, 412, -1092, 423]],
+          "id": 301,
+          "properties": { "town": "TYNGSBOROUGH", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[716, 569, 859, 957, 122]],
+          "id": 302,
+          "properties": { "town": "TYRINGHAM", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[555, 928, 818, 672, 837, 675, -1093]],
+          "id": 303,
+          "properties": { "town": "UPTON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[402, -1094, 843, 816, 927, 1076]],
+          "id": 304,
+          "properties": { "town": "UXBRIDGE", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1071, 815, 1039, 761, 999]],
+          "id": 305,
+          "properties": { "town": "WAKEFIELD", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[852, -1095, 660, 242]],
+          "id": 306,
+          "properties": { "town": "WALES", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[912, 513, 1047, 937, -1096, 407, 805]],
+          "id": 307,
+          "properties": { "town": "WALPOLE", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[742, -1097, 910, -1098, 143, 736]],
+          "id": 308,
+          "properties": { "town": "WALTHAM", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[132, 962, -1099, -1100, 878, 614, 975, 887]],
+          "id": 309,
+          "properties": { "town": "WARE", "fips": "25015" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[782, -1101, 201, 985, 280, 828, 1015]]],
+          "id": 310,
+          "properties": { "town": "WAREHAM", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[246, 254, -1102, 1098, 961]],
+          "id": 311,
+          "properties": { "town": "WARREN", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[929, 473, 948, 1027, -1103]],
+          "id": 312,
+          "properties": { "town": "WARWICK", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[717, 120, 830, 972, 649, 362, 980, 725]],
+          "id": 313,
+          "properties": { "town": "WASHINGTON", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[909, 191, 267, 144, 1097]],
+          "id": 314,
+          "properties": { "town": "WATERTOWN", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[518, 871, -1104, 740, 1074]],
+          "id": 315,
+          "properties": { "town": "WAYLAND", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[419, -1105, 400, 958]],
+          "id": 316,
+          "properties": { "town": "WEBSTER", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[869, 410, 874, 908, -1106]],
+          "id": 317,
+          "properties": { "town": "WELLESLEY", "fips": "25021" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[1088, -1107, 448, -1108]]],
+          "id": 318,
+          "properties": { "town": "WELLFLEET", "fips": "25001" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[855, 733, 1054, 890, 946, 471]],
+          "id": 319,
+          "properties": { "town": "WENDELL", "fips": "25011" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[1085, 370, 165, 772, 595]]],
+          "id": 320,
+          "properties": { "town": "WENHAM", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[657, -1109, 1053, 222, 1067]],
+          "id": 321,
+          "properties": { "town": "WEST BOYLSTON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[458, 996, 240, 433, 249]],
+          "id": 322,
+          "properties": { "town": "WEST BRIDGEWATER", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1099, 1101, 258, 917, 879]],
+          "id": 323,
+          "properties": { "town": "WEST BROOKFIELD", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[583, 891, 904, 36, 822, 630]],
+          "id": 324,
+          "properties": { "town": "WEST NEWBURY", "fips": "25009" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[27, 1065, 321, 670, -1110]],
+          "id": 325,
+          "properties": { "town": "WEST SPRINGFIELD", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[33, 572, 1068, 1013, -1111]],
+          "id": 326,
+          "properties": { "town": "WEST STOCKBRIDGE", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[330, -1112, 461, 1082, -1113]],
+          "id": 327,
+          "properties": { "town": "WEST TISBURY", "fips": "25007" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[556, 1092, 678, 1060, 924, 1052]],
+          "id": 328,
+          "properties": { "town": "WESTBOROUGH", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1031, 564, 1064, 28, 1109, 669, 1058, 861]],
+          "id": 329,
+          "properties": { "town": "WESTFIELD", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[743, 9, 278, 301, 1090, 579]],
+          "id": 330,
+          "properties": { "town": "WESTFORD", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[317, 691, 1059, 449, 921, -1114]],
+          "id": 331,
+          "properties": { "town": "WESTHAMPTON", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[682, 989, 730, 501, 62, 532]],
+          "id": 332,
+          "properties": { "town": "WESTMINSTER", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1103, 870, 1105, 907, 1096, 741]],
+          "id": 333,
+          "properties": { "town": "WESTON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[492, -1115, 376]],
+          "id": 334,
+          "properties": { "town": "WESTPORT", "fips": "25005" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1095, 936, 275, 383, 872, 408]],
+          "id": 335,
+          "properties": { "town": "WESTWOOD", "fips": "25021" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[653, 3, 1017, 641, -1116, 639, -1117, 229]]],
+          "id": 336,
+          "properties": { "town": "WEYMOUTH", "fips": "25021" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1118, 627, 1075, 385, 353]],
+          "id": 337,
+          "properties": { "town": "WHATELY", "fips": "25011" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[251, 436, 611, 1016, 1]],
+          "id": 338,
+          "properties": { "town": "WHITMAN", "fips": "25023" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1066, 444, 600, 850, 960, 749]],
+          "id": 339,
+          "properties": { "town": "WILBRAHAM", "fips": "25013" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[318, 1113, 922, 625, 1117, 352, 548]],
+          "id": 340,
+          "properties": { "town": "WILLIAMSBURG", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[-1119, 606, 875, 18, 913, 332]],
+          "id": 341,
+          "properties": { "town": "WILLIAMSTOWN", "fips": "25003" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[168, 266, -1120, 1000, 919, 48, 1081]],
+          "id": 342,
+          "properties": { "town": "WILMINGTON", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[1029, 1080, 533, 60, -1121]],
+          "id": 343,
+          "properties": { "town": "WINCHENDON", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[737, 58, 809, 1070, -1122]],
+          "id": 344,
+          "properties": { "town": "WINCHESTER", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[364, 651, 974, 360, 982, 1042, 309]],
+          "id": 345,
+          "properties": { "town": "WINDSOR", "fips": "25003" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[-1123, 1123, -1125, 1006, -1126]]],
+          "id": 346,
+          "properties": { "town": "WINTHROP", "fips": "25025" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[738, 1121, 1069, 997, 1119, 265]],
+          "id": 347,
+          "properties": { "town": "WOBURN", "fips": "25017" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[721, 94, 840, 558, 1051, 1108, 656, 965]],
+          "id": 348,
+          "properties": { "town": "WORCESTER", "fips": "25027" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[973, 831, 313, 692, 315, 357]],
+          "id": 349,
+          "properties": { "town": "WORTHINGTON", "fips": "25015" }
+        },
+        {
+          "type": "Polygon",
+          "arcs": [[139, -1127, 984, 509, 911, 521]],
+          "id": 350,
+          "properties": { "town": "WRENTHAM", "fips": "25021" }
+        },
+        {
+          "type": "MultiPolygon",
+          "arcs": [[[106, -1128, 390, -1129]]],
+          "id": 351,
+          "properties": { "town": "YARMOUTH", "fips": "25001" }
+        }
+      ]
+    }
+  },
+  "arcs": [
+    [
+      [7055, 5125],
+      [-12, 162],
+      [-53, -19],
+      [-10, 94]
+    ],
+    [
+      [7221, 5204],
+      [-166, -79]
+    ],
+    [
+      [7150, 5514],
+      [27, -212],
+      [44, -98]
+    ],
+    [
+      [7038, 5416],
+      [112, 98]
+    ],
+    [
+      [6980, 5362],
+      [58, 54]
+    ],
+    [
+      [5692, 7329],
+      [-95, 83]
+    ],
+    [
+      [5787, 7247],
+      [-95, 82]
+    ],
+    [
+      [5911, 7659],
+      [-124, -412]
+    ],
+    [
+      [5871, 7838],
+      [40, -179]
+    ],
+    [
+      [5792, 7808],
+      [79, 30]
+    ],
+    [
+      [5666, 7633],
+      [84, 55],
+      [42, 120]
+    ],
+    [
+      [5597, 7412],
+      [69, 221]
+    ],
+    [
+      [7229, 2635],
+      [-20, 45],
+      [-56, 359]
+    ],
+    [
+      [7233, 2547],
+      [-4, 88]
+    ],
+    [
+      [7393, 2654],
+      [-160, -107]
+    ],
+    [
+      [7372, 2773],
+      [21, -119]
+    ],
+    [
+      [7252, 3153],
+      [59, -21],
+      [61, -359]
+    ],
+    [
+      [7153, 3039],
+      [99, 114]
+    ],
+    [
+      [978, 8490],
+      [8, 192]
+    ],
+    [
+      [968, 8306],
+      [10, 184]
+    ],
+    [
+      [1216, 8276],
+      [-248, 30]
+    ],
+    [
+      [1277, 8610],
+      [-15, -340],
+      [-46, 6]
+    ],
+    [
+      [1278, 8639],
+      [-1, -29]
+    ],
+    [
+      [986, 8682],
+      [292, -43]
+    ],
+    [
+      [2505, 4805],
+      [-296, 44]
+    ],
+    [
+      [2559, 5055],
+      [-48, -139],
+      [-6, -111]
+    ],
+    [
+      [2561, 5182],
+      [-2, -127]
+    ],
+    [
+      [2267, 5265],
+      [30, 10],
+      [59, -141],
+      [11, 68],
+      [71, 29],
+      [17, -65],
+      [106, 16]
+    ],
+    [
+      [2235, 5115],
+      [32, 150]
+    ],
+    [
+      [2209, 4849],
+      [26, 266]
+    ],
+    [
+      [145, 6012],
+      [86, 477]
+    ],
+    [
+      [273, 5979],
+      [-128, 33]
+    ],
+    [
+      [309, 6256],
+      [15, -204],
+      [-51, -73]
+    ],
+    [
+      [231, 6489],
+      [85, -148],
+      [-7, -85]
+    ],
+    [
+      [6957, 9854],
+      [95, 30],
+      [151, 113]
+    ],
+    [
+      [7054, 9606],
+      [-30, 132],
+      [-67, 116]
+    ],
+    [
+      [7133, 9609],
+      [-79, -3]
+    ],
+    [
+      [7234, 9677],
+      [-47, 43],
+      [-54, -111]
+    ],
+    [
+      [7203, 9997],
+      [42, -233],
+      [-11, -87]
+    ],
+    [
+      [2715, 6466],
+      [-10, 96],
+      [29, 497],
+      [-42, -8],
+      [9, 166]
+    ],
+    [
+      [2740, 6450],
+      [-25, 16]
+    ],
+    [
+      [2917, 6487],
+      [-177, -37]
+    ],
+    [
+      [2896, 6752],
+      [21, -265]
+    ],
+    [
+      [2867, 7094],
+      [29, -342]
+    ],
+    [
+      [2851, 7254],
+      [16, -160]
+    ],
+    [
+      [2737, 7226],
+      [114, 28]
+    ],
+    [
+      [2701, 7217],
+      [36, 9]
+    ],
+    [
+      [6519, 8232],
+      [-18, 111],
+      [-234, 246]
+    ],
+    [
+      [6601, 8239],
+      [-53, 99],
+      [-29, -106]
+    ],
+    [
+      [6765, 8271],
+      [-164, -32]
+    ],
+    [
+      [6602, 8713],
+      [15, -13],
+      [148, -429]
+    ],
+    [
+      [6452, 8830],
+      [11, -123],
+      [139, 6]
+    ],
+    [
+      [6316, 8667],
+      [63, 193],
+      [73, -30]
+    ],
+    [
+      [6267, 8589],
+      [49, 78]
+    ],
+    [
+      [6557, 7031],
+      [-140, 83]
+    ],
+    [
+      [6607, 7049],
+      [-50, -18]
+    ],
+    [
+      [6612, 7119],
+      [-5, -70]
+    ],
+    [
+      [6564, 7244],
+      [48, -125]
+    ],
+    [
+      [6474, 7246],
+      [90, -2]
+    ],
+    [
+      [6417, 7114],
+      [57, 132]
+    ],
+    [
+      [4251, 8431],
+      [15, 507]
+    ],
+    [
+      [4411, 8258],
+      [-49, -42],
+      [-111, 215]
+    ],
+    [
+      [4603, 8421],
+      [-66, -82],
+      [-126, -81]
+    ],
+    [
+      [4604, 8450],
+      [-1, -29]
+    ],
+    [
+      [4494, 8925],
+      [112, -223],
+      [-2, -252]
+    ],
+    [
+      [4266, 8938],
+      [228, -13]
+    ],
+    [
+      [4833, 8467],
+      [-191, 8],
+      [-38, -25]
+    ],
+    [
+      [4833, 8511],
+      [0, -44]
+    ],
+    [
+      [4842, 8902],
+      [-9, -391]
+    ],
+    [
+      [4494, 8925],
+      [348, -23]
+    ],
+    [
+      [1798, 7585],
+      [-13, 348]
+    ],
+    [
+      [1840, 7565],
+      [-42, 20]
+    ],
+    [
+      [2094, 7453],
+      [-254, 112]
+    ],
+    [
+      [2151, 8065],
+      [34, -10],
+      [-91, -602]
+    ],
+    [
+      [1865, 8041],
+      [203, 49],
+      [83, -25]
+    ],
+    [
+      [1785, 7933],
+      [1, 87],
+      [79, 21]
+    ],
+    [
+      [5686, 5989],
+      [-54, 4],
+      [1, 96],
+      [-102, 50],
+      [1, 69]
+    ],
+    [
+      [5816, 6035],
+      [-130, -46]
+    ],
+    [
+      [5819, 6153],
+      [-3, -118]
+    ],
+    [
+      [5602, 6351],
+      [101, -66],
+      [116, -132]
+    ],
+    [
+      [5532, 6208],
+      [45, -11],
+      [25, 154]
+    ],
+    [
+      [3460, 7936],
+      [-14, 183],
+      [42, -10],
+      [-14, 152],
+      [109, 89],
+      [9, 143]
+    ],
+    [
+      [3532, 7729],
+      [-66, 121],
+      [-6, 86]
+    ],
+    [
+      [3697, 7951],
+      [-29, -9],
+      [-136, -213]
+    ],
+    [
+      [3785, 8397],
+      [-58, -205],
+      [-30, -241]
+    ],
+    [
+      [3592, 8493],
+      [159, 44],
+      [34, -140]
+    ],
+    [
+      [6044, 3966],
+      [-120, -32],
+      [0, 140]
+    ],
+    [
+      [6143, 3992],
+      [-99, -26]
+    ],
+    [
+      [6412, 4029],
+      [-47, 13],
+      [-222, -50]
+    ],
+    [
+      [6266, 4413],
+      [146, -384]
+    ],
+    [
+      [6236, 4500],
+      [30, -87]
+    ],
+    [
+      [5924, 4074],
+      [111, 135],
+      [201, 291]
+    ],
+    [
+      [4673, 5589],
+      [-75, -21],
+      [-103, 193]
+    ],
+    [
+      [4769, 5866],
+      [-96, -277]
+    ],
+    [
+      [4602, 5968],
+      [131, 27],
+      [36, -129]
+    ],
+    [
+      [4495, 5761],
+      [81, 205],
+      [26, 2]
+    ],
+    [
+      [6813, 5220],
+      [-27, 179],
+      [42, 132]
+    ],
+    [
+      [6924, 5314],
+      [-111, -94]
+    ],
+    [
+      [6888, 5416],
+      [36, -102]
+    ],
+    [
+      [6828, 5531],
+      [60, -115]
+    ],
+    [
+      [5486, 7894],
+      [-115, 46],
+      [-40, -44],
+      [-69, 56]
+    ],
+    [
+      [5562, 8055],
+      [-76, -161]
+    ],
+    [
+      [5292, 8127],
+      [23, 14],
+      [247, -86]
+    ],
+    [
+      [5262, 7952],
+      [30, 175]
+    ],
+    [
+      [8537, 2275],
+      [10, 208],
+      [-35, 80]
+    ],
+    [
+      [9032, 2479],
+      [-5, -78],
+      [-113, -61],
+      [4, 48],
+      [-121, 5],
+      [-59, -144],
+      [-59, -31],
+      [24, 87],
+      [-40, 98],
+      [-74, -97],
+      [-56, -205],
+      [-29, 58],
+      [33, 116]
+    ],
+    [
+      [9062, 2842],
+      [7, -93],
+      [-37, -270]
+    ],
+    [
+      [8720, 3032],
+      [245, -23],
+      [60, -54],
+      [-195, -20],
+      [67, -85],
+      [165, 21],
+      [0, -29]
+    ],
+    [
+      [8512, 2563],
+      [208, 469]
+    ],
+    [
+      [3864, 6812],
+      [-225, 331]
+    ],
+    [
+      [3892, 6769],
+      [-28, 43]
+    ],
+    [
+      [4110, 7054],
+      [-218, -285]
+    ],
+    [
+      [4187, 7158],
+      [-77, -104]
+    ],
+    [
+      [3934, 7546],
+      [253, -388]
+    ],
+    [
+      [3930, 7541],
+      [4, 5]
+    ],
+    [
+      [3639, 7143],
+      [291, 398]
+    ],
+    [
+      [1403, 6099],
+      [-80, 13],
+      [-151, -32],
+      [-4, 69],
+      [-78, -12],
+      [-1, 57],
+      [-112, -27]
+    ],
+    [
+      [1421, 6175],
+      [-18, -76]
+    ],
+    [
+      [1429, 6548],
+      [-8, -373]
+    ],
+    [
+      [1253, 6720],
+      [3, -63],
+      [85, -124],
+      [88, 15]
+    ],
+    [
+      [985, 6513],
+      [3, 154],
+      [265, 53]
+    ],
+    [
+      [982, 6405],
+      [3, 108]
+    ],
+    [
+      [977, 6167],
+      [5, 238]
+    ],
+    [
+      [6177, 7426],
+      [-88, 98],
+      [10, 122]
+    ],
+    [
+      [6224, 7387],
+      [-47, 39]
+    ],
+    [
+      [6311, 7571],
+      [-87, -184]
+    ],
+    [
+      [6336, 7674],
+      [-25, -103]
+    ],
+    [
+      [6129, 7757],
+      [77, 39],
+      [107, -44],
+      [23, -78]
+    ],
+    [
+      [6099, 7646],
+      [30, 111]
+    ],
+    [
+      [2961, 5994],
+      [-44, 493]
+    ],
+    [
+      [3103, 5738],
+      [-22, 281],
+      [-120, -25]
+    ],
+    [
+      [3271, 5945],
+      [-82, -83],
+      [18, -102],
+      [-104, -22]
+    ],
+    [
+      [3217, 6453],
+      [15, -116],
+      [52, -88],
+      [-20, -69],
+      [7, -235]
+    ],
+    [
+      [3220, 6680],
+      [-3, -227]
+    ],
+    [
+      [2896, 6752],
+      [175, 41],
+      [11, -135],
+      [138, 22]
+    ],
+    [
+      [5596, 5222],
+      [-6, 79]
+    ],
+    [
+      [5597, 4979],
+      [-1, 243]
+    ],
+    [
+      [5599, 4690],
+      [-2, 289]
+    ],
+    [
+      [5710, 4693],
+      [-111, -3]
+    ],
+    [
+      [5717, 4802],
+      [-7, -109]
+    ],
+    [
+      [5757, 5408],
+      [-38, -370],
+      [-2, -236]
+    ],
+    [
+      [5655, 5388],
+      [102, 20]
+    ],
+    [
+      [5590, 5301],
+      [65, 87]
+    ],
+    [
+      [6441, 6939],
+      [-46, 124]
+    ],
+    [
+      [6551, 6875],
+      [-110, 64]
+    ],
+    [
+      [6557, 7031],
+      [-6, -156]
+    ],
+    [
+      [6395, 7063],
+      [22, 51]
+    ],
+    [
+      [6741, 3425],
+      [-67, -158],
+      [-9, 258],
+      [40, 281],
+      [26, 9]
+    ],
+    [
+      [6890, 3471],
+      [-147, 7],
+      [-2, -53]
+    ],
+    [
+      [6969, 3604],
+      [-79, -133]
+    ],
+    [
+      [6731, 3815],
+      [44, -1],
+      [194, -210]
+    ],
+    [
+      [5099, 6958],
+      [50, 176]
+    ],
+    [
+      [5105, 6810],
+      [-6, 148]
+    ],
+    [
+      [5247, 6721],
+      [-26, 50],
+      [-116, 39]
+    ],
+    [
+      [5308, 6825],
+      [-61, -104]
+    ],
+    [
+      [5305, 7009],
+      [66, -65],
+      [-63, -119]
+    ],
+    [
+      [5149, 7134],
+      [156, -125]
+    ],
+    [
+      [2595, 8583],
+      [-31, 488]
+    ],
+    [
+      [2720, 8608],
+      [-125, -25]
+    ],
+    [
+      [2844, 8746],
+      [18, -98],
+      [-142, -40]
+    ],
+    [
+      [2790, 9052],
+      [54, -306]
+    ],
+    [
+      [2564, 9071],
+      [226, -19]
+    ],
+    [
+      [7221, 7943],
+      [8, 142],
+      [-38, 112]
+    ],
+    [
+      [7546, 8036],
+      [-81, -78],
+      [-123, -21],
+      [-34, -55],
+      [-87, 61]
+    ],
+    [
+      [7500, 8157],
+      [46, -121]
+    ],
+    [
+      [7191, 8197],
+      [237, -1],
+      [72, -39]
+    ],
+    [
+      [6129, 7757],
+      [-22, 178],
+      [-52, 67]
+    ],
+    [
+      [6409, 7904],
+      [-73, -230]
+    ],
+    [
+      [6393, 8078],
+      [-22, -71],
+      [38, -103]
+    ],
+    [
+      [6156, 8320],
+      [237, -242]
+    ],
+    [
+      [6155, 8320],
+      [1, 0]
+    ],
+    [
+      [6055, 8002],
+      [107, 274],
+      [-7, 44]
+    ],
+    [
+      [5419, 4672],
+      [-2, 302]
+    ],
+    [
+      [5599, 4690],
+      [-180, -18]
+    ],
+    [
+      [5417, 4974],
+      [180, 5]
+    ],
+    [
+      [1321, 5523],
+      [82, 576]
+    ],
+    [
+      [1469, 5476],
+      [-148, 47]
+    ],
+    [
+      [1708, 5390],
+      [-239, 86]
+    ],
+    [
+      [1780, 5953],
+      [-72, -563]
+    ],
+    [
+      [1669, 6096],
+      [111, -143]
+    ],
+    [
+      [1421, 6175],
+      [248, -79]
+    ],
+    [
+      [5430, 7095],
+      [-125, -86]
+    ],
+    [
+      [5458, 7311],
+      [-28, -216]
+    ],
+    [
+      [5219, 7494],
+      [239, -183]
+    ],
+    [
+      [5159, 7216],
+      [60, 278]
+    ],
+    [
+      [5149, 7134],
+      [10, 82]
+    ],
+    [
+      [6620, 5977],
+      [-45, 169],
+      [-32, -4],
+      [-83, 153]
+    ],
+    [
+      [6801, 6238],
+      [-135, -69],
+      [13, -69],
+      [-59, -123]
+    ],
+    [
+      [6774, 6971],
+      [72, -43],
+      [-1, -179],
+      [109, -106],
+      [-100, -47],
+      [36, -97],
+      [-46, -71],
+      [36, -84],
+      [-79, -106]
+    ],
+    [
+      [6778, 6865],
+      [-4, 106]
+    ],
+    [
+      [6581, 6813],
+      [45, 49],
+      [30, -106],
+      [111, 20],
+      [11, 89]
+    ],
+    [
+      [6512, 6778],
+      [69, 35]
+    ],
+    [
+      [6545, 6600],
+      [-49, 121],
+      [16, 57]
+    ],
+    [
+      [6524, 6439],
+      [35, -56],
+      [98, 178],
+      [27, 160],
+      [-44, 11],
+      [-95, -132]
+    ],
+    [
+      [6451, 6310],
+      [73, 129]
+    ],
+    [
+      [6460, 6295],
+      [-9, 15]
+    ],
+    [
+      [6977, 6815],
+      [-19, -110],
+      [-104, 141],
+      [18, 86],
+      [76, 75]
+    ],
+    [
+      [6982, 6893],
+      [-5, -78]
+    ],
+    [
+      [6996, 6923],
+      [-14, -30]
+    ],
+    [
+      [6995, 6987],
+      [1, -64]
+    ],
+    [
+      [6948, 7007],
+      [47, -20]
+    ],
+    [
+      [8031, 3144],
+      [-9, 15]
+    ],
+    [
+      [8336, 3237],
+      [-103, -3],
+      [-91, -162],
+      [-105, -54],
+      [-6, 126]
+    ],
+    [
+      [8338, 3347],
+      [-2, -110]
+    ],
+    [
+      [8286, 3456],
+      [52, -109]
+    ],
+    [
+      [8022, 3159],
+      [188, 148],
+      [76, 149]
+    ],
+    [
+      [8059, 2519],
+      [17, 113],
+      [-35, 95],
+      [27, 61],
+      [-9, 224],
+      [105, 74],
+      [52, 114],
+      [120, 24]
+    ],
+    [
+      [8063, 2519],
+      [-4, 0]
+    ],
+    [
+      [8075, 2523],
+      [-12, -4]
+    ],
+    [
+      [8207, 2448],
+      [-132, 75]
+    ],
+    [
+      [8336, 3224],
+      [-81, -622],
+      [-48, -154]
+    ],
+    [
+      [5473, 7426],
+      [-46, 50],
+      [84, 275]
+    ],
+    [
+      [5597, 7412],
+      [-124, 14]
+    ],
+    [
+      [5511, 7751],
+      [155, -118]
+    ],
+    [
+      [6912, 8501],
+      [-68, 224],
+      [-172, 348]
+    ],
+    [
+      [7040, 8376],
+      [-128, 125]
+    ],
+    [
+      [7070, 8688],
+      [14, -140],
+      [-41, -42],
+      [-3, -130]
+    ],
+    [
+      [7112, 8745],
+      [-42, -57]
+    ],
+    [
+      [7039, 8827],
+      [73, -82]
+    ],
+    [
+      [6884, 8968],
+      [22, -97],
+      [133, -44]
+    ],
+    [
+      [6810, 9055],
+      [74, -87]
+    ],
+    [
+      [6672, 9073],
+      [138, -18]
+    ],
+    [
+      [4860, 6494],
+      [4, 210],
+      [27, 215],
+      [33, 25]
+    ],
+    [
+      [5072, 6570],
+      [-29, 40],
+      [-183, -116]
+    ],
+    [
+      [5105, 6810],
+      [-33, -240]
+    ],
+    [
+      [4968, 6965],
+      [69, 32],
+      [62, -39]
+    ],
+    [
+      [4924, 6944],
+      [44, 21]
+    ],
+    [
+      [6924, 5619],
+      [8, 109],
+      [-79, 49],
+      [-7, 72]
+    ],
+    [
+      [7050, 5617],
+      [-126, 2]
+    ],
+    [
+      [7075, 5954],
+      [-25, -337]
+    ],
+    [
+      [7060, 6038],
+      [15, -84]
+    ],
+    [
+      [6846, 5849],
+      [45, 130],
+      [169, 59]
+    ],
+    [
+      [9420, 2843],
+      [-34, 229],
+      [45, 71]
+    ],
+    [
+      [9819, 2993],
+      [-165, -48],
+      [-123, 16],
+      [-5, -55],
+      [-106, -63]
+    ],
+    [
+      [9736, 3340],
+      [76, -233],
+      [7, -114]
+    ],
+    [
+      [9431, 3143],
+      [109, 85],
+      [196, 112]
+    ],
+    [
+      [6990, 4162],
+      [-140, 205],
+      [-13, 106]
+    ],
+    [
+      [7243, 4389],
+      [-60, -38],
+      [-45, -168],
+      [-91, 47],
+      [-57, -68]
+    ],
+    [
+      [7270, 4572],
+      [-27, -183]
+    ],
+    [
+      [7045, 4658],
+      [151, -10],
+      [74, -76]
+    ],
+    [
+      [6837, 4473],
+      [211, 163],
+      [-3, 22]
+    ],
+    [
+      [3449, 5165],
+      [-11, 312]
+    ],
+    [
+      [3664, 5156],
+      [-215, 9]
+    ],
+    [
+      [3825, 5149],
+      [-161, 7]
+    ],
+    [
+      [3827, 5581],
+      [-2, -432]
+    ],
+    [
+      [3808, 5576],
+      [19, 5]
+    ],
+    [
+      [3469, 5721],
+      [175, -141],
+      [3, -46],
+      [161, 42]
+    ],
+    [
+      [3438, 5477],
+      [31, 244]
+    ],
+    [
+      [6793, 4893],
+      [-30, 280]
+    ],
+    [
+      [7024, 4874],
+      [-100, -27],
+      [-8, 78],
+      [-123, -32]
+    ],
+    [
+      [7056, 5025],
+      [-32, -151]
+    ],
+    [
+      [7055, 5125],
+      [1, -100]
+    ],
+    [
+      [6924, 5314],
+      [56, 48]
+    ],
+    [
+      [6763, 5173],
+      [50, 47]
+    ],
+    [
+      [3808, 5576],
+      [-15, 125]
+    ],
+    [
+      [4001, 5625],
+      [-40, -90],
+      [-61, -16],
+      [-8, 78],
+      [-65, -16]
+    ],
+    [
+      [4001, 6008],
+      [-17, -106],
+      [51, -71],
+      [-34, -206]
+    ],
+    [
+      [3895, 6048],
+      [106, -40]
+    ],
+    [
+      [3793, 5701],
+      [50, 240],
+      [28, -43],
+      [24, 150]
+    ],
+    [
+      [6524, 6439],
+      [-40, 64],
+      [61, 97]
+    ],
+    [
+      [1865, 8041],
+      [45, 316]
+    ],
+    [
+      [2220, 8193],
+      [-60, -15],
+      [-9, -113]
+    ],
+    [
+      [2177, 8447],
+      [-9, -152],
+      [52, -102]
+    ],
+    [
+      [1910, 8357],
+      [29, 45],
+      [214, -1],
+      [24, 46]
+    ],
+    [
+      [6413, 7426],
+      [-102, 145]
+    ],
+    [
+      [6507, 7728],
+      [3, -172],
+      [-97, -130]
+    ],
+    [
+      [6409, 7904],
+      [98, -176]
+    ],
+    [
+      [6581, 6813],
+      [-30, 62]
+    ],
+    [
+      [6607, 7049],
+      [88, -181],
+      [83, -3]
+    ],
+    [
+      [6490, 5585],
+      [64, 202]
+    ],
+    [
+      [6570, 5432],
+      [-80, 153]
+    ],
+    [
+      [6800, 5589],
+      [-81, -98],
+      [-149, -59]
+    ],
+    [
+      [6699, 5812],
+      [101, -223]
+    ],
+    [
+      [6620, 5977],
+      [79, -165]
+    ],
+    [
+      [6579, 5863],
+      [41, 114]
+    ],
+    [
+      [6554, 5787],
+      [25, 76]
+    ],
+    [
+      [6099, 7646],
+      [-188, 13]
+    ],
+    [
+      [5903, 7935],
+      [115, 85],
+      [37, -18]
+    ],
+    [
+      [5871, 7838],
+      [32, 97]
+    ],
+    [
+      [7635, 3537],
+      [-54, 68],
+      [-75, 467],
+      [-40, 84]
+    ],
+    [
+      [7783, 3391],
+      [-66, -7],
+      [-82, 153]
+    ],
+    [
+      [7679, 4194],
+      [8, -46],
+      [198, -488],
+      [-94, -169],
+      [-8, -100]
+    ],
+    [
+      [7664, 4281],
+      [15, -87]
+    ],
+    [
+      [7466, 4156],
+      [198, 125]
+    ],
+    [
+      [1587, 8551],
+      [-12, 78]
+    ],
+    [
+      [1576, 8472],
+      [11, 79]
+    ],
+    [
+      [1910, 8357],
+      [-334, 115]
+    ],
+    [
+      [2182, 8483],
+      [-5, -36]
+    ],
+    [
+      [2080, 8639],
+      [17, -177],
+      [85, 21]
+    ],
+    [
+      [1847, 8742],
+      [15, -164],
+      [82, -66],
+      [136, 127]
+    ],
+    [
+      [1575, 8629],
+      [116, 107],
+      [156, 6]
+    ],
+    [
+      [4084, 5273],
+      [-13, 143],
+      [64, 40],
+      [-14, 200]
+    ],
+    [
+      [4221, 5034],
+      [-15, 154],
+      [-122, 85]
+    ],
+    [
+      [4455, 5147],
+      [-234, -113]
+    ],
+    [
+      [4433, 5753],
+      [48, -528],
+      [-26, -78]
+    ],
+    [
+      [4373, 5745],
+      [60, 8]
+    ],
+    [
+      [4148, 5713],
+      [225, 32]
+    ],
+    [
+      [4121, 5656],
+      [27, 57]
+    ],
+    [
+      [9883, 2486],
+      [-43, -413],
+      [0, -142],
+      [-61, -75],
+      [50, 233],
+      [2, 160],
+      [28, 35],
+      [24, 202]
+    ],
+    [
+      [9694, 2615],
+      [26, 198],
+      [94, 87]
+    ],
+    [
+      [9814, 2900],
+      [48, 50],
+      [76, -88],
+      [13, -172],
+      [-44, -157],
+      [-138, 113],
+      [-75, -31]
+    ],
+    [
+      [5903, 7935],
+      [-83, 634]
+    ],
+    [
+      [5923, 8540],
+      [58, -138],
+      [95, -78],
+      [79, -4]
+    ],
+    [
+      [5820, 8569],
+      [103, -29]
+    ],
+    [
+      [6840, 6991],
+      [47, 127]
+    ],
+    [
+      [6949, 7040],
+      [-32, -92],
+      [-77, 43]
+    ],
+    [
+      [6887, 7118],
+      [62, -78]
+    ],
+    [
+      [984, 7772],
+      [-96, 49],
+      [39, 121],
+      [-68, 25],
+      [31, 224]
+    ],
+    [
+      [1147, 7922],
+      [-107, 31],
+      [-56, -181]
+    ],
+    [
+      [1210, 8061],
+      [-63, -139]
+    ],
+    [
+      [1216, 8276],
+      [-6, -215]
+    ],
+    [
+      [890, 8191],
+      [-5, 165],
+      [83, -50]
+    ],
+    [
+      [1750, 6663],
+      [8, -410],
+      [-89, -157]
+    ],
+    [
+      [1561, 6736],
+      [160, -23],
+      [29, -50]
+    ],
+    [
+      [1429, 6548],
+      [132, 188]
+    ],
+    [
+      [1749, 6708],
+      [-46, 553],
+      [65, 14]
+    ],
+    [
+      [1928, 6693],
+      [-63, 39],
+      [-116, -24]
+    ],
+    [
+      [2052, 6812],
+      [-126, -31],
+      [2, -88]
+    ],
+    [
+      [2062, 7075],
+      [-10, -263]
+    ],
+    [
+      [1859, 7294],
+      [34, -103],
+      [55, 7],
+      [-3, -110],
+      [117, -13]
+    ],
+    [
+      [1768, 7275],
+      [91, 19]
+    ],
+    [
+      [2472, 5370],
+      [16, 64],
+      [-32, 172]
+    ],
+    [
+      [2766, 5593],
+      [-71, -20],
+      [-223, -203]
+    ],
+    [
+      [2746, 5947],
+      [20, -354]
+    ],
+    [
+      [2685, 5933],
+      [61, 14]
+    ],
+    [
+      [2554, 5907],
+      [131, 26]
+    ],
+    [
+      [2456, 5606],
+      [16, 142],
+      [89, 101],
+      [-7, 58]
+    ],
+    [
+      [7529, 102],
+      [26, -83],
+      [-78, 54],
+      [52, 29]
+    ],
+    [
+      [7568, 408],
+      [49, 110]
+    ],
+    [
+      [7986, 618],
+      [-135, -20],
+      [-114, -58],
+      [-108, -199],
+      [-61, 67]
+    ],
+    [
+      [7811, 1000],
+      [80, -226],
+      [45, 10],
+      [50, -166]
+    ],
+    [
+      [7617, 518],
+      [53, 45],
+      [-13, 98],
+      [100, 270],
+      [54, 69]
+    ],
+    [
+      [999, 8997],
+      [9, 195]
+    ],
+    [
+      [1292, 8965],
+      [-293, 32]
+    ],
+    [
+      [1326, 9167],
+      [-34, -202]
+    ],
+    [
+      [1008, 9192],
+      [318, -25]
+    ],
+    [
+      [4968, 6965],
+      [21, 121]
+    ],
+    [
+      [4989, 7086],
+      [83, 161],
+      [87, -31]
+    ],
+    [
+      [7465, 5820],
+      [-76, 237],
+      [25, 127]
+    ],
+    [
+      [7572, 5959],
+      [-107, -139]
+    ],
+    [
+      [7577, 6025],
+      [-5, -66]
+    ],
+    [
+      [7585, 6049],
+      [-8, -24]
+    ],
+    [
+      [7467, 6211],
+      [112, -82],
+      [6, -80]
+    ],
+    [
+      [7414, 6184],
+      [53, 27]
+    ],
+    [
+      [2080, 8639],
+      [-46, 476]
+    ],
+    [
+      [2465, 8551],
+      [-283, -68]
+    ],
+    [
+      [2499, 8560],
+      [-34, -9]
+    ],
+    [
+      [2355, 9088],
+      [-2, -138],
+      [61, -204],
+      [85, -186]
+    ],
+    [
+      [2034, 9115],
+      [321, -27]
+    ],
+    [
+      [5963, 7100],
+      [-176, 147]
+    ],
+    [
+      [6177, 7426],
+      [-68, -68],
+      [-146, -258]
+    ],
+    [
+      [2110, 7345],
+      [-16, 108]
+    ],
+    [
+      [2267, 7383],
+      [-157, -38]
+    ],
+    [
+      [2392, 7485],
+      [-3, -71],
+      [-122, -31]
+    ],
+    [
+      [2343, 7991],
+      [73, -151],
+      [-42, -360],
+      [18, 5]
+    ],
+    [
+      [2220, 8193],
+      [44, -127],
+      [79, -75]
+    ],
+    [
+      [1459, 7380],
+      [14, 109]
+    ],
+    [
+      [1768, 7275],
+      [-309, 105]
+    ],
+    [
+      [1840, 7565],
+      [19, -271]
+    ],
+    [
+      [1499, 7676],
+      [267, -111],
+      [32, 20]
+    ],
+    [
+      [1473, 7489],
+      [26, 187]
+    ],
+    [
+      [878, 7184],
+      [60, 434]
+    ],
+    [
+      [967, 7173],
+      [-89, 11]
+    ],
+    [
+      [1123, 7627],
+      [-28, -214],
+      [-92, 9],
+      [-36, -249]
+    ],
+    [
+      [1147, 7922],
+      [-38, -260],
+      [14, -35]
+    ],
+    [
+      [938, 7618],
+      [46, 154]
+    ],
+    [
+      [6968, 8025],
+      [46, 173],
+      [59, 48]
+    ],
+    [
+      [7152, 7928],
+      [-184, 97]
+    ],
+    [
+      [7197, 7921],
+      [-45, 7]
+    ],
+    [
+      [7221, 7943],
+      [-24, -22]
+    ],
+    [
+      [7165, 8326],
+      [26, -129]
+    ],
+    [
+      [7073, 8246],
+      [92, 80]
+    ],
+    [
+      [7214, 7894],
+      [-25, 10]
+    ],
+    [
+      [7227, 7888],
+      [-13, 6]
+    ],
+    [
+      [7197, 7921],
+      [30, -33]
+    ],
+    [
+      [7189, 7904],
+      [8, 17]
+    ],
+    [
+      [6936, 1569],
+      [-29, 396],
+      [-37, 111],
+      [22, 224],
+      [-111, 375]
+    ],
+    [
+      [6958, 1626],
+      [-22, -57]
+    ],
+    [
+      [7189, 2205],
+      [-5, -167],
+      [-80, 121],
+      [97, -376],
+      [-76, -77],
+      [-63, 33],
+      [-17, -141],
+      [-87, 28]
+    ],
+    [
+      [7091, 2971],
+      [-32, -339],
+      [24, -182],
+      [106, -245]
+    ],
+    [
+      [6952, 2826],
+      [139, 145]
+    ],
+    [
+      [6781, 2675],
+      [171, 151]
+    ],
+    [
+      [6339, 6167],
+      [96, 60],
+      [25, 68]
+    ],
+    [
+      [6579, 5863],
+      [-111, 118],
+      [-129, 186]
+    ],
+    [
+      [2343, 7991],
+      [57, 14],
+      [52, 138]
+    ],
+    [
+      [2589, 7461],
+      [-197, 24]
+    ],
+    [
+      [2669, 7703],
+      [-80, -242]
+    ],
+    [
+      [2614, 8142],
+      [41, -15],
+      [17, -140],
+      [-34, -113],
+      [31, -171]
+    ],
+    [
+      [2452, 8143],
+      [34, -46],
+      [119, -4],
+      [9, 49]
+    ],
+    [
+      [9178, 2950],
+      [-42, 54],
+      [59, 63],
+      [201, 105],
+      [35, -29]
+    ],
+    [
+      [9322, 2759],
+      [-78, 175],
+      [-66, 16]
+    ],
+    [
+      [9254, 2488],
+      [83, 178],
+      [-15, 93]
+    ],
+    [
+      [9259, 2486],
+      [-5, 2]
+    ],
+    [
+      [9469, 2537],
+      [-210, -51]
+    ],
+    [
+      [9420, 2843],
+      [49, -306]
+    ],
+    [
+      [6452, 3469],
+      [-31, 402],
+      [45, -16]
+    ],
+    [
+      [6561, 3308],
+      [-48, -1],
+      [-15, 157],
+      [-46, 5]
+    ],
+    [
+      [6646, 3315],
+      [-85, -7]
+    ],
+    [
+      [6669, 3707],
+      [15, -145],
+      [-38, -247]
+    ],
+    [
+      [6466, 3855],
+      [166, -53],
+      [37, -95]
+    ],
+    [
+      [4744, 4730],
+      [-69, 423]
+    ],
+    [
+      [5089, 4655],
+      [-330, -19],
+      [-15, 94]
+    ],
+    [
+      [5046, 5166],
+      [0, -148],
+      [47, 18],
+      [-4, -381]
+    ],
+    [
+      [4766, 5192],
+      [62, 6],
+      [18, -113],
+      [200, 81]
+    ],
+    [
+      [4675, 5153],
+      [91, 39]
+    ],
+    [
+      [6044, 5896],
+      [16, 197]
+    ],
+    [
+      [6235, 5808],
+      [-3, 92],
+      [-188, -4]
+    ],
+    [
+      [6284, 5821],
+      [-49, -13]
+    ],
+    [
+      [6337, 6160],
+      [-53, -339]
+    ],
+    [
+      [6164, 6251],
+      [-17, -37],
+      [121, -75],
+      [69, 21]
+    ],
+    [
+      [6126, 6237],
+      [38, 14]
+    ],
+    [
+      [6060, 6093],
+      [82, 5],
+      [-16, 139]
+    ],
+    [
+      [5955, 8617],
+      [-28, 131],
+      [27, 93]
+    ],
+    [
+      [6215, 8584],
+      [-32, -42],
+      [-36, 107],
+      [-161, -76],
+      [-31, 44]
+    ],
+    [
+      [6267, 8589],
+      [-52, -5]
+    ],
+    [
+      [6266, 9073],
+      [50, -406]
+    ],
+    [
+      [5954, 8841],
+      [207, -7],
+      [105, 239]
+    ],
+    [
+      [4219, 4755],
+      [2, 279]
+    ],
+    [
+      [4525, 4737],
+      [-306, 18]
+    ],
+    [
+      [4531, 5052],
+      [-6, -315]
+    ],
+    [
+      [4455, 5147],
+      [39, 18],
+      [37, -113]
+    ],
+    [
+      [5491, 8629],
+      [-55, 79],
+      [40, 160]
+    ],
+    [
+      [5603, 8543],
+      [-104, -6],
+      [-8, 92]
+    ],
+    [
+      [5710, 8854],
+      [29, -228],
+      [-76, -83],
+      [-60, 0]
+    ],
+    [
+      [5476, 8868],
+      [234, -14]
+    ],
+    [
+      [7630, 4734],
+      [29, 74],
+      [-62, 74],
+      [85, 311]
+    ],
+    [
+      [7794, 4620],
+      [-57, 90],
+      [-107, 24]
+    ],
+    [
+      [8068, 4688],
+      [-90, 218],
+      [-60, -30],
+      [-36, -239],
+      [-19, 82],
+      [-69, -99]
+    ],
+    [
+      [8079, 4689],
+      [-11, -1]
+    ],
+    [
+      [7968, 5049],
+      [20, -156],
+      [91, -204]
+    ],
+    [
+      [7913, 4994],
+      [55, 55]
+    ],
+    [
+      [7901, 4983],
+      [12, 11]
+    ],
+    [
+      [7682, 5193],
+      [219, -210]
+    ],
+    [
+      [7045, 4658],
+      [-21, 216]
+    ],
+    [
+      [7276, 4713],
+      [-6, -141]
+    ],
+    [
+      [7242, 4973],
+      [34, -260]
+    ],
+    [
+      [7056, 5025],
+      [68, -62],
+      [118, 10]
+    ],
+    [
+      [4121, 5656],
+      [-120, -31]
+    ],
+    [
+      [4120, 6087],
+      [28, -374]
+    ],
+    [
+      [4001, 6008],
+      [79, -14],
+      [40, 93]
+    ],
+    [
+      [2704, 5001],
+      [-7, 106],
+      [191, 47]
+    ],
+    [
+      [2718, 4820],
+      [-14, 181]
+    ],
+    [
+      [2922, 4817],
+      [-204, 3]
+    ],
+    [
+      [2891, 5125],
+      [31, -308]
+    ],
+    [
+      [2888, 5154],
+      [3, -29]
+    ],
+    [
+      [9779, 3430],
+      [-19, 428],
+      [12, 51]
+    ],
+    [
+      [9841, 3396],
+      [-62, 34]
+    ],
+    [
+      [9907, 3917],
+      [47, -309],
+      [-33, 86],
+      [-45, -61],
+      [28, -98],
+      [-63, -139]
+    ],
+    [
+      [9772, 3909],
+      [135, 8]
+    ],
+    [
+      [2160, 6311],
+      [-2, 45]
+    ],
+    [
+      [2348, 5995],
+      [-56, -14],
+      [15, 127],
+      [-79, 197],
+      [-68, 6]
+    ],
+    [
+      [2503, 6362],
+      [-60, -73],
+      [-63, -281],
+      [-32, -13]
+    ],
+    [
+      [2496, 6386],
+      [7, -24]
+    ],
+    [
+      [2158, 6356],
+      [181, 43],
+      [119, -42],
+      [38, 29]
+    ],
+    [
+      [6544, 4669],
+      [-27, 295]
+    ],
+    [
+      [6704, 4557],
+      [-153, 31],
+      [-7, 81]
+    ],
+    [
+      [6740, 4540],
+      [-36, 17]
+    ],
+    [
+      [6834, 4502],
+      [-94, 38]
+    ],
+    [
+      [6793, 4893],
+      [41, -391]
+    ],
+    [
+      [6602, 5035],
+      [161, 138]
+    ],
+    [
+      [6517, 4964],
+      [85, 71]
+    ],
+    [
+      [8111, 637],
+      [-26, 395]
+    ],
+    [
+      [8211, 1048],
+      [59, -1],
+      [130, -135],
+      [-28, -35],
+      [44, -191],
+      [-32, -45],
+      [122, 4],
+      [-16, 62],
+      [-87, 66],
+      [-8, 108],
+      [98, 19],
+      [51, -53],
+      [10, -191],
+      [-118, -26],
+      [-325, 7]
+    ],
+    [
+      [8208, 1043],
+      [3, 5]
+    ],
+    [
+      [8206, 1039],
+      [2, 4]
+    ],
+    [
+      [8085, 1032],
+      [121, 7]
+    ],
+    [
+      [75, 5633],
+      [70, 379]
+    ],
+    [
+      [224, 5423],
+      [-22, -18],
+      [-127, 228]
+    ],
+    [
+      [338, 5655],
+      [-50, -70],
+      [5, -100],
+      [-85, 5],
+      [16, -67]
+    ],
+    [
+      [273, 5979],
+      [11, -321],
+      [54, -3]
+    ],
+    [
+      [2923, 8123],
+      [-102, 29],
+      [17, 98]
+    ],
+    [
+      [3211, 8233],
+      [-110, 18],
+      [-65, 60],
+      [-113, -188]
+    ],
+    [
+      [3205, 8318],
+      [6, -85]
+    ],
+    [
+      [3172, 8502],
+      [33, -184]
+    ],
+    [
+      [2857, 8294],
+      [80, 11],
+      [-5, 83],
+      [240, 114]
+    ],
+    [
+      [2838, 8250],
+      [19, 44]
+    ],
+    [
+      [7526, 8226],
+      [-50, 161],
+      [4, 118]
+    ],
+    [
+      [7678, 8253],
+      [-152, -27]
+    ],
+    [
+      [7694, 8520],
+      [-50, -140],
+      [34, -127]
+    ],
+    [
+      [7695, 8523],
+      [-1, -3]
+    ],
+    [
+      [7697, 8528],
+      [-2, -5]
+    ],
+    [
+      [7609, 8566],
+      [88, -38]
+    ],
+    [
+      [7609, 8564],
+      [0, 2]
+    ],
+    [
+      [7540, 8614],
+      [47, 85],
+      [22, -135]
+    ],
+    [
+      [7480, 8505],
+      [60, 109]
+    ],
+    [
+      [6840, 6991],
+      [-55, -23],
+      [-7, 150]
+    ],
+    [
+      [6901, 7174],
+      [-14, -56]
+    ],
+    [
+      [6778, 7118],
+      [123, 56]
+    ],
+    [
+      [7435, 2332],
+      [-66, 25],
+      [51, -135],
+      [-17, -170],
+      [-40, 259],
+      [-93, 2],
+      [-37, 234]
+    ],
+    [
+      [7393, 2654],
+      [42, -322]
+    ],
+    [
+      [7442, 2139],
+      [27, 61],
+      [29, -146],
+      [-56, 85]
+    ],
+    [
+      [6608, 2174],
+      [15, 343],
+      [-177, 90],
+      [47, 130],
+      [53, 51],
+      [117, 367]
+    ],
+    [
+      [6781, 2675],
+      [-108, 44],
+      [-65, -545]
+    ],
+    [
+      [6663, 3155],
+      [310, -171],
+      [-21, -158]
+    ],
+    [
+      [8268, 1871],
+      [-215, -64],
+      [-86, -160],
+      [-63, 82],
+      [68, 71],
+      [-3, 150],
+      [32, 48],
+      [-15, 239],
+      [27, 121],
+      [-38, 87],
+      [100, 78]
+    ],
+    [
+      [8359, 1981],
+      [-31, 67],
+      [-60, -177]
+    ],
+    [
+      [8363, 1979],
+      [-4, 2]
+    ],
+    [
+      [8384, 2043],
+      [-21, -64]
+    ],
+    [
+      [8288, 2396],
+      [41, -226],
+      [73, -34],
+      [-18, -93]
+    ],
+    [
+      [8207, 2448],
+      [81, -52]
+    ],
+    [
+      [8241, 1903],
+      [0, 0]
+    ],
+    [
+      [4660, 7903],
+      [-70, 6],
+      [13, 512]
+    ],
+    [
+      [4867, 8023],
+      [-63, -77],
+      [-144, -43]
+    ],
+    [
+      [4833, 8467],
+      [7, -408],
+      [27, -36]
+    ],
+    [
+      [1278, 8639],
+      [14, 326]
+    ],
+    [
+      [1587, 8551],
+      [-125, -49],
+      [-42, 87],
+      [-143, 21]
+    ],
+    [
+      [1595, 8936],
+      [-7, -74],
+      [-63, -23],
+      [-58, -96],
+      [108, -114]
+    ],
+    [
+      [1395, 9163],
+      [-4, -235],
+      [204, 8]
+    ],
+    [
+      [1326, 9167],
+      [69, -4]
+    ],
+    [
+      [6182, 4860],
+      [11, 232]
+    ],
+    [
+      [6188, 4677],
+      [-6, 183]
+    ],
+    [
+      [6491, 4941],
+      [-303, -264]
+    ],
+    [
+      [6321, 5236],
+      [92, -191],
+      [28, 46],
+      [50, -150]
+    ],
+    [
+      [6206, 5130],
+      [115, 106]
+    ],
+    [
+      [6193, 5092],
+      [13, 38]
+    ],
+    [
+      [5602, 6351],
+      [29, 246]
+    ],
+    [
+      [5899, 6241],
+      [-80, -88]
+    ],
+    [
+      [5934, 6502],
+      [-69, -129],
+      [34, -132]
+    ],
+    [
+      [5880, 6663],
+      [54, -161]
+    ],
+    [
+      [5641, 6734],
+      [239, -71]
+    ],
+    [
+      [5631, 6597],
+      [10, 137]
+    ],
+    [
+      [5986, 5136],
+      [-79, -303],
+      [-190, -31]
+    ],
+    [
+      [5928, 5397],
+      [58, -261]
+    ],
+    [
+      [5931, 5400],
+      [-3, -3]
+    ],
+    [
+      [5928, 5397],
+      [3, 3]
+    ],
+    [
+      [5757, 5408],
+      [107, 26],
+      [64, -37]
+    ],
+    [
+      [7153, 3039],
+      [-62, -68]
+    ],
+    [
+      [7212, 3319],
+      [40, -166]
+    ],
+    [
+      [6890, 3471],
+      [62, -103],
+      [-33, -124],
+      [293, 75]
+    ],
+    [
+      [6663, 3155],
+      [78, 270]
+    ],
+    [
+      [4206, 7923],
+      [-70, 102],
+      [25, 82],
+      [-65, 17],
+      [-11, 137]
+    ],
+    [
+      [4267, 7835],
+      [-61, 88]
+    ],
+    [
+      [4411, 8258],
+      [13, -39],
+      [-101, -300],
+      [-56, -84]
+    ],
+    [
+      [4085, 8261],
+      [166, 170]
+    ],
+    [
+      [7568, 408],
+      [-111, 203],
+      [74, 60],
+      [75, -45],
+      [11, -108]
+    ],
+    [
+      [6884, 8968],
+      [-7, 89],
+      [64, 11],
+      [141, 122]
+    ],
+    [
+      [7183, 9078],
+      [-144, -251]
+    ],
+    [
+      [7082, 9190],
+      [101, -112]
+    ],
+    [
+      [2838, 8250],
+      [-68, 45],
+      [-54, -47],
+      [-33, 97]
+    ],
+    [
+      [2844, 8746],
+      [44, -9],
+      [41, -145],
+      [-68, -113],
+      [24, -92],
+      [-28, -93]
+    ],
+    [
+      [2683, 8345],
+      [37, 263]
+    ],
+    [
+      [7761, 8112],
+      [-83, 141]
+    ],
+    [
+      [7750, 8545],
+      [3, 99],
+      [105, -93],
+      [-56, -55],
+      [-3, -98],
+      [79, -80],
+      [-69, -197],
+      [-48, -9]
+    ],
+    [
+      [7705, 8557],
+      [45, -12]
+    ],
+    [
+      [7705, 8557],
+      [-4, -14]
+    ],
+    [
+      [7694, 8520],
+      [7, 23]
+    ],
+    [
+      [8030, 8420],
+      [-101, -269],
+      [-17, 149],
+      [-76, 89],
+      [42, 182],
+      [-26, 66],
+      [112, 150]
+    ],
+    [
+      [7964, 8787],
+      [-3, -316],
+      [69, -51]
+    ],
+    [
+      [2110, 7345],
+      [-35, -7],
+      [-13, -263]
+    ],
+    [
+      [7820, 1632],
+      [8, -99],
+      [-156, -131],
+      [13, -57],
+      [-92, -120],
+      [-49, 75],
+      [174, 261],
+      [102, 71]
+    ],
+    [
+      [7448, 1264],
+      [60, 29],
+      [25, -88],
+      [-71, -10],
+      [-14, 69]
+    ],
+    [
+      [7342, 1156],
+      [46, 48],
+      [40, -63],
+      [-53, -67],
+      [-100, -8],
+      [5, 80],
+      [62, 10]
+    ],
+    [
+      [4972, 5751],
+      [-28, 283]
+    ],
+    [
+      [5060, 5580],
+      [-11, 75],
+      [-64, -14],
+      [-13, 110]
+    ],
+    [
+      [5198, 5592],
+      [-138, -12]
+    ],
+    [
+      [5192, 5965],
+      [19, -266],
+      [-13, -107]
+    ],
+    [
+      [5103, 6121],
+      [71, -28],
+      [18, -128]
+    ],
+    [
+      [4950, 6055],
+      [153, 66]
+    ],
+    [
+      [4944, 6034],
+      [6, 21]
+    ],
+    [
+      [2685, 5933],
+      [-31, 390],
+      [86, 127]
+    ],
+    [
+      [2961, 5994],
+      [-215, -47]
+    ],
+    [
+      [1471, 4877],
+      [27, 244],
+      [-29, 355]
+    ],
+    [
+      [1872, 4856],
+      [-401, 21]
+    ],
+    [
+      [1870, 5255],
+      [2, -399]
+    ],
+    [
+      [1825, 5333],
+      [45, -78]
+    ],
+    [
+      [1708, 5390],
+      [117, -57]
+    ],
+    [
+      [594, 5641],
+      [-256, 14]
+    ],
+    [
+      [617, 5720],
+      [-23, -79]
+    ],
+    [
+      [712, 6139],
+      [-96, -245],
+      [1, -174]
+    ],
+    [
+      [748, 6233],
+      [-36, -94]
+    ],
+    [
+      [623, 6238],
+      [125, -5]
+    ],
+    [
+      [410, 6252],
+      [213, -14]
+    ],
+    [
+      [309, 6256],
+      [101, -4]
+    ],
+    [
+      [2452, 8143],
+      [-38, -7],
+      [51, 415]
+    ],
+    [
+      [2683, 8345],
+      [-83, -119],
+      [14, -84]
+    ],
+    [
+      [2499, 8560],
+      [96, 23]
+    ],
+    [
+      [5150, 8456],
+      [8, 91]
+    ],
+    [
+      [5292, 8127],
+      [-67, 191],
+      [-75, 138]
+    ],
+    [
+      [5600, 8099],
+      [-38, -44]
+    ],
+    [
+      [5611, 8348],
+      [-11, -249]
+    ],
+    [
+      [5603, 8543],
+      [8, -195]
+    ],
+    [
+      [5158, 8547],
+      [160, -147],
+      [57, 173],
+      [116, 56]
+    ],
+    [
+      [7061, 9215],
+      [21, -25]
+    ],
+    [
+      [6913, 9372],
+      [148, -157]
+    ],
+    [
+      [6810, 9055],
+      [103, 317]
+    ],
+    [
+      [2496, 6386],
+      [81, 209],
+      [-135, 122],
+      [5, 42]
+    ],
+    [
+      [2515, 6357],
+      [-12, 5]
+    ],
+    [
+      [2715, 6466],
+      [-142, -19],
+      [-58, -90]
+    ],
+    [
+      [2598, 7191],
+      [103, 26]
+    ],
+    [
+      [2447, 6759],
+      [95, -12],
+      [35, 50],
+      [1, 251],
+      [33, 2],
+      [-13, 141]
+    ],
+    [
+      [7378, 4324],
+      [-22, -43],
+      [-113, 108]
+    ],
+    [
+      [7525, 4673],
+      [-42, -171],
+      [-105, -178]
+    ],
+    [
+      [7452, 4717],
+      [73, -44]
+    ],
+    [
+      [7276, 4713],
+      [6, 42],
+      [97, -61],
+      [73, 23]
+    ],
+    [
+      [7199, 8393],
+      [63, 98],
+      [-21, 125]
+    ],
+    [
+      [7488, 8214],
+      [-289, 179]
+    ],
+    [
+      [7526, 8226],
+      [-38, -12]
+    ],
+    [
+      [7241, 8616],
+      [120, -14],
+      [7, -98],
+      [69, 48],
+      [43, -47]
+    ],
+    [
+      [3176, 4804],
+      [-254, 13]
+    ],
+    [
+      [3144, 5233],
+      [32, -429]
+    ],
+    [
+      [2891, 5125],
+      [145, 33],
+      [10, 54],
+      [98, 21]
+    ],
+    [
+      [375, 7272],
+      [229, 1256]
+    ],
+    [
+      [497, 7225],
+      [-122, 47]
+    ],
+    [
+      [579, 7739],
+      [-22, -60],
+      [-60, -454]
+    ],
+    [
+      [734, 8253],
+      [-155, -514]
+    ],
+    [
+      [728, 8514],
+      [-36, -246],
+      [42, -15]
+    ],
+    [
+      [604, 8528],
+      [124, -14]
+    ],
+    [
+      [7299, 5129],
+      [-35, 388],
+      [43, 13]
+    ],
+    [
+      [7425, 5174],
+      [-126, -45]
+    ],
+    [
+      [7533, 5278],
+      [-21, -83],
+      [-87, -21]
+    ],
+    [
+      [7307, 5530],
+      [103, 25],
+      [40, -148],
+      [46, -7],
+      [37, -122]
+    ],
+    [
+      [7242, 4973],
+      [16, 145]
+    ],
+    [
+      [7425, 5174],
+      [11, -218],
+      [-17, -99],
+      [33, -140]
+    ],
+    [
+      [7258, 5118],
+      [41, 11]
+    ],
+    [
+      [3610, 6392],
+      [9, 102],
+      [-176, -53],
+      [-37, 306]
+    ],
+    [
+      [3864, 6812],
+      [-50, -118],
+      [-48, -9],
+      [-78, -229],
+      [-57, 42],
+      [-21, -106]
+    ],
+    [
+      [3406, 6747],
+      [51, 231],
+      [77, -16],
+      [66, 45],
+      [39, 136]
+    ],
+    [
+      [5218, 7779],
+      [-1, 97],
+      [45, 76]
+    ],
+    [
+      [5219, 7494],
+      [25, 121],
+      [-26, 164]
+    ],
+    [
+      [5473, 7426],
+      [-15, -115]
+    ],
+    [
+      [5486, 7894],
+      [25, -143]
+    ],
+    [
+      [9694, 2614],
+      [-225, -77]
+    ],
+    [
+      [9814, 2900],
+      [-94, -87],
+      [-26, -199]
+    ],
+    [
+      [9819, 2991],
+      [-5, -91]
+    ],
+    [
+      [9819, 2993],
+      [0, -2]
+    ],
+    [
+      [2344, 6885],
+      [9, 233]
+    ],
+    [
+      [2447, 6759],
+      [-16, 148],
+      [-87, -22]
+    ],
+    [
+      [2353, 7118],
+      [245, 73]
+    ],
+    [
+      [6653, 9106],
+      [-42, 120],
+      [-143, 203]
+    ],
+    [
+      [6672, 9073],
+      [-19, 33]
+    ],
+    [
+      [6972, 9532],
+      [-59, -160]
+    ],
+    [
+      [6967, 9537],
+      [5, -5]
+    ],
+    [
+      [6822, 9668],
+      [145, -131]
+    ],
+    [
+      [6468, 9429],
+      [43, 85],
+      [94, 81],
+      [189, -91],
+      [28, 164]
+    ],
+    [
+      [1514, 8030],
+      [62, 442]
+    ],
+    [
+      [1785, 7933],
+      [-271, 97]
+    ],
+    [
+      [1847, 8742],
+      [10, 56],
+      [-25, 333]
+    ],
+    [
+      [1832, 9131],
+      [202, -16]
+    ],
+    [
+      [7175, 6098],
+      [48, 91],
+      [59, 6],
+      [24, -103],
+      [87, 82]
+    ],
+    [
+      [7174, 6095],
+      [1, 3]
+    ],
+    [
+      [7204, 5970],
+      [-30, 125]
+    ],
+    [
+      [7194, 5553],
+      [26, 413],
+      [-16, 4]
+    ],
+    [
+      [7290, 5640],
+      [-96, -87]
+    ],
+    [
+      [7437, 5782],
+      [-147, -142]
+    ],
+    [
+      [7465, 5820],
+      [-28, -38]
+    ],
+    [
+      [7404, 6172],
+      [10, 12]
+    ],
+    [
+      [7401, 6172],
+      [3, 0]
+    ],
+    [
+      [7400, 6172],
+      [1, 0]
+    ],
+    [
+      [7393, 6174],
+      [7, -2]
+    ],
+    [
+      [1181, 6996],
+      [-136, 55],
+      [15, 113],
+      [-93, 9]
+    ],
+    [
+      [1253, 7576],
+      [-35, -199],
+      [9, -123],
+      [-46, -258]
+    ],
+    [
+      [1123, 7627],
+      [130, -51]
+    ],
+    [
+      [6888, 5416],
+      [36, 203]
+    ],
+    [
+      [7050, 5617],
+      [-12, -201]
+    ],
+    [
+      [4433, 6710],
+      [-28, 122],
+      [114, 161]
+    ],
+    [
+      [4551, 6336],
+      [-44, 55],
+      [-74, 319]
+    ],
+    [
+      [4757, 6607],
+      [-206, -271]
+    ],
+    [
+      [4714, 7049],
+      [-17, 4],
+      [60, -446]
+    ],
+    [
+      [4674, 7218],
+      [40, -169]
+    ],
+    [
+      [4519, 6993],
+      [155, 225]
+    ],
+    [
+      [3645, 4787],
+      [19, 369]
+    ],
+    [
+      [3821, 4780],
+      [-176, 7]
+    ],
+    [
+      [3825, 5149],
+      [-4, -369]
+    ],
+    [
+      [5587, 5751],
+      [117, 151],
+      [-18, 87]
+    ],
+    [
+      [5655, 5540],
+      [-53, 60],
+      [-15, 151]
+    ],
+    [
+      [5866, 5674],
+      [-117, -25],
+      [-94, -109]
+    ],
+    [
+      [5914, 5755],
+      [-48, -81]
+    ],
+    [
+      [5816, 6035],
+      [28, -120],
+      [84, -101],
+      [-14, -59]
+    ],
+    [
+      [2292, 5739],
+      [-8, 182],
+      [64, 74]
+    ],
+    [
+      [2297, 5615],
+      [-5, 124]
+    ],
+    [
+      [2456, 5606],
+      [-159, 9]
+    ],
+    [
+      [2515, 6357],
+      [26, -106],
+      [-71, -209],
+      [84, -135]
+    ],
+    [
+      [5395, 5452],
+      [29, 96]
+    ],
+    [
+      [5596, 5222],
+      [-82, -5],
+      [-119, 235]
+    ],
+    [
+      [5424, 5548],
+      [-6, -30],
+      [172, -217]
+    ],
+    [
+      [5438, 5694],
+      [-77, 80],
+      [-45, 186]
+    ],
+    [
+      [5587, 5751],
+      [-149, -57]
+    ],
+    [
+      [5455, 6206],
+      [77, 2]
+    ],
+    [
+      [5316, 5960],
+      [35, 206],
+      [104, 40]
+    ],
+    [
+      [3934, 7546],
+      [49, 69]
+    ],
+    [
+      [4305, 7311],
+      [-118, -153]
+    ],
+    [
+      [4431, 7581],
+      [-2, -101],
+      [-124, -169]
+    ],
+    [
+      [4267, 7835],
+      [164, -254]
+    ],
+    [
+      [3983, 7615],
+      [223, 308]
+    ],
+    [
+      [5662, 6904],
+      [-354, -79]
+    ],
+    [
+      [5670, 6961],
+      [-8, -57]
+    ],
+    [
+      [5430, 7095],
+      [114, -85],
+      [126, -49]
+    ],
+    [
+      [7414, 6184],
+      [-96, 102],
+      [-11, 199],
+      [45, -178],
+      [46, -78],
+      [69, -18]
+    ],
+    [
+      [1790, 5995],
+      [-10, -42]
+    ],
+    [
+      [1944, 6122],
+      [-123, -24],
+      [-31, -103]
+    ],
+    [
+      [1942, 6197],
+      [2, -75]
+    ],
+    [
+      [1928, 6693],
+      [14, -496]
+    ],
+    [
+      [1750, 6663],
+      [-1, 45]
+    ],
+    [
+      [7241, 8616],
+      [-48, 61],
+      [-43, -40],
+      [-80, 51]
+    ],
+    [
+      [7363, 8997],
+      [52, 54],
+      [48, -135],
+      [70, 4],
+      [23, -80],
+      [111, -72],
+      [39, -105],
+      [-84, 66],
+      [-82, -115]
+    ],
+    [
+      [7112, 8745],
+      [191, 155],
+      [60, 97]
+    ],
+    [
+      [7534, 9041],
+      [32, 14]
+    ],
+    [
+      [7524, 9036],
+      [10, 5]
+    ],
+    [
+      [7523, 9035],
+      [1, 1]
+    ],
+    [
+      [7566, 9055],
+      [40, -163],
+      [-83, 143]
+    ],
+    [
+      [7548, 4680],
+      [82, 54]
+    ],
+    [
+      [7664, 4281],
+      [-20, 117],
+      [-62, 72],
+      [-34, 210]
+    ],
+    [
+      [7845, 4502],
+      [-87, -193],
+      [-79, -115]
+    ],
+    [
+      [7794, 4620],
+      [51, -118]
+    ],
+    [
+      [7284, 3341],
+      [-72, -22]
+    ],
+    [
+      [7025, 4020],
+      [202, -171],
+      [-8, -155],
+      [70, -154],
+      [-5, -199]
+    ],
+    [
+      [6969, 3604],
+      [96, 141],
+      [-40, 275]
+    ],
+    [
+      [4989, 7086],
+      [-1, 385],
+      [-27, 9]
+    ],
+    [
+      [5099, 7818],
+      [119, -39]
+    ],
+    [
+      [5034, 7839],
+      [65, -21]
+    ],
+    [
+      [4961, 7480],
+      [33, 267],
+      [40, 92]
+    ],
+    [
+      [938, 7618],
+      [-359, 121]
+    ],
+    [
+      [734, 8253],
+      [156, -62]
+    ],
+    [
+      [6452, 8830],
+      [-6, 90],
+      [56, 77],
+      [100, -12]
+    ],
+    [
+      [6602, 8985],
+      [-31, -139],
+      [31, -133]
+    ],
+    [
+      [623, 6238],
+      [8, 402]
+    ],
+    [
+      [982, 6405],
+      [-182, -44],
+      [-52, -128]
+    ],
+    [
+      [778, 6887],
+      [119, -285],
+      [32, 36],
+      [56, -125]
+    ],
+    [
+      [631, 6640],
+      [124, 18],
+      [23, 229]
+    ],
+    [
+      [4373, 5745],
+      [-59, 561]
+    ],
+    [
+      [4495, 5761],
+      [-62, -8]
+    ],
+    [
+      [4527, 6304],
+      [75, -336]
+    ],
+    [
+      [4314, 6306],
+      [213, -2]
+    ],
+    [
+      [514, 6819],
+      [26, 242],
+      [92, 113]
+    ],
+    [
+      [631, 6640],
+      [2, 177],
+      [-119, 2]
+    ],
+    [
+      [821, 7104],
+      [-43, -217]
+    ],
+    [
+      [632, 7174],
+      [189, -70]
+    ],
+    [
+      [4681, 7585],
+      [21, 74],
+      [-54, 64]
+    ],
+    [
+      [4961, 7480],
+      [-280, 105]
+    ],
+    [
+      [4867, 8023],
+      [49, 62],
+      [118, -246]
+    ],
+    [
+      [4648, 7723],
+      [12, 180]
+    ],
+    [
+      [2737, 7226],
+      [-9, 181],
+      [29, 109],
+      [13, 207]
+    ],
+    [
+      [2990, 7718],
+      [-36, -437],
+      [-103, -27]
+    ],
+    [
+      [2939, 7757],
+      [51, -39]
+    ],
+    [
+      [2770, 7723],
+      [169, 34]
+    ],
+    [
+      [6239, 7172],
+      [-15, 215]
+    ],
+    [
+      [6395, 7063],
+      [-156, 109]
+    ],
+    [
+      [6453, 7329],
+      [21, -83]
+    ],
+    [
+      [6413, 7426],
+      [40, -97]
+    ],
+    [
+      [2355, 9088],
+      [209, -17]
+    ],
+    [
+      [6054, 7000],
+      [-91, 100]
+    ],
+    [
+      [6197, 7022],
+      [-143, -22]
+    ],
+    [
+      [6239, 7172],
+      [-42, -150]
+    ],
+    [
+      [5600, 8099],
+      [49, -112],
+      [143, -179]
+    ],
+    [
+      [2718, 4820],
+      [-211, -50],
+      [-2, 35]
+    ],
+    [
+      [2559, 5055],
+      [145, -54]
+    ],
+    [
+      [5923, 8540],
+      [32, 77]
+    ],
+    [
+      [6215, 8584],
+      [-7, -214],
+      [-52, -50]
+    ],
+    [
+      [2854, 5565],
+      [-88, 28]
+    ],
+    [
+      [3103, 5732],
+      [-45, -48],
+      [5, -139],
+      [-209, 20]
+    ],
+    [
+      [3103, 5738],
+      [0, -6]
+    ],
+    [
+      [5139, 8313],
+      [-40, -495]
+    ],
+    [
+      [4833, 8511],
+      [306, -198]
+    ],
+    [
+      [7010, 7393],
+      [-65, 255]
+    ],
+    [
+      [7145, 7374],
+      [-63, -70],
+      [-72, 89]
+    ],
+    [
+      [7157, 7377],
+      [-12, -3]
+    ],
+    [
+      [7194, 7438],
+      [-37, -61]
+    ],
+    [
+      [7159, 7583],
+      [35, -145]
+    ],
+    [
+      [7114, 7609],
+      [45, -26]
+    ],
+    [
+      [7013, 7710],
+      [101, -101]
+    ],
+    [
+      [6945, 7648],
+      [68, 62]
+    ],
+    [
+      [6877, 7669],
+      [-14, 126],
+      [-95, 30]
+    ],
+    [
+      [6945, 7648],
+      [-68, 21]
+    ],
+    [
+      [6880, 8036],
+      [9, -88],
+      [124, -238]
+    ],
+    [
+      [6881, 8068],
+      [-1, -32]
+    ],
+    [
+      [6780, 7977],
+      [38, 113],
+      [63, -22]
+    ],
+    [
+      [6768, 7825],
+      [12, 152]
+    ],
+    [
+      [6766, 7108],
+      [-33, 70],
+      [8, 122]
+    ],
+    [
+      [6778, 7118],
+      [-12, -10]
+    ],
+    [
+      [6908, 7301],
+      [-7, -127]
+    ],
+    [
+      [6751, 7295],
+      [-2, -31],
+      [159, 37]
+    ],
+    [
+      [6741, 7300],
+      [10, -5]
+    ],
+    [
+      [7500, 8157],
+      [-12, 57]
+    ],
+    [
+      [7761, 8112],
+      [-98, -22],
+      [-57, -81],
+      [-60, 27]
+    ],
+    [
+      [6236, 4500],
+      [-48, 177]
+    ],
+    [
+      [6544, 4669],
+      [-278, -256]
+    ],
+    [
+      [6491, 4941],
+      [26, 23]
+    ],
+    [
+      [7311, 7514],
+      [-55, 35]
+    ],
+    [
+      [7292, 7630],
+      [65, 142],
+      [80, -90],
+      [-5, -95],
+      [-121, -73]
+    ],
+    [
+      [7256, 7549],
+      [36, 81]
+    ],
+    [
+      [7659, 2635],
+      [-78, -23],
+      [-49, 105],
+      [12, 85]
+    ],
+    [
+      [7634, 2976],
+      [40, 52],
+      [126, -205],
+      [-50, -11],
+      [42, -183],
+      [-56, 130],
+      [-87, 96],
+      [64, -235],
+      [-54, 15]
+    ],
+    [
+      [7613, 3146],
+      [21, -170]
+    ],
+    [
+      [7544, 2802],
+      [46, 318],
+      [23, 26]
+    ],
+    [
+      [5357, 6481],
+      [-110, 240]
+    ],
+    [
+      [5631, 6597],
+      [-180, -21],
+      [-94, -95]
+    ],
+    [
+      [5662, 6904],
+      [-21, -170]
+    ],
+    [
+      [7682, 5193],
+      [-75, 119]
+    ],
+    [
+      [7901, 4984],
+      [0, -1]
+    ],
+    [
+      [7901, 4984],
+      [6, 5]
+    ],
+    [
+      [7913, 4994],
+      [-6, -5]
+    ],
+    [
+      [7877, 5372],
+      [118, -266],
+      [-27, -57]
+    ],
+    [
+      [7869, 5365],
+      [8, 7]
+    ],
+    [
+      [7702, 5582],
+      [67, 13],
+      [100, -230]
+    ],
+    [
+      [7674, 5599],
+      [28, -17]
+    ],
+    [
+      [7607, 5312],
+      [-17, 238],
+      [84, 49]
+    ],
+    [
+      [8537, 2275],
+      [-57, -106],
+      [41, -127],
+      [-81, -149],
+      [-100, -31],
+      [74, 152],
+      [-30, 29]
+    ],
+    [
+      [8288, 2396],
+      [45, 83],
+      [31, 157],
+      [95, 56],
+      [-12, -116],
+      [65, -13]
+    ],
+    [
+      [7659, 2635],
+      [17, -144],
+      [-108, -21],
+      [-74, 58],
+      [43, -107],
+      [-8, -110],
+      [-94, 21]
+    ],
+    [
+      [7372, 2773],
+      [172, 29]
+    ],
+    [
+      [5678, 7037],
+      [-24, 210],
+      [38, 82]
+    ],
+    [
+      [5787, 7247],
+      [-34, -184],
+      [-75, -26]
+    ],
+    [
+      [6028, 5808],
+      [16, 88]
+    ],
+    [
+      [6041, 5495],
+      [57, 149],
+      [-70, 164]
+    ],
+    [
+      [6141, 5496],
+      [-100, -1]
+    ],
+    [
+      [6235, 5808],
+      [-15, -317],
+      [-79, 5]
+    ],
+    [
+      [6719, 7026],
+      [-56, 6],
+      [-51, 87]
+    ],
+    [
+      [6766, 7108],
+      [-47, -82]
+    ],
+    [
+      [6648, 7352],
+      [93, -52]
+    ],
+    [
+      [6564, 7244],
+      [57, -2],
+      [27, 110]
+    ],
+    [
+      [5655, 5388],
+      [0, 152]
+    ],
+    [
+      [5940, 5412],
+      [-9, -12]
+    ],
+    [
+      [5866, 5674],
+      [74, -262]
+    ],
+    [
+      [6751, 7295],
+      [11, 185]
+    ],
+    [
+      [6830, 7490],
+      [78, -189]
+    ],
+    [
+      [6762, 7480],
+      [68, 10]
+    ],
+    [
+      [5338, 4972],
+      [-2, 308]
+    ],
+    [
+      [5417, 4974],
+      [-79, -2]
+    ],
+    [
+      [5336, 5326],
+      [59, 126]
+    ],
+    [
+      [5336, 5280],
+      [0, 46]
+    ],
+    [
+      [6822, 9668],
+      [62, 159],
+      [73, 27]
+    ],
+    [
+      [6972, 9532],
+      [-150, 136]
+    ],
+    [
+      [7054, 9606],
+      [-81, -17],
+      [-1, -57]
+    ],
+    [
+      [6653, 9106],
+      [-51, -121]
+    ],
+    [
+      [6266, 9073],
+      [89, 65],
+      [116, -55],
+      [-3, 346]
+    ],
+    [
+      [7005, 4023],
+      [-15, 139]
+    ],
+    [
+      [7025, 4020],
+      [-20, 3]
+    ],
+    [
+      [7631, 3435],
+      [-347, -94]
+    ],
+    [
+      [7635, 3537],
+      [-4, -102]
+    ],
+    [
+      [7378, 4324],
+      [88, -168]
+    ],
+    [
+      [1253, 6720],
+      [-9, 250]
+    ],
+    [
+      [1410, 7007],
+      [90, 20],
+      [61, -291]
+    ],
+    [
+      [1244, 6970],
+      [8, 51],
+      [150, -61],
+      [8, 47]
+    ],
+    [
+      [6881, 8068],
+      [1, 91],
+      [-69, 143]
+    ],
+    [
+      [6968, 8025],
+      [-88, 11]
+    ],
+    [
+      [7040, 8376],
+      [-24, -58],
+      [57, -72]
+    ],
+    [
+      [6813, 8302],
+      [10, 110],
+      [89, 89]
+    ],
+    [
+      [5424, 5548],
+      [14, 146]
+    ],
+    [
+      [4677, 5471],
+      [-4, 118]
+    ],
+    [
+      [4972, 5751],
+      [-295, -280]
+    ],
+    [
+      [4769, 5866],
+      [175, 168]
+    ],
+    [
+      [6041, 5495],
+      [-66, -104],
+      [-35, 21]
+    ],
+    [
+      [5914, 5755],
+      [114, 53]
+    ],
+    [
+      [5340, 4669],
+      [-2, 303]
+    ],
+    [
+      [5419, 4672],
+      [-79, -3]
+    ],
+    [
+      [6754, 5836],
+      [-55, -24]
+    ],
+    [
+      [6864, 6276],
+      [31, -106],
+      [-82, -104],
+      [22, -79],
+      [-110, -94],
+      [29, -57]
+    ],
+    [
+      [6801, 6238],
+      [63, 38]
+    ],
+    [
+      [1660, 9144],
+      [-65, -208]
+    ],
+    [
+      [1395, 9163],
+      [265, -19]
+    ],
+    [
+      [3144, 5233],
+      [-24, 299]
+    ],
+    [
+      [3445, 4794],
+      [-269, 10]
+    ],
+    [
+      [3449, 5165],
+      [-4, -371]
+    ],
+    [
+      [3120, 5532],
+      [148, 41],
+      [61, -94],
+      [109, -2]
+    ],
+    [
+      [2770, 7723],
+      [-101, -20]
+    ],
+    [
+      [2923, 8123],
+      [36, -132],
+      [-20, -234]
+    ],
+    [
+      [901, 5596],
+      [-106, -29],
+      [-62, 126],
+      [-116, 27]
+    ],
+    [
+      [971, 5746],
+      [-14, -129],
+      [-56, -21]
+    ],
+    [
+      [971, 5858],
+      [0, -112]
+    ],
+    [
+      [712, 6139],
+      [259, -281]
+    ],
+    [
+      [1942, 5582],
+      [-43, 159],
+      [-109, 254]
+    ],
+    [
+      [2031, 5844],
+      [-49, -203],
+      [-40, -59]
+    ],
+    [
+      [1944, 6122],
+      [55, -50],
+      [32, -228]
+    ],
+    [
+      [195, 4993],
+      [-167, 1],
+      [-28, 230],
+      [75, 409]
+    ],
+    [
+      [224, 5423],
+      [22, -108],
+      [-51, -322]
+    ],
+    [
+      [7157, 7377],
+      [4, -141],
+      [61, -34],
+      [-67, -72],
+      [-10, 244]
+    ],
+    [
+      [9190, 245],
+      [50, -40],
+      [61, 124],
+      [208, 10],
+      [67, -104],
+      [66, 112],
+      [125, 58],
+      [-38, 68],
+      [81, 43],
+      [-33, 140],
+      [-112, -235],
+      [-61, -50],
+      [127, 240],
+      [27, 187],
+      [179, -545],
+      [-14, -161],
+      [-154, -92],
+      [-177, 34],
+      [-83, -21],
+      [-172, 89],
+      [-147, 143]
+    ],
+    [
+      [9044, 396],
+      [78, 2],
+      [21, -80],
+      [-55, -1],
+      [-44, 79]
+    ],
+    [
+      [6060, 6093],
+      [-68, 97],
+      [-93, 51]
+    ],
+    [
+      [6073, 6497],
+      [53, -260]
+    ],
+    [
+      [6069, 6607],
+      [4, -110]
+    ],
+    [
+      [5934, 6502],
+      [88, 1],
+      [47, 104]
+    ],
+    [
+      [6339, 6167],
+      [-2, -7]
+    ],
+    [
+      [6350, 6508],
+      [101, -198]
+    ],
+    [
+      [6164, 6251],
+      [168, 258],
+      [18, -1]
+    ],
+    [
+      [728, 8514],
+      [250, -24]
+    ],
+    [
+      [7190, 2207],
+      [-52, 76],
+      [-55, 167],
+      [-24, 182],
+      [32, 339]
+    ],
+    [
+      [7229, 2635],
+      [-19, -205],
+      [72, -320],
+      [-66, 132],
+      [-26, -35]
+    ],
+    [
+      [3620, 6393],
+      [-10, -1]
+    ],
+    [
+      [3830, 6308],
+      [-95, 103],
+      [-115, -18]
+    ],
+    [
+      [4090, 6471],
+      [-213, -35],
+      [-47, -128]
+    ],
+    [
+      [3892, 6769],
+      [198, -298]
+    ],
+    [
+      [587, 4957],
+      [-18, 365],
+      [38, 84],
+      [-13, 235]
+    ],
+    [
+      [932, 4923],
+      [-345, 34]
+    ],
+    [
+      [901, 5596],
+      [31, -673]
+    ],
+    [
+      [3168, 7167],
+      [-14, 271],
+      [34, -4],
+      [2, 233]
+    ],
+    [
+      [3220, 6680],
+      [-28, 381],
+      [-24, 106]
+    ],
+    [
+      [3334, 6696],
+      [-36, -139],
+      [-81, -104]
+    ],
+    [
+      [3532, 7729],
+      [-129, -205],
+      [20, -234],
+      [-65, -131],
+      [-24, -125],
+      [0, -338]
+    ],
+    [
+      [3225, 7948],
+      [235, -12]
+    ],
+    [
+      [3190, 7667],
+      [27, -8],
+      [8, 289]
+    ],
+    [
+      [7061, 9215],
+      [136, 175]
+    ],
+    [
+      [7386, 9187],
+      [-88, -13],
+      [-115, -96]
+    ],
+    [
+      [7391, 9172],
+      [-5, 15]
+    ],
+    [
+      [7485, 9413],
+      [-7, -211],
+      [-87, -30]
+    ],
+    [
+      [7420, 9464],
+      [65, -51]
+    ],
+    [
+      [7197, 9390],
+      [34, 64],
+      [189, 10]
+    ],
+    [
+      [7475, 9274],
+      [17, 128],
+      [-32, 106]
+    ],
+    [
+      [7494, 9171],
+      [-19, 103]
+    ],
+    [
+      [7539, 9172],
+      [-45, -1]
+    ],
+    [
+      [7492, 9542],
+      [47, -370]
+    ],
+    [
+      [7481, 9530],
+      [11, 12]
+    ],
+    [
+      [7473, 9522],
+      [8, 8]
+    ],
+    [
+      [7460, 9508],
+      [13, 14]
+    ],
+    [
+      [7197, 9390],
+      [-64, 219]
+    ],
+    [
+      [7295, 9608],
+      [125, -144]
+    ],
+    [
+      [7234, 9677],
+      [61, -69]
+    ],
+    [
+      [6232, 6585],
+      [27, 156]
+    ],
+    [
+      [6350, 6508],
+      [-118, 77]
+    ],
+    [
+      [6377, 6822],
+      [135, -44]
+    ],
+    [
+      [6259, 6741],
+      [118, 81]
+    ],
+    [
+      [6193, 5092],
+      [-85, 47],
+      [-122, -3]
+    ],
+    [
+      [6141, 5496],
+      [10, -143],
+      [55, -223]
+    ],
+    [
+      [986, 8682],
+      [-13, 319],
+      [26, -4]
+    ],
+    [
+      [6813, 8302],
+      [-48, -31]
+    ],
+    [
+      [5924, 4074],
+      [1, 420]
+    ],
+    [
+      [5925, 4494],
+      [45, 1],
+      [218, 182]
+    ],
+    [
+      [3895, 6048],
+      [-36, 156],
+      [19, 89],
+      [-48, 15]
+    ],
+    [
+      [4090, 6471],
+      [30, -384]
+    ],
+    [
+      [6600, 7950],
+      [1, 289]
+    ],
+    [
+      [6780, 7977],
+      [-91, 54],
+      [-89, -81]
+    ],
+    [
+      [2158, 6356],
+      [-7, 479]
+    ],
+    [
+      [2151, 6835],
+      [193, 50]
+    ],
+    [
+      [5120, 6283],
+      [-48, 287]
+    ],
+    [
+      [5371, 6450],
+      [-148, -32],
+      [-103, -135]
+    ],
+    [
+      [5357, 6481],
+      [14, -31]
+    ],
+    [
+      [5092, 5215],
+      [-78, -20],
+      [44, 124],
+      [2, 261]
+    ],
+    [
+      [5336, 5280],
+      [-163, -113],
+      [-81, 48]
+    ],
+    [
+      [5198, 5592],
+      [97, -238],
+      [41, -28]
+    ],
+    [
+      [3079, 9028],
+      [93, -526]
+    ],
+    [
+      [2790, 9052],
+      [289, -24]
+    ],
+    [
+      [6444, 4039],
+      [-32, -10]
+    ],
+    [
+      [6704, 4557],
+      [-140, -349],
+      [-120, -169]
+    ],
+    [
+      [7307, 5530],
+      [-17, 110]
+    ],
+    [
+      [7607, 5312],
+      [-74, -34]
+    ],
+    [
+      [7437, 5782],
+      [66, 5],
+      [96, -66],
+      [75, -122]
+    ],
+    [
+      [6321, 5702],
+      [78, 158],
+      [89, 21],
+      [66, -94]
+    ],
+    [
+      [6445, 5500],
+      [-124, 202]
+    ],
+    [
+      [6490, 5585],
+      [-45, -85]
+    ],
+    [
+      [8085, 1032],
+      [-18, 191],
+      [58, -92]
+    ],
+    [
+      [8159, 1313],
+      [59, 72],
+      [39, -111],
+      [-51, -235]
+    ],
+    [
+      [8163, 1307],
+      [-4, 6]
+    ],
+    [
+      [8125, 1131],
+      [38, 176]
+    ],
+    [
+      [4235, 6481],
+      [-145, -10]
+    ],
+    [
+      [4223, 6537],
+      [12, -56]
+    ],
+    [
+      [4110, 7054],
+      [113, -517]
+    ],
+    [
+      [3225, 7948],
+      [9, 302],
+      [-23, -17]
+    ],
+    [
+      [3463, 8712],
+      [117, -73],
+      [12, -146]
+    ],
+    [
+      [3205, 8318],
+      [127, 32],
+      [-7, 103],
+      [79, 113],
+      [22, 139],
+      [37, 7]
+    ],
+    [
+      [9736, 3340],
+      [43, 90]
+    ],
+    [
+      [9989, 2960],
+      [-38, 308],
+      [-132, -277]
+    ],
+    [
+      [9989, 2960],
+      [7, -1]
+    ],
+    [
+      [9968, 3491],
+      [28, -532]
+    ],
+    [
+      [9968, 3491],
+      [-7, 3]
+    ],
+    [
+      [9841, 3396],
+      [63, 122],
+      [57, -24]
+    ],
+    [
+      [1223, 5504],
+      [-27, -4],
+      [-16, 292],
+      [-209, -46]
+    ],
+    [
+      [1321, 5523],
+      [-100, 31],
+      [2, -50]
+    ],
+    [
+      [971, 5858],
+      [6, 309]
+    ],
+    [
+      [4675, 5153],
+      [-144, -101]
+    ],
+    [
+      [4677, 5471],
+      [89, -279]
+    ],
+    [
+      [3120, 5532],
+      [-17, 200]
+    ],
+    [
+      [3590, 6093],
+      [-102, -226],
+      [-19, -146]
+    ],
+    [
+      [3271, 5945],
+      [247, 130],
+      [72, 18]
+    ],
+    [
+      [4223, 6537],
+      [210, 173]
+    ],
+    [
+      [4314, 6306],
+      [-17, 178],
+      [-62, -3]
+    ],
+    [
+      [4551, 6336],
+      [-24, -32]
+    ],
+    [
+      [7214, 7894],
+      [4, -83],
+      [-104, -202]
+    ],
+    [
+      [7152, 7928],
+      [37, -24]
+    ],
+    [
+      [2867, 7094],
+      [301, 73]
+    ],
+    [
+      [7548, 4680],
+      [-23, -7]
+    ],
+    [
+      [5158, 8547],
+      [17, 336]
+    ],
+    [
+      [5175, 8883],
+      [301, -15]
+    ],
+    [
+      [1244, 6970],
+      [-63, 26]
+    ],
+    [
+      [1459, 7380],
+      [-49, -373]
+    ],
+    [
+      [1253, 7576],
+      [220, -87]
+    ],
+    [
+      [3406, 6747],
+      [-72, -51]
+    ],
+    [
+      [3697, 7951],
+      [233, -410]
+    ],
+    [
+      [3829, 8398],
+      [38, -78],
+      [-7, -220],
+      [87, -242],
+      [36, -243]
+    ],
+    [
+      [3785, 8397],
+      [44, 1]
+    ],
+    [
+      [632, 7174],
+      [-135, 51]
+    ],
+    [
+      [878, 7184],
+      [-57, -80]
+    ],
+    [
+      [1503, 7943],
+      [11, 87]
+    ],
+    [
+      [1499, 7676],
+      [33, 257],
+      [-29, 10]
+    ],
+    [
+      [5925, 4494],
+      [-1, 206]
+    ],
+    [
+      [5924, 4700],
+      [258, 160]
+    ],
+    [
+      [8022, 3159],
+      [4, 147],
+      [40, 114],
+      [-283, -29]
+    ],
+    [
+      [7845, 4502],
+      [122, -202],
+      [93, -59],
+      [92, 61],
+      [123, -144],
+      [-20, -99],
+      [43, -121],
+      [19, -183],
+      [-44, -174],
+      [13, -125]
+    ],
+    [
+      [4519, 6993],
+      [-214, 318]
+    ],
+    [
+      [4681, 7585],
+      [-17, -51],
+      [45, -216],
+      [-35, -100]
+    ],
+    [
+      [4431, 7581],
+      [28, -40],
+      [126, 196],
+      [63, -14]
+    ],
+    [
+      [9361, 5010],
+      [-107, -70],
+      [-35, -130],
+      [-95, 169],
+      [-15, 92],
+      [67, 53],
+      [165, -22]
+    ],
+    [
+      [9341, 5102],
+      [20, -92]
+    ],
+    [
+      [6846, 5849],
+      [-92, -13]
+    ],
+    [
+      [6864, 6276],
+      [9, 149],
+      [71, 11],
+      [-25, -88],
+      [74, -137],
+      [67, -12],
+      [63, 59],
+      [-4, -77],
+      [-87, -17],
+      [28, -126]
+    ],
+    [
+      [6828, 5531],
+      [-28, 58]
+    ],
+    [
+      [7005, 4023],
+      [-5, -134],
+      [-47, 46],
+      [-84, -53],
+      [-17, 128],
+      [-42, -8],
+      [-80, 214],
+      [33, 125],
+      [-23, 199]
+    ],
+    [
+      [6834, 4502],
+      [3, -29]
+    ],
+    [
+      [6645, 7639],
+      [-42, 177]
+    ],
+    [
+      [6697, 7648],
+      [-52, -9]
+    ],
+    [
+      [6768, 7825],
+      [-71, -177]
+    ],
+    [
+      [6603, 7816],
+      [-3, 134]
+    ],
+    [
+      [6181, 3214],
+      [-38, 778]
+    ],
+    [
+      [6452, 3469],
+      [16, -199],
+      [-287, -56]
+    ],
+    [
+      [6444, 4039],
+      [22, -184]
+    ],
+    [
+      [6948, 7007],
+      [1, 33]
+    ],
+    [
+      [7020, 6958],
+      [-25, 29]
+    ],
+    [
+      [7033, 6978],
+      [-13, -20]
+    ],
+    [
+      [6987, 7218],
+      [39, -42],
+      [-21, -103],
+      [28, -95]
+    ],
+    [
+      [6987, 7218],
+      [0, 0]
+    ],
+    [
+      [6966, 7218],
+      [21, 0]
+    ],
+    [
+      [6908, 7301],
+      [58, -83]
+    ],
+    [
+      [6982, 7201],
+      [0, 0]
+    ],
+    [
+      [293, 6825],
+      [82, 447]
+    ],
+    [
+      [487, 6819],
+      [-194, 6]
+    ],
+    [
+      [514, 6819],
+      [-27, 0]
+    ],
+    [
+      [7631, 3435],
+      [-18, -289]
+    ],
+    [
+      [7258, 5118],
+      [-37, 86]
+    ],
+    [
+      [7150, 5514],
+      [44, 39]
+    ],
+    [
+      [8026, 8423],
+      [4, -3]
+    ],
+    [
+      [7964, 8787],
+      [59, 9],
+      [-10, -160],
+      [78, -4],
+      [4, -156],
+      [-69, -53]
+    ],
+    [
+      [1660, 9144],
+      [172, -13]
+    ],
+    [
+      [7529, 9038],
+      [-35, 133]
+    ],
+    [
+      [7529, 9038],
+      [2, 1]
+    ],
+    [
+      [7534, 9041],
+      [-3, -2]
+    ],
+    [
+      [7539, 9172],
+      [27, -117]
+    ],
+    [
+      [7391, 9172],
+      [66, 4],
+      [25, -132],
+      [-71, 25],
+      [-48, -72]
+    ],
+    [
+      [7386, 9187],
+      [5, -15]
+    ],
+    [
+      [3463, 8712],
+      [-29, 287]
+    ],
+    [
+      [3891, 8414],
+      [-62, -16]
+    ],
+    [
+      [3908, 8966],
+      [-17, -552]
+    ],
+    [
+      [3434, 8999],
+      [474, -33]
+    ],
+    [
+      [1942, 5582],
+      [-117, -249]
+    ],
+    [
+      [7256, 7549],
+      [-97, 34]
+    ],
+    [
+      [7227, 7888],
+      [60, -75],
+      [5, -183]
+    ],
+    [
+      [7203, 9997],
+      [81, -24],
+      [102, -130],
+      [86, 71],
+      [12, -307],
+      [-141, -44],
+      [-48, 45]
+    ],
+    [
+      [1264, 4892],
+      [-332, 31]
+    ],
+    [
+      [1223, 5504],
+      [17, -152],
+      [-28, -128],
+      [51, -221],
+      [1, -111]
+    ],
+    [
+      [8336, 3224],
+      [70, 18],
+      [54, -73],
+      [134, -92],
+      [126, -45]
+    ],
+    [
+      [8338, 3347],
+      [70, -89],
+      [-72, -21]
+    ],
+    [
+      [6830, 7490],
+      [47, 179]
+    ],
+    [
+      [6987, 7218],
+      [-21, 0]
+    ],
+    [
+      [7010, 7393],
+      [44, -78],
+      [-67, -97]
+    ],
+    [
+      [1503, 7943],
+      [-293, 118]
+    ],
+    [
+      [7585, 6049],
+      [30, 97],
+      [51, -155],
+      [101, -119],
+      [12, -250],
+      [-77, -40]
+    ],
+    [
+      [7572, 5959],
+      [5, 66]
+    ],
+    [
+      [6104, 3221],
+      [-65, 147],
+      [-18, 139],
+      [36, 241],
+      [-13, 218]
+    ],
+    [
+      [6181, 3214],
+      [-77, 7]
+    ],
+    [
+      [6321, 5236],
+      [20, 153],
+      [104, 111]
+    ],
+    [
+      [6570, 5432],
+      [51, -229],
+      [-19, -168]
+    ],
+    [
+      [587, 4957],
+      [-392, 36]
+    ],
+    [
+      [5139, 8313],
+      [11, 143]
+    ],
+    [
+      [4950, 6055],
+      [-53, 71],
+      [-22, 272],
+      [-26, 86]
+    ],
+    [
+      [5120, 6283],
+      [30, -71],
+      [-47, -91]
+    ],
+    [
+      [4849, 6484],
+      [11, 10]
+    ],
+    [
+      [2990, 7718],
+      [200, -51]
+    ],
+    [
+      [6646, 3315],
+      [14, -92],
+      [-49, -175],
+      [-85, -197],
+      [-76, -53],
+      [20, 226]
+    ],
+    [
+      [6470, 3024],
+      [87, -22],
+      [4, 306]
+    ],
+    [
+      [6719, 7026],
+      [55, -55]
+    ],
+    [
+      [2292, 5739],
+      [-261, 105]
+    ],
+    [
+      [1942, 6197],
+      [219, 52],
+      [-1, 62]
+    ],
+    [
+      [5455, 6206],
+      [24, 10],
+      [-108, 234]
+    ],
+    [
+      [4219, 4755],
+      [-298, 14]
+    ],
+    [
+      [3921, 4769],
+      [130, 323],
+      [33, 181]
+    ],
+    [
+      [2209, 4849],
+      [-116, -2],
+      [-34, -201],
+      [-138, -30],
+      [11, 237],
+      [-60, 3]
+    ],
+    [
+      [1870, 5255],
+      [365, -140]
+    ],
+    [
+      [2561, 5182],
+      [-70, 97],
+      [-19, 91]
+    ],
+    [
+      [2854, 5565],
+      [34, -411]
+    ],
+    [
+      [4924, 6944],
+      [-61, 83],
+      [-149, 22]
+    ],
+    [
+      [410, 6252],
+      [8, 369],
+      [35, 5],
+      [34, 193]
+    ],
+    [
+      [6667, 7475],
+      [-22, 164]
+    ],
+    [
+      [6648, 7352],
+      [19, 123]
+    ],
+    [
+      [6697, 7648],
+      [73, -85],
+      [-8, -83]
+    ],
+    [
+      [5678, 7037],
+      [-8, -76]
+    ],
+    [
+      [3921, 4769],
+      [-100, 11]
+    ],
+    [
+      [5963, 7100],
+      [12, -125],
+      [-70, -103],
+      [1, -186],
+      [-26, -23]
+    ],
+    [
+      [2598, 7191],
+      [-9, 270]
+    ],
+    [
+      [5092, 5215],
+      [-46, -49]
+    ],
+    [
+      [7311, 7514],
+      [-40, -111],
+      [-77, 35]
+    ],
+    [
+      [6470, 3024],
+      [-40, -197],
+      [-63, 93],
+      [-5, -90],
+      [-100, 247],
+      [-158, 144]
+    ],
+    [
+      [6731, 3815],
+      [-62, -108]
+    ],
+    [
+      [3891, 8414],
+      [112, -9],
+      [82, -144]
+    ],
+    [
+      [6519, 8232],
+      [-76, -206],
+      [-50, 52]
+    ],
+    [
+      [8085, 1032],
+      [-117, 286]
+    ],
+    [
+      [7968, 1318],
+      [67, 29],
+      [81, 104],
+      [21, -84],
+      [-12, -236]
+    ],
+    [
+      [1471, 4877],
+      [-207, 15]
+    ],
+    [
+      [7199, 8393],
+      [-34, -67]
+    ],
+    [
+      [4842, 8902],
+      [333, -19]
+    ],
+    [
+      [9564, 4380],
+      [-3, 176],
+      [-33, 223],
+      [-64, 134],
+      [-103, 97]
+    ],
+    [
+      [9788, 4443],
+      [-224, -63]
+    ],
+    [
+      [9341, 5102],
+      [202, -131],
+      [123, -186],
+      [122, -342]
+    ],
+    [
+      [5820, 8569],
+      [-209, -221]
+    ],
+    [
+      [5710, 8854],
+      [244, -13]
+    ],
+    [
+      [5192, 5965],
+      [124, -5]
+    ],
+    [
+      [5340, 4669],
+      [-251, -14]
+    ],
+    [
+      [3645, 4787],
+      [-200, 7]
+    ],
+    [
+      [6284, 5821],
+      [37, -119]
+    ],
+    [
+      [6259, 6741],
+      [-45, 129],
+      [24, 95],
+      [-41, 57]
+    ],
+    [
+      [6441, 6939],
+      [-64, -117]
+    ],
+    [
+      [3618, 6129],
+      [-28, -36]
+    ],
+    [
+      [3620, 6393],
+      [-20, -149],
+      [18, -115]
+    ],
+    [
+      [8031, 3144],
+      [22, -85],
+      [-88, -202],
+      [-48, 61],
+      [-100, 32],
+      [-6, 83],
+      [-177, -57]
+    ],
+    [
+      [3618, 6129],
+      [79, 0],
+      [79, -271],
+      [17, -157]
+    ],
+    [
+      [3079, 9028],
+      [355, -29]
+    ],
+    [
+      [6054, 7000],
+      [15, -393]
+    ],
+    [
+      [4744, 4730],
+      [-219, 7]
+    ],
+    [
+      [6073, 6497],
+      [159, 88]
+    ],
+    [
+      [9772, 3909],
+      [28, 62],
+      [-33, 98],
+      [-68, 62],
+      [21, 69],
+      [-64, 15],
+      [-73, -181],
+      [-19, 346]
+    ],
+    [
+      [9788, 4443],
+      [33, -106],
+      [86, -420]
+    ],
+    [
+      [4849, 6484],
+      [-48, 182],
+      [-44, -59]
+    ],
+    [
+      [2267, 5265],
+      [30, 350]
+    ],
+    [
+      [231, 6489],
+      [62, 336]
+    ],
+    [
+      [8111, 637],
+      [-125, -19]
+    ],
+    [
+      [7811, 1000],
+      [31, 150],
+      [81, 55],
+      [45, 113]
+    ],
+    [
+      [2052, 6812],
+      [99, 23]
+    ],
+    [
+      [6936, 1569],
+      [-45, -50],
+      [-147, 82],
+      [117, 51],
+      [-22, 246],
+      [-51, 22],
+      [33, -108],
+      [-21, -173],
+      [-104, 186],
+      [41, -259],
+      [-77, -40],
+      [-32, 588],
+      [-20, 60]
+    ],
+    [
+      [7174, 6095],
+      [30, -125]
+    ],
+    [
+      [7075, 5954],
+      [100, 144]
+    ],
+    [
+      [2353, 7118],
+      [-97, -23],
+      [11, 288]
+    ],
+    [
+      [604, 8528],
+      [124, 685],
+      [280, -21]
+    ],
+    [
+      [6603, 7816],
+      [-96, -88]
+    ],
+    [
+      [3908, 8966],
+      [358, -28]
+    ],
+    [
+      [6453, 7329],
+      [182, 144],
+      [32, 2]
+    ],
+    [
+      [7066, 6761],
+      [-9, 100],
+      [-66, -7],
+      [5, 69]
+    ],
+    [
+      [7066, 6761],
+      [3, 3]
+    ],
+    [
+      [7033, 6978],
+      [36, -214]
+    ],
+    [
+      [6996, 6923],
+      [24, 35]
+    ],
+    [
+      [5924, 4700],
+      [-214, -7]
+    ],
+    [
+      [9322, 2759],
+      [27, -49],
+      [-102, -191],
+      [-2, -59],
+      [-133, -98],
+      [-61, -108],
+      [-7, 79],
+      [82, 82],
+      [-94, 64]
+    ],
+    [
+      [9062, 2842],
+      [41, 102],
+      [75, 6]
+    ]
+  ]
+}
