@@ -1,6 +1,3 @@
-// csalmonit to http://bl.ocks.org/michaschwab/411cbbd398e9b74e297f4aecf0410f70 for initial d3 v4 county mapcode
-// csalmonit to https://bl.ocks.org/tophtucker/87f02769353208d625c4762a02a3ad55 for color legend
-
 let width = 615;
 let height = 375;
 
