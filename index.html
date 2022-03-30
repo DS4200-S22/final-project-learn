@@ -9,6 +9,12 @@
 
     <!-- CSS Styling -->
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
   </head>
 
   <!-- Main page content -->
@@ -63,8 +69,37 @@
 
     <!-- Visualization -->
     <h1>Visualization</h1>
-
-    <div class="vis-holder" id="vis-container"></div>
+    <div class="container">
+      <div class="row row-content">
+        <div class="col-12">
+          <ul class="nav nav-tabs">
+            <li class="nav-items">
+              <a
+                class="nav-link active"
+                href="#tab1"
+                role="tab"
+                data-toggle="tab"
+              >
+                Map View
+              </a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="#tab2" role="tab" data-toggle="tab">
+                Table View
+              </a>
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade show active" id="tab1">
+              <div class="pt-3 vis-holder" id="vis-container"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="tab2">
+              <div class="pt-3 vis-holder" id="table-container"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- More writeup -->
     <div class="content-column">
@@ -143,6 +178,7 @@
     <script src="lib/d3.v6.1.1/d3.min.js"></script>
     <script src="https://d3js.org/topojson.v1.js"></script>
     <script src="js/map.js"></script>
+    <script src="js/table.js"></script>
     <script src="js/visualization.js"></script>
   </body>
 </html>
