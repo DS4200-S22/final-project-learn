@@ -16,8 +16,6 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
-
   <!-- Main page content -->
   <body>
     <!-- Update this with your GitHub repo URL -->
@@ -128,9 +126,66 @@
             id="gene_search_box"
             type="text"
             class="form-control"
-            placeholder="Search by School"
+            placeholder="Search by School Name"
             aria-describedby="sizing-addon2"
           />
+
+          <div class="pt-3">
+          <div class="btn-group dropdown">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Offers CS?
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Offers CS</a></li>
+              <li><a class="dropdown-item" href="#">Does Not Offer CS</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group dropdown">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Type
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Public</a></li>
+              <li><a class="dropdown-item" href="#">Private</a></li>
+              <li><a class="dropdown-item" href="#">Charter</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group dropdown">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              County
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Barnstable County</a></li>
+              <li><a class="dropdown-item" href="#">Berkshire County</a></li>
+              <li><a class="dropdown-item" href="#">Bristol County</a></li>
+              <li><a class="dropdown-item" href="#">Dukes County</a></li>
+              <li><a class="dropdown-item" href="#">Essex County</a></li>
+              <li><a class="dropdown-item" href="#">Franklin County</a></li>
+              <li><a class="dropdown-item" href="#">Hampden County</a></li>
+              <li><a class="dropdown-item" href="#">Hampshire County</a></li>
+              <li><a class="dropdown-item" href="#">Middlesex County</a></li>
+              <li><a class="dropdown-item" href="#">Nantucket County</a></li>
+              <li><a class="dropdown-item" href="#">Norfolk County</a></li>
+              <li><a class="dropdown-item" href="#">Plymouth County</a></li>
+              <li><a class="dropdown-item" href="#">Suffolk County</a></li>
+              <li><a class="dropdown-item" href="#">Worcester County</a></li>
+            </ul>
+          </div>
+
+          <div class="btn-group dropdown">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Number of Students
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">0-50</a></li>
+              <li><a class="dropdown-item" href="#">50-100</a></li>
+              <li><a class="dropdown-item" href="#">100-150</a></li>
+              <li><a class="dropdown-item" href="#">150-200</a></li>
+              <li><a class="dropdown-item" href="#"> > 200+ </a></li>
+            </ul>
+          </div>
 
           <div class="pt-3 vis-holder" id="table-container"></div>
         </div>

@@ -1,5 +1,6 @@
 let width = 615;
 let height = 375;
+let yTooltipOffset = 15; 
 
 let projection = d3.geoMercator()
                     .center([0, 0])
@@ -24,19 +25,19 @@ const tooltip1 = d3.select("#vis-container")
                     .attr("class", "tooltip");
 
 const mouseover1 = function(event, d) {
-    tooltip1.html("School Name: [INSERT SCHOOL NAME HERE], School Type: Public, County: [County Name]");
+  tooltip1.html("School Name: [INSERT SCHOOL NAME HERE], School Type: Public, County: [County Name]");
 }
 
 const mousemove1 = function(event, d) {
-    tooltip1.style("left", (event.pageX)+"px") 
-            .style("top", (event.pageY + yTooltipOffset) +"px"); 
-  }
-  
+  tooltip1.style("left", (event.pageX)+"px") 
+          .style("top", (event.pageY + yTooltipOffset) +"px"); 
+}
+
 // This creates a constant that represents a function that
 // sets the tooltip opacity back to 0 (invisible) after the mouse
 // leaves the object
 const mouseleave1 = function(event, d) { 
-    tooltip1.style("opacity", 0); 
+  tooltip1.style("opacity", 0); 
 }
 
 // Handmade legend
@@ -113,5 +114,8 @@ d3.json("../data/ma-towns.topojson").then(function (topology) {
     .attr("r", "4px")
     .attr("fill", function (d) {
       return d[2];
-    });
+    })
+    .on("mouseover", mouseover1)
+    .on("mousemove", mousemove1)
+    .on("mouseleave", mouseleave1);
 });
