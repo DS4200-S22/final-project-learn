@@ -105,7 +105,6 @@ d3.json("../data/ma-towns.topojson").then(function (topology) {
     .enter()
     .append("circle")
     .attr("cx", function (d) {
-      console.log(projection(d));
       return projection(d)[0];
     })
     .attr("cy", function (d) {
