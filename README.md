@@ -4,7 +4,7 @@ This template is the starting point for your final project's webpage. Please rea
 
 ## Link to Project Webpage
 
-https://ds4200-learn.netlify.app/
+https://ds4200-learn.netlify.app/ (Note: we are using Netlify to host instead of Github Pages as per Piazza Post https://piazza.com/class/kz64gfnscm64ix?cid=75)
 
 ## Setup
 
