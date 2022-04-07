@@ -29,6 +29,7 @@ h3 {
   width: 615px;
   height: 375px;
 }
+
 .town {
   fill: #ccc;
 }
@@ -95,7 +96,7 @@ table td:last-child {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
- 
+
   position: absolute;
   z-index: 1;
 }
