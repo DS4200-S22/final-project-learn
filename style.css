@@ -63,3 +63,16 @@ tbody tr:hover {
 input {
   width: 95%;
 }
+
+table td {
+  border-left: 1px solid rgba(0, 0, 0, 0.075);
+  border-right: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+table td:first-child {
+  border-left: none;
+}
+
+table td:last-child {
+  border-right: none;
+}
