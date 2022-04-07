@@ -4,7 +4,238 @@
     "scale": [0.001766844456142932, 0.0012462248103582512],
     "translate": [-73.5090226924008, 41.2379032753944]
   },
-  "arcs": [
+  "objects": {
+    "counties": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "arcs": [[0, 1, 2, 3, 4]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "011",
+            "COUNTYNS": "00606932",
+            "AFFGEOID": "0500000US25011",
+            "GEOID": "25011",
+            "NAME": "Franklin",
+            "LSAD": "06",
+            "ALAND": 1811271672,
+            "AWATER": 65368074
+          },
+          "id": 1
+        },
+        {
+          "arcs": [[5, 6, 7, 8]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "013",
+            "COUNTYNS": "00606933",
+            "AFFGEOID": "0500000US25013",
+            "GEOID": "25013",
+            "NAME": "Hampden",
+            "LSAD": "06",
+            "ALAND": 1598409204,
+            "AWATER": 44293472
+          },
+          "id": 2
+        },
+        {
+          "arcs": [[9, 10, 11, 12, 13, 14, 15]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "023",
+            "COUNTYNS": "00606938",
+            "AFFGEOID": "0500000US25023",
+            "GEOID": "25023",
+            "NAME": "Plymouth",
+            "LSAD": "06",
+            "ALAND": 1707122280,
+            "AWATER": 1124387947
+          },
+          "id": 3
+        },
+        {
+          "arcs": [[-3, 16, -6, 17]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "015",
+            "COUNTYNS": "00606934",
+            "AFFGEOID": "0500000US25015",
+            "GEOID": "25015",
+            "NAME": "Hampshire",
+            "LSAD": "06",
+            "ALAND": 1365598019,
+            "AWATER": 46487557
+          },
+          "id": 4
+        },
+        {
+          "arcs": [[[18, -12]], [[19, 20, 21, -10, 22, 23, 24]]],
+          "type": "MultiPolygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "021",
+            "COUNTYNS": "00606937",
+            "AFFGEOID": "0500000US25021",
+            "GEOID": "25021",
+            "NAME": "Norfolk",
+            "LSAD": "06",
+            "ALAND": 1025927532,
+            "AWATER": 124925285
+          },
+          "id": 5
+        },
+        {
+          "arcs": [[25, 26, -21]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "025",
+            "COUNTYNS": "00606939",
+            "AFFGEOID": "0500000US25025",
+            "GEOID": "25025",
+            "NAME": "Suffolk",
+            "LSAD": "06",
+            "ALAND": 150881016,
+            "AWATER": 160487602
+          },
+          "id": 6
+        },
+        {
+          "arcs": [[[27]], [[28, 29]]],
+          "type": "MultiPolygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "007",
+            "COUNTYNS": "00606930",
+            "AFFGEOID": "0500000US25007",
+            "GEOID": "25007",
+            "NAME": "Dukes",
+            "LSAD": "06",
+            "ALAND": 267455894,
+            "AWATER": 1004127633
+          },
+          "id": 7
+        },
+        {
+          "arcs": [[30, -4, -18, -9, 31]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "003",
+            "COUNTYNS": "00606928",
+            "AFFGEOID": "0500000US25003",
+            "GEOID": "25003",
+            "NAME": "Berkshire",
+            "LSAD": "06",
+            "ALAND": 2400491048,
+            "AWATER": 50746697
+          },
+          "id": 8
+        },
+        {
+          "arcs": [[32]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "019",
+            "COUNTYNS": "00606936",
+            "AFFGEOID": "0500000US25019",
+            "GEOID": "25019",
+            "NAME": "Nantucket",
+            "LSAD": "06",
+            "ALAND": 119431671,
+            "AWATER": 667032212
+          },
+          "id": 9
+        },
+        {
+          "arcs": [[33, 34, -25, 35, -7, -17, -2]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "027",
+            "COUNTYNS": "00606940",
+            "AFFGEOID": "0500000US25027",
+            "GEOID": "25027",
+            "NAME": "Worcester",
+            "LSAD": "06",
+            "ALAND": 3912698515,
+            "AWATER": 177395253
+          },
+          "id": 10
+        },
+        {
+          "arcs": [[36, 37]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "009",
+            "COUNTYNS": "00606931",
+            "AFFGEOID": "0500000US25009",
+            "GEOID": "25009",
+            "NAME": "Essex",
+            "LSAD": "06",
+            "ALAND": 1275669707,
+            "AWATER": 870068134
+          },
+          "id": 11
+        },
+        {
+          "arcs": [[38, -38, 39, -26, -20, -35]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "017",
+            "COUNTYNS": "00606935",
+            "AFFGEOID": "0500000US25017",
+            "GEOID": "25017",
+            "NAME": "Middlesex",
+            "LSAD": "06",
+            "ALAND": 2118147279,
+            "AWATER": 75727649
+          },
+          "id": 12
+        },
+        {
+          "arcs": [[-23, -16, 40]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "005",
+            "COUNTYNS": "00606929",
+            "AFFGEOID": "0500000US25005",
+            "GEOID": "25005",
+            "NAME": "Bristol",
+            "LSAD": "06",
+            "ALAND": 1432602435,
+            "AWATER": 357662687
+          },
+          "id": 13
+        },
+        {
+          "arcs": [[-14, 41, -29, 42]],
+          "type": "Polygon",
+          "properties": {
+            "STATEFP": "25",
+            "COUNTYFP": "001",
+            "COUNTYNS": "00606927",
+            "AFFGEOID": "0500000US25001",
+            "GEOID": "25001",
+            "NAME": "Barnstable",
+            "LSAD": "06",
+            "ALAND": 1019719638,
+            "AWATER": 2361606119
+          },
+          "id": 14
+        }
+      ]
+    }
+  },
+    "arcs": [
     [
       [328, 1204],
       [37, -1],
@@ -494,222 +725,5 @@
       [1, 35],
       [-11, 9]
     ]
-  ],
-  "objects": {
-    "counties": {
-      "type": "GeometryCollection",
-      "geometries": [
-        {
-          "arcs": [[0, 1, 2, 3, 4]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "011",
-            "COUNTYNS": "00606932",
-            "AFFGEOID": "0500000US25011",
-            "GEOID": "25011",
-            "NAME": "Franklin",
-            "LSAD": "06",
-            "ALAND": 1811271672,
-            "AWATER": 65368074
-          }
-        },
-        {
-          "arcs": [[5, 6, 7, 8]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "013",
-            "COUNTYNS": "00606933",
-            "AFFGEOID": "0500000US25013",
-            "GEOID": "25013",
-            "NAME": "Hampden",
-            "LSAD": "06",
-            "ALAND": 1598409204,
-            "AWATER": 44293472
-          }
-        },
-        {
-          "arcs": [[9, 10, 11, 12, 13, 14, 15]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "023",
-            "COUNTYNS": "00606938",
-            "AFFGEOID": "0500000US25023",
-            "GEOID": "25023",
-            "NAME": "Plymouth",
-            "LSAD": "06",
-            "ALAND": 1707122280,
-            "AWATER": 1124387947
-          }
-        },
-        {
-          "arcs": [[-3, 16, -6, 17]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "015",
-            "COUNTYNS": "00606934",
-            "AFFGEOID": "0500000US25015",
-            "GEOID": "25015",
-            "NAME": "Hampshire",
-            "LSAD": "06",
-            "ALAND": 1365598019,
-            "AWATER": 46487557
-          }
-        },
-        {
-          "arcs": [[[18, -12]], [[19, 20, 21, -10, 22, 23, 24]]],
-          "type": "MultiPolygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "021",
-            "COUNTYNS": "00606937",
-            "AFFGEOID": "0500000US25021",
-            "GEOID": "25021",
-            "NAME": "Norfolk",
-            "LSAD": "06",
-            "ALAND": 1025927532,
-            "AWATER": 124925285
-          }
-        },
-        {
-          "arcs": [[25, 26, -21]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "025",
-            "COUNTYNS": "00606939",
-            "AFFGEOID": "0500000US25025",
-            "GEOID": "25025",
-            "NAME": "Suffolk",
-            "LSAD": "06",
-            "ALAND": 150881016,
-            "AWATER": 160487602
-          }
-        },
-        {
-          "arcs": [[[27]], [[28, 29]]],
-          "type": "MultiPolygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "007",
-            "COUNTYNS": "00606930",
-            "AFFGEOID": "0500000US25007",
-            "GEOID": "25007",
-            "NAME": "Dukes",
-            "LSAD": "06",
-            "ALAND": 267455894,
-            "AWATER": 1004127633
-          }
-        },
-        {
-          "arcs": [[30, -4, -18, -9, 31]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "003",
-            "COUNTYNS": "00606928",
-            "AFFGEOID": "0500000US25003",
-            "GEOID": "25003",
-            "NAME": "Berkshire",
-            "LSAD": "06",
-            "ALAND": 2400491048,
-            "AWATER": 50746697
-          }
-        },
-        {
-          "arcs": [[32]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "019",
-            "COUNTYNS": "00606936",
-            "AFFGEOID": "0500000US25019",
-            "GEOID": "25019",
-            "NAME": "Nantucket",
-            "LSAD": "06",
-            "ALAND": 119431671,
-            "AWATER": 667032212
-          }
-        },
-        {
-          "arcs": [[33, 34, -25, 35, -7, -17, -2]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "027",
-            "COUNTYNS": "00606940",
-            "AFFGEOID": "0500000US25027",
-            "GEOID": "25027",
-            "NAME": "Worcester",
-            "LSAD": "06",
-            "ALAND": 3912698515,
-            "AWATER": 177395253
-          }
-        },
-        {
-          "arcs": [[36, 37]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "009",
-            "COUNTYNS": "00606931",
-            "AFFGEOID": "0500000US25009",
-            "GEOID": "25009",
-            "NAME": "Essex",
-            "LSAD": "06",
-            "ALAND": 1275669707,
-            "AWATER": 870068134
-          }
-        },
-        {
-          "arcs": [[38, -38, 39, -26, -20, -35]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "017",
-            "COUNTYNS": "00606935",
-            "AFFGEOID": "0500000US25017",
-            "GEOID": "25017",
-            "NAME": "Middlesex",
-            "LSAD": "06",
-            "ALAND": 2118147279,
-            "AWATER": 75727649
-          }
-        },
-        {
-          "arcs": [[-23, -16, 40]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "005",
-            "COUNTYNS": "00606929",
-            "AFFGEOID": "0500000US25005",
-            "GEOID": "25005",
-            "NAME": "Bristol",
-            "LSAD": "06",
-            "ALAND": 1432602435,
-            "AWATER": 357662687
-          }
-        },
-        {
-          "arcs": [[-14, 41, -29, 42]],
-          "type": "Polygon",
-          "properties": {
-            "STATEFP": "25",
-            "COUNTYFP": "001",
-            "COUNTYNS": "00606927",
-            "AFFGEOID": "0500000US25001",
-            "GEOID": "25001",
-            "NAME": "Barnstable",
-            "LSAD": "06",
-            "ALAND": 1019719638,
-            "AWATER": 2361606119
-          }
-        }
-      ]
-    }
-  }
+  ]
 }
