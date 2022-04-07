@@ -25,7 +25,7 @@ d3.csv("../data/cs_report.csv").then((data) => {
     });
 
   // create a row for each object in the data
-  rows = tbody.selectAll("tr").data(console.log(data)).enter().append("tr");
+  rows = tbody.selectAll("tr").data(data).enter().append("tr");
 
   // create a cell in each row for each column
   cells = rows
@@ -51,7 +51,6 @@ d3.csv("../data/cs_report.csv").then((data) => {
         // if there are any results
         return regex.exec(r.title)[0]; // return them to searchResults
       }
-
     });
 
     // filter blank entries from searchResults
