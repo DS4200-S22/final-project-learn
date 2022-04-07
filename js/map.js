@@ -1,6 +1,6 @@
 let width = 615;
 let height = 375;
-let yTooltipOffset = 15; 
+let yTooltipOffset = 15;
 
 let projection = d3.geoMercator()
                     .center([0, 0])
@@ -8,43 +8,67 @@ let projection = d3.geoMercator()
                     .rotate([0, 0])
                     .translate([width / 2, height / 2]);
 
-let path = d3.geoPath().projection(null);
+let path = d3.geoPath()
+              .projection(null);
 
-let svg = d3
-  .select("#vis-container")
-  .append("svg")
-  .attr("width", 615)
-  .attr("height", 375);
+let svg = d3.select("#vis-container")
+            .append("svg")
+            .attr("width", 615)
+            .attr("height", 375);
 
 let g = svg.append("g").attr("class", "g-town");
 
 const tooltip1 = d3.select("#vis-container")
                     .append("div")
-                    .attr('id', "tooltip1")
+                    .attr("id", "tooltip1")
                     .style("opacity", 0)
                     .attr("class", "tooltip");
 
-const mouseover1 = function(event, d) {
-  tooltip1.html("School Name: [INSERT SCHOOL NAME HERE], School Type: Public, County: [County Name]");
-}
+const mouseover1 = function (event, d) {
+  tooltip1.html(
+    "School Name: [INSERT SCHOOL NAME HERE], School Type: Public, County: [County Name]"
+  );
+};
 
-const mousemove1 = function(event, d) {
-  tooltip1.style("left", (event.pageX)+"px") 
-          .style("top", (event.pageY + yTooltipOffset) +"px"); 
-}
+const mousemove1 = function (event, d) {
+  tooltip1
+    .style("left", event.pageX + "px")
+    .style("top", event.pageY + yTooltipOffset + "px");
+};
 
 // This creates a constant that represents a function that
 // sets the tooltip opacity back to 0 (invisible) after the mouse
 // leaves the object
-const mouseleave1 = function(event, d) { 
-  tooltip1.style("opacity", 0); 
-}
+const mouseleave1 = function (event, d) {
+  tooltip1.style("opacity", 0);
+};
 
 // Handmade legend
-svg.append("circle").attr("cx",10).attr("cy",330).attr("r", 6).style("fill", "deepskyblue")
-svg.append("circle").attr("cx",10).attr("cy",360).attr("r", 6).style("fill", "salmon")
-svg.append("text").attr("x", 20).attr("y", 331.5).text("Teaches CS").style("font-size", "15px").attr("alignment-baseline","middle")
-svg.append("text").attr("x", 20).attr("y", 361.5).text("Does Not Teach CS").style("font-size", "15px").attr("alignment-baseline","middle")
+svg.append("circle")
+  .attr("cx", 10)
+  .attr("cy", 330)
+  .attr("r", 6)
+  .style("fill", "deepskyblue");
+
+svg.append("circle")
+  .attr("cx", 10)
+  .attr("cy", 360)
+  .attr("r", 6)
+  .style("fill", "salmon");
+
+svg.append("text")
+  .attr("x", 20)
+  .attr("y", 331.5)
+  .text("Teaches CS")
+  .style("font-size", "15px")
+  .attr("alignment-baseline", "middle");
+
+svg.append("text")
+  .attr("x", 20)
+  .attr("y", 361.5)
+  .text("Does Not Teach CS")
+  .style("font-size", "15px")
+  .attr("alignment-baseline", "middle");
 
 // load and display the Massachusetts map
 d3.json("../data/ma-towns.topojson").then(function (topology) {
@@ -101,20 +125,20 @@ d3.json("../data/ma-towns.topojson").then(function (topology) {
 
   // add circles to svg
   svg.selectAll("circle")
-    .data(data)
-    .enter()
-    .append("circle")
-    .attr("cx", function (d) {
-      return projection(d)[0];
-    })
-    .attr("cy", function (d) {
-      return projection(d)[1];
-    })
-    .attr("r", "4px")
-    .attr("fill", function (d) {
-      return d[2];
-    })
-    .on("mouseover", mouseover1)
-    .on("mousemove", mousemove1)
-    .on("mouseleave", mouseleave1);
+      .data(data)
+      .enter()
+      .append("circle")
+        .attr("cx", function (d) {
+          return projection(d)[0];
+        })
+        .attr("cy", function (d) {
+          return projection(d)[1];
+        })
+        .attr("r", "4px")
+        .attr("fill", function (d) {
+          return d[2];
+        })
+          .on("mouseover", mouseover1)
+          .on("mousemove", mousemove1)
+          .on("mouseleave", mouseleave1);
 });

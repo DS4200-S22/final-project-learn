@@ -1,10 +1,9 @@
 // let usData = await d3.json('https://d3js.org/us-10m.v2.json');
 
-let svg1 = d3
-  .select("#vis-container2")
-  .append("svg")
-  .attr("width", 615)
-  .attr("height", 375);
+let svg1 = d3.select("#vis-container2")
+              .append("svg")
+              .attr("width", 615)
+              .attr("height", 375);
 
 let g1 = svg1.append("g").attr("class", "g-county");
 
@@ -25,7 +24,8 @@ d3.json("../data/ma-counties.topojson").then(function (topology) {
     .rotate([0, 0])
     .translate([9000, 5800]);
 
-  let path1 = d3.geoPath().projection(projection1);
+  let path1 = d3.geoPath()
+                .projection(projection1);
 
   g1.selectAll("path")
     .data(datum)
@@ -47,7 +47,8 @@ d3.json("../data/ma-counties.topojson").then(function (topology) {
     .text((d) => d.properties.NAME);
 
   function mouseEvent(d, item, bool) {
-    d3.select(item).classed("selected", bool);
+    d3.select(item)
+      .classed("selected", bool);
     //document.getElementById("county-name").innerHTML = d.vessel_name;
     //d3.select(item).append("div").attr("class", "div.tooltip");
   }
