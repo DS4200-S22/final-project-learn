@@ -13,35 +13,45 @@ let path = d3.geoPath()
 
 let svg = d3.select("#vis-container")
             .append("svg")
-            .attr("width", 615)
-            .attr("height", 375);
+            .attr("width", width)
+            .attr("height", height);
 
 let g = svg.append("g").attr("class", "g-town");
 
-const tooltip1 = d3.select("#vis-container")
-                    .append("div")
-                    .attr("id", "tooltip1")
-                    .style("opacity", 0)
-                    .attr("class", "tooltip");
+// This code selects the div associated with the id hard-coded-bar
+// and appends a new div with the id tooltip1 that has a class tooltip
+// ad currenly has opacity 0 (can't be seen).
+const tooltip1 = d3.select("#vis-container") 
+                    .append("div") 
+                    .attr('id', "tooltip1") 
+                    .style("opacity", 0) 
+                    .attr("class", "tooltip"); 
 
-const mouseover1 = function (event, d) {
-  tooltip1.html(
-    "School Name: [INSERT SCHOOL NAME HERE], School Type: Public, County: [County Name]"
-  );
-};
+// This creates a constant that represents a function that
+// allows for the tooltip to display information when the mouse is
+// over the object
+const mouseover1 = function(event, d) {
+  tooltip1.html("Name: " + d.School + "<br> County: " + d.County + "<br>" + "Offers CS?: " + d.offers_cs + "<br> Type: " + d.School_Type) 
+          .style("opacity", 1)
+          .style("background-color", "white")
+          .style("padding", "10px")
+          .style("box-shadow", "0 30px 40px rgba(0,0,0,.2)");  
+}
 
-const mousemove1 = function (event, d) {
-  tooltip1
-    .style("left", event.pageX + "px")
-    .style("top", event.pageY + yTooltipOffset + "px");
-};
+// This creates a constant that represents a function that
+// allows for the tooltip to follow the mouse while it is moving
+// on the object
+const mousemove1 = function(event, d) {
+  tooltip1.style("left", (event.pageX)+"px") 
+          .style("top", (event.pageY + yTooltipOffset) +"px"); 
+}
 
 // This creates a constant that represents a function that
 // sets the tooltip opacity back to 0 (invisible) after the mouse
 // leaves the object
-const mouseleave1 = function (event, d) {
-  tooltip1.style("opacity", 0);
-};
+const mouseleave1 = function(event, d) { 
+  tooltip1.style("opacity", 0); 
+}
 
 // Handmade legend
 svg.append("circle")
@@ -80,65 +90,26 @@ d3.json("../data/ma-towns.topojson").then(function (topology) {
     .attr("d", path)
     .style("stroke", "white");
 
-  let data = [
-    [100, 10, "deepskyblue"],
-    [10, 280, "deepskyblue"],
-    [10, 23, "salmon"],
-    [1, 1, "deepskyblue"],
-    [-8, -6, "salmon"],
-    [1, 50, "deepskyblue"],
-    [-100, -1, "salmon"],
-    [-104, -1, "deepskyblue"],
-    [-104, 10, "deepskyblue"],
-    [-105, 30, "salmon"],
-    [-130, 50, "deepskyblue"],
-    [-105, 31, "salmon"],
-    [-130, 52, "deepskyblue"],
-    [-150, 30, "salmon"],
-    [-150, 60, "deepskyblue"],
-    [-100, 50, "deepskyblue"],
-    [-9, 31, "salmon"],
-    [-90, 70, "deepskyblue"],
-    [-80, 60, "salmon"],
-    [-75, 50, "deepskyblue"],
-    [90, -50, "salmon"],
-    [100, -40, "deepskyblue"],
-    [100, -60, "salmon"],
-    [90, -20, "salmon"],
-    [90, -40, "deepskyblue"],
-    [80, -60, "deepskyblue"],
-    [70, -20, "deepskyblue"],
-    [70, 40, "salmon"],
-    [80, 42, "deepskyblue"],
-    [70, 50, "salmon"],
-    [80, 45, "deepskyblue"],
-    [75, 40, "deepskyblue"],
-    [85, 40, "salmon"],
-    [30, 70, "salmon"],
-    [80, 75, "deepskyblue"],
-    [75, 75, "deepskyblue"],
-    [85, 70, "salmon"],
-    [-40, 40, "deepskyblue"],
-    [-180, 40, "salmon"],
-    [-180, 20, "deepskyblue"],
-  ];
-
+  // load csv data
+  d3.csv("../data/cs_report.csv").then((data) => {
   // add circles to svg
-  svg.selectAll("circle")
-      .data(data)
-      .enter()
-      .append("circle")
-        .attr("cx", function (d) {
-          return projection(d)[0];
-        })
-        .attr("cy", function (d) {
-          return projection(d)[1];
-        })
-        .attr("r", "4px")
-        .attr("fill", function (d) {
-          return d[2];
-        })
-          .on("mouseover", mouseover1)
-          .on("mousemove", mousemove1)
-          .on("mouseleave", mouseleave1);
+  svg.selectAll("#vis-container")
+  .data(data)
+  .enter()
+  .append("circle", "#vis-container")
+  .attr("r", 4)
+  .raise()
+  .attr("fill", function (d) {
+    return d.offers_cs === "Yes" ? "deepskyblue" : "salmon";
+  })
+  .attr("transform", function(d) {
+    return "translate(" + projection([
+      + d.Longitude * 100.4 - 1,
+      + d.Latitude * 94.3
+    ]) + ")";
+    })
+    .on("mouseover", mouseover1) 
+    .on("mousemove", mousemove1)
+    .on("mouseleave", mouseleave1);
+  });
 });

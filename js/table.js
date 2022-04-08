@@ -2,11 +2,11 @@
 d3.csv("../data/cs_report.csv").then((data) => {
   // the columns you'd like to display
   columns = [
-    "School Name",
-    "Offers CS?",
+    "School",
+    "offers_cs",
     "num_students",
     "School District Name",
-    "County Name",
+    "County",
   ];
 
   (table = d3.select("#table-container").append("table")),
