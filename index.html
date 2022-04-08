@@ -16,7 +16,8 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Main page content -->
+    <script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.3/leaflet.js"></script>
+    <!-- Main page content -->
   <body>
     <!-- Update this with your GitHub repo URL -->
     <p id="repo-link">
@@ -114,8 +115,8 @@
         aria-labelledby="nav-home-tab"
       >
       <div class="row">
-        <div class="pt-3 col-sm-6 vis-holder" id="vis-container"></div>
-        <div class="pt-3 col-sm-6 vis-holder" id="vis-container2">
+        <div class="pt-3 col-sm-8 vis-holder" id="map"></div>
+        <div class="pt-3 col-sm-4 vis-holder" id="vis-container2">
           <p id="county-name">
             Hover for County Name!
           </p>
@@ -284,6 +285,5 @@
     <script src="js/map.js"></script>
     <script src="js/county_map.js"></script>
     <script src="js/table.js"></script>
-    <script src="js/visualization.js"></script>
   </body>
 </html>

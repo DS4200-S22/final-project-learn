@@ -19,15 +19,10 @@ h3 {
   margin: 40px auto;
 }
 
-/* Full-width and Full-height */
+/* Full-width and Full-heaight */
 .vis-holder {
   width: 100%;
   height: 100%;
-}
-
-#map {
-  width: 615px;
-  height: 375px;
 }
 
 .town {
