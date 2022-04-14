@@ -1,4 +1,3 @@
-// credit for inspiration for sortable, filterable table: http://bl.ocks.org/dhoboy/1ac430a7ca883e7a8c09
 d3.csv("../data/cs_report.csv").then((data) => {
   // the columns you'd like to display
   columns = [
