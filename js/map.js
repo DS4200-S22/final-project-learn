@@ -181,43 +181,88 @@ d3.csv("../data/cs_report.csv").then((data) => {
     svg3.call(brush1.on("start", clear).on("brush", updateChart1));
   });
 
-  // load and display the Massachusetts county map
-  d3.json("../data/ma-counties.topojson").then(function (topology) {
-    let datum = topojson.feature(
-      topology,
-      topology.objects.cb_2015_massachusetts_county_20m
-    ).features;
+/////////////////////
+// COUNTY MAP CODE://
+/////////////////////
 
-    let projection1 = d3
-      .geoMercator()
-      .center([0, 0])
-      //.scale(5000);
-      .scale(7000)
-      .rotate([0, 0])
-      .translate([9000, 5800]);
+// Dictionaries of County Data
+// Names of counties
+var countyNames = {"Berkshire":"Berkshire", "Franklin":"Franklin", "Hampshire":"Hampshire", "Hampden":"Hampden", "Worcester":"Worcester", "Essex":"Essex", "Middlesex":"Middlesex", "Suffolk":"Suffolk", "Norfolk":"Norfolk", "Plymouth":"Plymouth", "Bristol":"Bristol", "Barnstable":"Barnstable", "Dukes":"Dukes", "Nantucket":"Nantucket"};
 
-    let path1 = d3.geoPath().projection(projection1);
+// Number of schools in each county
+var numSchools = {"Berkshire":12, "Franklin":9, "Hampshire":14, "Hampden":33, "Worcester":59, "Essex":37, "Middlesex":64, "Suffolk":48, "Norfolk":33, "Plymouth":32, "Bristol":28, "Barnstable":11, "Dukes":2, "Nantucket":1};
 
-    g1.selectAll("path")
-      .data(datum)
-      .enter()
-      .append("path")
-      .attr("class", "county")
-      .attr("d", path1)
-      .style("stroke", "white")
-      .on("mouseover", function (d) {
-        mouseEvent(d, this, true);
-      })
-      .on("mouseout", function (d) {
-        mouseEvent(d, this, false);
-      })
-      .append("title")
-      .text((d) => d.properties.NAME);
+// Number os students in each county
+var numStudents = {"Berkshire":6065, "Franklin":3984, "Hampshire":7140, "Hampden":24752, "Worcester":41677, "Essex":37076, "Middlesex":72632, "Suffolk":32456, "Norfolk":35027, "Plymouth":27129, "Bristol":28054, "Barnstable":8852, "Dukes":842, "Nantucket":533};
 
-    function mouseEvent(d, item, bool) {
-      d3.select(item).classed("selected", bool);
-    }
-  });
+// Percentage of schools that offer CS in each county 
+var perCS = {"Berkshire":100, "Franklin":78, "Hampshire":86, "Hampden":64, "Worcester":83, "Essex":92, "Middlesex":91, "Suffolk":71, "Norfolk":85, "Plymouth":81, "Bristol":82, "Barnstable":91, "Dukes":50, "Nantucket":100};
+
+
+// load and display the Massachusetts map
+d3.json("../data/ma-counties.topojson").then(function (topology) {
+
+  let datum = topojson.feature(
+    topology,
+    topology.objects.cb_2015_massachusetts_county_20m
+  ).features;
+
+  let projection1 = d3
+    .geoMercator()
+    .center([0, 0])
+    .scale(7000)
+    .rotate([0, 0])
+    .translate([9000, 5800]);
+
+  let path1 = d3.geoPath()
+                .projection(projection1);
+
+  g1.selectAll("path")
+    .data(datum)
+    .enter()
+    .append("path")
+    .attr("class", "county")
+    .attr("d", path1)
+    .style("stroke", "white")
+    .on("mouseover", function (text) {
+      mouseEvent(text, this, true);
+      console.log(numSchools.d)
+    })
+    .on("mouseout", function (text) {
+      mouseEvent(text, this, false);
+    })
+    .append("title")
+    .text((d) => d.properties.NAME) 
+    let text = "Name: " + d + "\n Number of Schools: " + numSchools.d + numStudents.d + perCS.d;
+
+  function mouseEvent(text, item, bool) {
+    d3.select(item)
+      .classed("selected", bool);
+      
+  }
+});
+
+const tooltip2 = d3.select("#vis-container2") 
+                    .append("div") 
+                    .attr('id', "tooltip1") 
+                    .style("opacity", 0) 
+                    .attr("class", "tooltip")
+; 
+
+
+const mouseover2 = function(event, d) {
+  var name = d.properties.NAME;
+                    tooltip1.html("Name: " + name + "<br>" + "Total Schools: " + numSchools.name + "<br>" + "Total Students: " + numStudents.name + "<br>" + "Percentage that offer CS: " + perCS.name) 
+                    style("opacity", 1)
+                    .style("background-color", "white")
+                    .style("padding", "10px")
+                    .style("box-shadow", "0 30px 40px rgba(0,0,0,.2)")  
+                    };
+
+const mouseleave2 = function(event, d) { 
+  tooltip2.style("opacity", 0); 
+}
+
 
   // Brushing Code
 
