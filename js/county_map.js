@@ -7,9 +7,16 @@ let svg1 = d3.select("#vis-container2")
 
 let g1 = svg1.append("g").attr("class", "g-county");
 
+// Number of schools in each county
+var numSchools = {"Berkshire":12, "Franklin":9, "Hampshire":14, "Hampden":33, "Worcester":59, "Essex":37, "Middlesex":64, "Suffolk":48, "Norfolk":33, "Plymouth":32, "Bristol":28, "Barnstable":11, "Dukes":2, "Nantucket":1};
+// Number os students in each county
+var numStudents = {"Berkshire":6065, "Franklin":3984, "Hampshire":7140, "Hampden":24752, "Worcester":41677, "Essex":37076, "Middlesex":72632, "Suffolk":32456, "Norfolk":35027, "Plymouth":27129, "Bristol":28054, "Barnstable":8852, "Dukes":842, "Nantucket":533};
+// Percentage of schools that offer CS in each county 
+var perCS = {"Berkshire":100, "Franklin":78, "Hampshire":86, "Hampden":64, "Worcester":83, "Essex":92, "Middlesex":91, "Suffolk":71, "Norfolk":85, "Plymouth":81, "Bristol":82, "Barnstable":91, "Dukes":50, "Nantucket":100};
+
+
 // load and display the Massachusetts map
 d3.json("../data/ma-counties.topojson").then(function (topology) {
-  //if (error) throw error;
 
   let datum = topojson.feature(
     topology,
@@ -39,9 +46,6 @@ d3.json("../data/ma-counties.topojson").then(function (topology) {
     })
     .on("mouseout", function (d) {
       mouseEvent(d, this, false);
-      // div.transition()
-      //     .duration(500)
-      //     .style("opacity", 0);
     })
     .append("title")
     .text((d) => d.properties.NAME);
@@ -49,7 +53,5 @@ d3.json("../data/ma-counties.topojson").then(function (topology) {
   function mouseEvent(d, item, bool) {
     d3.select(item)
       .classed("selected", bool);
-    //document.getElementById("county-name").innerHTML = d.vessel_name;
-    //d3.select(item).append("div").attr("class", "div.tooltip");
   }
 });
