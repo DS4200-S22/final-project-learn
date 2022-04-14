@@ -44,13 +44,15 @@ d3.csv("../data/cs_report.csv").then((data) => {
 
   d3.select("#gene_search_box").on("keyup", function () {
     // filter according to key pressed
-    (searched_data = data), (text = this.value.trim());
+    (searched_data = data), (text = this.value.trim().toUpperCase());
+    //console.log(text);
 
     searchResults = searched_data.map(function (r) {
       regex = new RegExp(text);
-      if (regex.test(r.title)) {
+      if (regex.test(r.School)) {
         // if there are any results
-        return regex.exec(r.title)[0]; // return them to searchResults
+        return regex.exec(r.School)[0]; // return them to searchResults
+        
       }
     });
 
@@ -59,11 +61,12 @@ d3.csv("../data/cs_report.csv").then((data) => {
       return r != undefined;
     });
 
-    // filter dataset with searchResults
+
+    // filter dataset as with searchResults
     searched_data = searchResults.map(function (r) {
       return data.filter(function (p) {
-        return p.title.indexOf(r) != -1;
-      });
+        return p.School.indexOf(r) != -1;
+      }); 
     });
 
     // flatten array
@@ -73,7 +76,7 @@ d3.csv("../data/cs_report.csv").then((data) => {
     rows = table.select("tbody")
                 .selectAll("tr")
                 .data(searched_data, function (d) {
-                  return d.id;
+                  return d.School;
                 });
 
     // enter the rows
@@ -89,7 +92,8 @@ d3.csv("../data/cs_report.csv").then((data) => {
                             arr.push(d[k]);
                           }
                         }
-                        return [arr[3], arr[1], arr[2], arr[0]];
+                        return [arr[8], arr[9], arr[28], arr[29], arr[1]];
+                        // 7 = school; 8 = School District Name; 27 = num_students; 28 = offers_cs; 1 = county
                       })
                       .enter()
                       .append("td");
@@ -102,6 +106,7 @@ d3.csv("../data/cs_report.csv").then((data) => {
       return d;
     });
 
+    /*
     // draw row entries with anchor
     row_entries_with_anchor = row_entries.filter(function (d) {
       return /https?:\/\//.test(d) == true;
@@ -113,7 +118,7 @@ d3.csv("../data/cs_report.csv").then((data) => {
                             .attr("target", "_blank")
                             .text(function (d) {
                               return d;
-                            });
+                            });*/
 
     // exit
     rows.exit().remove();
