@@ -114,12 +114,11 @@
         aria-labelledby="nav-home-tab"
       >
       <div class="row">
-        <div class="pt-3 col-sm-8 vis-holder" id="vis-container"></div>
-        <div class="pt-3 col-sm-4 vis-holder" id="vis-container2">
-          <p id="county-name">
-            Hover for County Name!
-          </p>
+        <div class="pt-3 col-sm-5 vis-holder" id="vis-container">
         </div>
+        <div class="pt-3 col-sm-5 vis-holder" id="vis-container3">
+        </div>
+        <div class="pt-5 col-sm-3 vis-holder" id="vis-container2"></div>
       </div>
       </div>
       <div
@@ -137,7 +136,7 @@
             aria-describedby="sizing-addon2"
           />
 
-          <div class="pt-3">
+          <!--<div class="pt-3">
           <div class="btn-group dropdown">
             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               Offers CS?
@@ -193,9 +192,8 @@
               <li><a class="dropdown-item" href="#"> > 200+ </a></li>
             </ul>
           </div>
-
-          <div class="pt-3 vis-holder" id="table-container"></div>
-        </div>
+        </div>-->
+        <div class="pt-3 vis-holder" id="table-container"></div>
       </div>
       </div>
     </div>
@@ -275,6 +273,10 @@
           >
           by Toph Tucker was referenced to create the color legend for the maps.
         </li>
+        <li>
+          <a href="http://bl.ocks.org/dhoboy/1ac430a7ca883e7a8c09">Sortable, Filterable Table</a>
+          by Daniel was referenced to create the sortable, filterable school table
+        </li>
       </ul>
     </div>
 
@@ -282,7 +284,6 @@
     <script src="lib/d3.v6.1.1/d3.min.js"></script>
     <script src="https://d3js.org/topojson.v1.js"></script>
     <script src="js/map.js"></script>
-    <script src="js/county_map.js"></script>
     <script src="js/table.js"></script>
   </body>
 </html>
