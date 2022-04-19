@@ -83,106 +83,12 @@ const mouseleave1 = function (event, d) {
   tooltip1.style("opacity", 0);
 };
 
-/////////////////////
-// COUNTY MAP CODE://
-/////////////////////
-
-// Dictionaries of County Data
-// Names of counties
-let countyNames = {
-  Berkshire: "Berkshire",
-  Franklin: "Franklin",
-  Hampshire: "Hampshire",
-  Hampden: "Hampden",
-  Worcester: "Worcester",
-  Essex: "Essex",
-  Middlesex: "Middlesex",
-  Suffolk: "Suffolk",
-  Norfolk: "Norfolk",
-  Plymouth: "Plymouth",
-  Bristol: "Bristol",
-  Barnstable: "Barnstable",
-  Dukes: "Dukes",
-  Nantucket: "Nantucket",
-};
-
-// Number of schools in each county
-let numSchools = {
-  Berkshire: 12,
-  Franklin: 9,
-  Hampshire: 14,
-  Hampden: 33,
-  Worcester: 59,
-  Essex: 37,
-  Middlesex: 64,
-  Suffolk: 48,
-  Norfolk: 33,
-  Plymouth: 32,
-  Bristol: 28,
-  Barnstable: 11,
-  Dukes: 2,
-  Nantucket: 1,
-};
-
-// Number os students in each county
-let numStudents = {
-  Berkshire: 6065,
-  Franklin: 3984,
-  Hampshire: 7140,
-  Hampden: 24752,
-  Worcester: 41677,
-  Essex: 37076,
-  Middlesex: 72632,
-  Suffolk: 32456,
-  Norfolk: 35027,
-  Plymouth: 27129,
-  Bristol: 28054,
-  Barnstable: 8852,
-  Dukes: 842,
-  Nantucket: 533,
-};
-
-// Percentage of schools that offer CS in each county
-let perCS = {
-  Berkshire: 100,
-  Franklin: 78,
-  Hampshire: 86,
-  Hampden: 64,
-  Worcester: 83,
-  Essex: 92,
-  Middlesex: 91,
-  Suffolk: 71,
-  Norfolk: 85,
-  Plymouth: 81,
-  Bristol: 82,
-  Barnstable: 91,
-  Dukes: 50,
-  Nantucket: 100,
-};
-
 const tooltip2 = d3
   .select("#vis-container2")
   .append("div")
   .attr("id", "tooltip2")
   .style("opacity", 0)
   .attr("class", "tooltip");
-
-const mouseover2 = function (event, d) {
-  let name = d.properties.NAME;
-  tooltip2.html(
-    "Name: " +
-      name +
-      "<br>" +
-      "Total Schools: " +
-      numSchools.name +
-      "<br>" +
-      "Total Students: " +
-      numStudents.name +
-      "<br>" +
-      "Percentage that offer CS: " +
-      perCS.name
-  );
-};
 
 const mousemove2 = function (event, d) {
   tooltip2
@@ -195,7 +101,7 @@ const mouseleave2 = function (event, d) {
 };
 
 // initialize brush for left map and circles for both point maps
-let brush1, myCircles1, myCircles2;
+let brush1, myCircles1;
 
 // Handmade legend
 svg
@@ -230,10 +136,6 @@ svg
 
 // load csv data
 d3.csv("../data/cs_report.csv").then((data) => {
-  // load and display the Massachusetts map
-  // add scales for maps
-  let x1, y1;
-
   d3.json("../data/ma-towns.topojson").then(function (topology) {
     g.selectAll("path")
       .data(topojson.feature(topology, topology.objects.towns).features)
@@ -267,53 +169,6 @@ d3.csv("../data/cs_report.csv").then((data) => {
   });
 
   // load and display the Massachusetts map
-  // add scales for maps
-  d3.json("../data/ma-towns.topojson").then(function (topology) {
-    g2.selectAll("path")
-      .data(topojson.feature(topology, topology.objects.towns).features)
-      .enter()
-      .append("path")
-      .attr("class", "town")
-      .attr("d", path)
-      .style("stroke", "white");
-
-    x1 = d3
-      .scaleLinear()
-      .domain([0, width])
-      .range([50, width - 50]);
-
-    y1 = d3
-      .scaleLinear()
-      .domain([0, height])
-      .range([height - 50, 50]);
-    // add circles to svg
-    myCircles2 = svg3
-      .selectAll("#vis-container3")
-      .data(data)
-      .enter()
-      .append("circle", "#vis-container3")
-      .attr("r", 4)
-      .raise()
-      .attr("fill", function (d) {
-        return d.offers_cs === "Yes" ? "deepskyblue" : "salmon";
-      })
-      .attr("transform", function (d) {
-        return (
-          "translate(" +
-          projection([+d.Longitude * 100.4 - 1, +d.Latitude * 94.3]) +
-          ")"
-        );
-      });
-
-    // define a brush and add brush1 to svg
-    brush1 = d3.brush().extent([
-      [0, 0],
-      [width, height],
-    ]);
-    svg3.call(brush1.on("start", clear).on("brush", updateChart1));
-  });
-
-  // load and display the Massachusetts map
   d3.json("../data/ma-counties.topojson").then(function (topology) {
     let datum = topojson.feature(
       topology,
@@ -336,55 +191,19 @@ d3.csv("../data/cs_report.csv").then((data) => {
       .attr("class", "county")
       .attr("d", path1)
       .style("stroke", "white")
-      .on("mouseover", mouseover2)
       .on("mousemove", mousemove2)
       .on("mouseleave", mouseleave2)
-      .on("mouseover", function (text) {
-        mouseEvent(text, this, true);
+      .on("mouseover", function () {
+        mouseEvent(this, true);
       })
-      .on("mouseout", function (text) {
-        mouseEvent(text, this, false);
+      .on("mouseout", function () {
+        mouseEvent(this, false);
       })
       .append("title")
       .text((d) => d.properties.NAME);
 
-    function mouseEvent(text, item, bool) {
+    function mouseEvent(item, bool) {
       d3.select(item).classed("selected", bool);
     }
   });
-
-  // Brushing Code
-
-  // Call to remove existing brushes
-  function clear() {
-    // Clear existing brush from svg1
-    svg3.call(brush1.move, null);
-  }
-
-  // Call when left map is brushed
-  function updateChart1(brushEvent) {
-    // find coordinates of brushed region
-    let coords = d3.brushSelection(this);
-
-    // give bold outline to all points within the brush region in left map
-    myCircles1.classed("selected", function (d) {
-      return isBrushed(coords, x1(d.Latitude), y1(d.Longitude));
-    });
-
-    // give bold outline to all points in second map
-    myCircles2.classed("selected", function (d) {
-      return isBrushed(coords, x1(d.Latitude), y1(d.Longitude));
-    });
-  }
-
-  // Is this region brushed?
-  function isBrushed(brush_coords, cx, cy) {
-    if (brush_coords === null) return;
-
-    let x0 = brush_coords[0][0],
-      x1 = brush_coords[1][0],
-      y0 = brush_coords[0][1],
-      y1 = brush_coords[1][1];
-    return x0 <= cx && cx <= x1 && y0 <= cy && cy <= y1; // This return TRUE or FALSE depending on if the points is in the selected area
-  }
 });
