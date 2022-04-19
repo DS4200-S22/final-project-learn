@@ -136,6 +136,50 @@ svg
 
 // load csv data
 d3.csv("../data/cs_report.csv").then((data) => {
+  let highlighted;
+
+  // load and display the Massachusetts map
+  d3.json("../data/ma-counties.topojson").then(function (topology) {
+    let datum = topojson.feature(
+      topology,
+      topology.objects.cb_2015_massachusetts_county_20m
+    ).features;
+
+    let projection1 = d3
+      .geoMercator()
+      .center([0, 0])
+      .scale(7000)
+      .rotate([0, 0])
+      .translate([9000, 5800]);
+
+    let path1 = d3.geoPath().projection(projection1);
+
+    g1.selectAll("path")
+      .data(datum)
+      .enter()
+      .append("path")
+      .attr("id", "county")
+      .attr("d", path1)
+      .style("stroke", "white")
+      .on("mousemove", mousemove2)
+      .on("mouseleave", mouseleave2)
+      .on("mouseover", function () {
+        mouseEvent(this, true);
+        highlighted = this;
+      })
+      .on("mouseout", function () {
+        mouseEvent(this, false);
+      })
+      .append("title")
+      .text((d) => d.properties.NAME);
+
+    function mouseEvent(item, bool) {
+      d3.select(item).classed("selected", bool);
+    }
+  });
+
+  let selected = true;
+  // load data for point map
   d3.json("../data/ma-towns.topojson").then(function (topology) {
     g.selectAll("path")
       .data(topojson.feature(topology, topology.objects.towns).features)
@@ -165,45 +209,10 @@ d3.csv("../data/cs_report.csv").then((data) => {
       })
       .on("mouseover", mouseover1)
       .on("mousemove", mousemove1)
-      .on("mouseleave", mouseleave1);
-  });
-
-  // load and display the Massachusetts map
-  d3.json("../data/ma-counties.topojson").then(function (topology) {
-    let datum = topojson.feature(
-      topology,
-      topology.objects.cb_2015_massachusetts_county_20m
-    ).features;
-
-    let projection1 = d3
-      .geoMercator()
-      .center([0, 0])
-      .scale(7000)
-      .rotate([0, 0])
-      .translate([9000, 5800]);
-
-    let path1 = d3.geoPath().projection(projection1);
-
-    g1.selectAll("path")
-      .data(datum)
-      .enter()
-      .append("path")
-      .attr("class", "county")
-      .attr("d", path1)
-      .style("stroke", "white")
-      .on("mousemove", mousemove2)
-      .on("mouseleave", mouseleave2)
-      .on("mouseover", function () {
-        mouseEvent(this, true);
-      })
-      .on("mouseout", function () {
-        mouseEvent(this, false);
-      })
-      .append("title")
-      .text((d) => d.properties.NAME);
-
-    function mouseEvent(item, bool) {
-      d3.select(item).classed("selected", bool);
-    }
+      .on("mouseleave", mouseleave1)
+      .on("click", function () {
+        selected = !selected;
+        d3.select("#county").style("fill", selected ? "black" : "deepskyblue");
+      });
   });
 });
