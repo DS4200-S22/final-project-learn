@@ -65,6 +65,8 @@ const mouseover1 = function (event, d) {
     .style("background-color", "white")
     .style("padding", "10px")
     .style("box-shadow", "0 30px 40px rgba(0,0,0,.2)");
+
+  d3.select("#" + d.County.split(" ")[0]).style("fill", "deepskyblue");
 };
 
 // This creates a constant that represents a function that
@@ -81,6 +83,8 @@ const mousemove1 = function (event, d) {
 // leaves the object
 const mouseleave1 = function (event, d) {
   tooltip1.style("opacity", 0);
+
+  d3.select("#" + d.County.split(" ")[0]).style("fill", "black");
 };
 
 const tooltip2 = d3
@@ -158,8 +162,10 @@ d3.csv("../data/cs_report.csv").then((data) => {
       .data(datum)
       .enter()
       .append("path")
-      .attr("id", "county")
       .attr("d", path1)
+      .attr("id", function (d) {
+        return d.properties.NAME;
+      })
       .style("stroke", "white")
       .on("mousemove", mousemove2)
       .on("mouseleave", mouseleave2)
@@ -178,7 +184,6 @@ d3.csv("../data/cs_report.csv").then((data) => {
     }
   });
 
-  let selected = true;
   // load data for point map
   d3.json("../data/ma-towns.topojson").then(function (topology) {
     g.selectAll("path")
@@ -210,9 +215,6 @@ d3.csv("../data/cs_report.csv").then((data) => {
       .on("mouseover", mouseover1)
       .on("mousemove", mousemove1)
       .on("mouseleave", mouseleave1)
-      .on("click", function () {
-        selected = !selected;
-        d3.select("#county").style("fill", selected ? "black" : "deepskyblue");
-      });
+      .on("click", function () {});
   });
 });
