@@ -94,11 +94,7 @@ const tooltip2 = d3
   .style("opacity", 0)
   .attr("class", "tooltip");
 
-const mousemove2 = function (event, d) {
-  tooltip2
-    .style("left", event.pageX + "px")
-    .style("top", event.pageY + yTooltipOffset + "px");
-};
+const mousemove2 = function (event, d) {};
 
 const mouseleave2 = function (event, d) {
   tooltip2.style("opacity", 0);
@@ -167,17 +163,24 @@ d3.csv("../data/cs_report.csv").then((data) => {
         return d.properties.NAME;
       })
       .style("stroke", "white")
-      .on("mousemove", mousemove2)
-      .on("mouseleave", mouseleave2)
-      .on("mouseover", function () {
+      .on("mouseover", function (event, d) {
+        tooltip2
+          .html("County: " + d.properties.NAME)
+          .style("opacity", 1)
+          .style("background-color", "white")
+          .style("padding", "10px")
+          .style("box-shadow", "0 30px 40px rgba(0,0,0,.2)");
+      })
+      .on("mousemove", function () {
         mouseEvent(this, true);
-        highlighted = this;
+        tooltip2
+          .style("left", event.pageX + "px")
+          .style("top", event.pageY + yTooltipOffset + "px");
       })
-      .on("mouseout", function () {
+      .on("mouseleave", function () {
         mouseEvent(this, false);
-      })
-      .append("title")
-      .text((d) => d.properties.NAME);
+        tooltip2.style("opacity", 0);
+      });
 
     function mouseEvent(item, bool) {
       d3.select(item).classed("selected", bool);
