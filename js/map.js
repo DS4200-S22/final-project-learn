@@ -94,9 +94,28 @@ const tooltip2 = d3
   .style("opacity", 0)
   .attr("class", "tooltip");
 
-const mousemove2 = function (event, d) {};
+function mouseEvent(item, bool) {
+  d3.select(item).classed("selected", bool);
+}
+
+const mouseover2 = function (event, d) {
+  tooltip2
+    .html("County: " + d.properties.NAME)
+    .style("opacity", 1)
+    .style("background-color", "white")
+    .style("padding", "10px")
+    .style("box-shadow", "0 30px 40px rgba(0,0,0,.2)");
+};
+
+const mousemove2 = function (event, d) {
+  mouseEvent(this, true);
+  tooltip2
+    .style("left", event.pageX + "px")
+    .style("top", event.pageY + yTooltipOffset + "px");
+};
 
 const mouseleave2 = function (event, d) {
+  mouseEvent(this, false);
   tooltip2.style("opacity", 0);
 };
 
@@ -136,7 +155,6 @@ svg
 
 // load csv data
 d3.csv("../data/cs_report.csv").then((data) => {
-  let highlighted;
 
   // load and display the Massachusetts map
   d3.json("../data/ma-counties.topojson").then(function (topology) {
@@ -163,28 +181,9 @@ d3.csv("../data/cs_report.csv").then((data) => {
         return d.properties.NAME;
       })
       .style("stroke", "white")
-      .on("mouseover", function (event, d) {
-        tooltip2
-          .html("County: " + d.properties.NAME)
-          .style("opacity", 1)
-          .style("background-color", "white")
-          .style("padding", "10px")
-          .style("box-shadow", "0 30px 40px rgba(0,0,0,.2)");
-      })
-      .on("mousemove", function () {
-        mouseEvent(this, true);
-        tooltip2
-          .style("left", event.pageX + "px")
-          .style("top", event.pageY + yTooltipOffset + "px");
-      })
-      .on("mouseleave", function () {
-        mouseEvent(this, false);
-        tooltip2.style("opacity", 0);
-      });
-
-    function mouseEvent(item, bool) {
-      d3.select(item).classed("selected", bool);
-    }
+      .on("mouseover", mouseover2)
+      .on("mousemove", mousemove2)
+      .on("mouseleave", mouseleave2);
   });
 
   // load data for point map
