@@ -120,7 +120,7 @@ const mouseleave2 = function (event, d) {
 };
 
 // initialize brush for left map and circles for both point maps
-let brush1, myCircles1;
+let myCircles1;
 
 // Handmade legend
 svg
@@ -155,7 +155,6 @@ svg
 
 // load csv data
 d3.csv("../data/cs_report.csv").then((data) => {
-
   // load and display the Massachusetts map
   d3.json("../data/ma-counties.topojson").then(function (topology) {
     let datum = topojson.feature(
